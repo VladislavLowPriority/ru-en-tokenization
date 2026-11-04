@@ -1,0 +1,362 @@
+{
+  "threshold_practically_interesting": 0.1,
+  "by_tokenizer": {
+    "o200k_base": {
+      "n_pairs": 76,
+      "n_families_tech": 63,
+      "n_families_control": 75,
+      "n_clusters_joint": 62,
+      "cluster_unit": "связная группа семей обеих выборок (см. add_clusters)",
+      "G_tech_matched": {
+        "point": 1.9041500407707868,
+        "ci_low": 1.7626139120686808,
+        "ci_high": 2.0556401203855534,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "G_control_matched": {
+        "point": 1.8552127288548164,
+        "ci_low": 1.6980142136998748,
+        "ci_high": 2.0261245970383466,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_raw": {
+        "point": 1.0263782751998356,
+        "ci_low": 0.933771872722584,
+        "ci_high": 1.1332576558541823,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_isolated_space": {
+        "point": 1.02479193235033,
+        "ci_low": 0.912373207767261,
+        "ci_high": 1.1542578367712577,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_raw_tech_families_only": {
+        "point": 1.0263782751998356,
+        "ci_low": 0.9363217008316459,
+        "ci_high": 1.131573410349822,
+        "n_concepts": 76,
+        "n_families": 63,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_adjusted_length_structure": {
+        "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en)",
+        "n_pairs": 76,
+        "n_families": 62,
+        "R_adjusted": 1.0229235564145092,
+        "ci_low": 0.9317996938923148,
+        "ci_high": 1.1285773733407978,
+        "reps_used": 5000,
+        "reps_requested": 5000,
+        "interval_published": true,
+        "seed": 20260918,
+        "interpretation": "описательная поправка; exp(b) не является причинным эффектом"
+      },
+      "R_adjusted_plus_frequency": {
+        "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en) + (zF_ru - zF_en)",
+        "n_pairs": 68,
+        "n_families": 56,
+        "R_adjusted": 0.9722228818439332,
+        "ci_low": 0.8910011143976402,
+        "ci_high": 1.0725255866427712,
+        "reps_used": 5000,
+        "reps_requested": 5000,
+        "interval_published": true,
+        "seed": 20260918,
+        "interpretation": "описательная поправка; exp(b) не является причинным эффектом"
+      },
+      "by_stratum": {
+        "A": {
+          "point": 1.0759896247253458,
+          "ci_low": 0.9120643146896813,
+          "ci_high": 1.28790416607969,
+          "n_concepts": 30,
+          "n_families": 29,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "B": {
+          "point": 0.9170040432046711,
+          "ci_low": 0.777954611191059,
+          "ci_high": 1.0496588883340081,
+          "n_concepts": 24,
+          "n_families": 20,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "C": {
+          "point": 1.0882708306084836,
+          "ci_low": 0.9180471744611035,
+          "ci_high": 1.29940353962827,
+          "n_concepts": 22,
+          "n_families": 20,
+          "reps_used": 5000,
+          "seed": 20260918
+        }
+      },
+      "R_raw_on_frequency_subset": {
+        "point": 1.001968994608188,
+        "ci_low": 0.9130140253672768,
+        "ci_high": 1.110212062130895,
+        "n_concepts": 68,
+        "n_families": 56,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_log_halfwidth": 0.09680974234257955,
+      "R_meets_practical_threshold": false,
+      "interval_excludes_1": false
+    },
+    "cl100k_base": {
+      "n_pairs": 76,
+      "n_families_tech": 63,
+      "n_families_control": 75,
+      "n_clusters_joint": 62,
+      "cluster_unit": "связная группа семей обеих выборок (см. add_clusters)",
+      "G_tech_matched": {
+        "point": 2.7602983624571524,
+        "ci_low": 2.5069038930856515,
+        "ci_high": 3.026934771697539,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "G_control_matched": {
+        "point": 2.705101014372706,
+        "ci_low": 2.4187759050786055,
+        "ci_high": 3.0373103754270616,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_raw": {
+        "point": 1.0204049119759937,
+        "ci_low": 0.9164870421228386,
+        "ci_high": 1.1434089426259797,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_isolated_space": {
+        "point": 0.9583660337681305,
+        "ci_low": 0.8660334367020408,
+        "ci_high": 1.0625431774531109,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_raw_tech_families_only": {
+        "point": 1.0204049119759937,
+        "ci_low": 0.919040218078128,
+        "ci_high": 1.14030510062222,
+        "n_concepts": 76,
+        "n_families": 63,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_adjusted_length_structure": {
+        "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en)",
+        "n_pairs": 76,
+        "n_families": 62,
+        "R_adjusted": 1.0161466839186086,
+        "ci_low": 0.9163065453706034,
+        "ci_high": 1.1353263719163893,
+        "reps_used": 5000,
+        "reps_requested": 5000,
+        "interval_published": true,
+        "seed": 20260918,
+        "interpretation": "описательная поправка; exp(b) не является причинным эффектом"
+      },
+      "R_adjusted_plus_frequency": {
+        "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en) + (zF_ru - zF_en)",
+        "n_pairs": 68,
+        "n_families": 56,
+        "R_adjusted": 0.9752329392491742,
+        "ci_low": 0.8731396901528419,
+        "ci_high": 1.101130970291886,
+        "reps_used": 5000,
+        "reps_requested": 5000,
+        "interval_published": true,
+        "seed": 20260918,
+        "interpretation": "описательная поправка; exp(b) не является причинным эффектом"
+      },
+      "by_stratum": {
+        "A": {
+          "point": 1.1809747218617905,
+          "ci_low": 0.9821844854870262,
+          "ci_high": 1.431588794928803,
+          "n_concepts": 30,
+          "n_families": 29,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "B": {
+          "point": 0.8667784877641375,
+          "ci_low": 0.7573612335849721,
+          "ci_high": 0.9794998352507546,
+          "n_concepts": 24,
+          "n_families": 20,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "C": {
+          "point": 0.9989225569219085,
+          "ci_low": 0.8164068776401531,
+          "ci_high": 1.2242720897839858,
+          "n_concepts": 22,
+          "n_families": 20,
+          "reps_used": 5000,
+          "seed": 20260918
+        }
+      },
+      "R_raw_on_frequency_subset": {
+        "point": 1.0059024048749283,
+        "ci_low": 0.8976220671791864,
+        "ci_high": 1.1375429776670365,
+        "n_concepts": 68,
+        "n_families": 56,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_log_halfwidth": 0.11061072556940618,
+      "R_meets_practical_threshold": false,
+      "interval_excludes_1": false
+    },
+    "qwen2.5-7b-instruct": {
+      "n_pairs": 76,
+      "n_families_tech": 63,
+      "n_families_control": 75,
+      "n_clusters_joint": 62,
+      "cluster_unit": "связная группа семей обеих выборок (см. add_clusters)",
+      "G_tech_matched": {
+        "point": 2.100475733222076,
+        "ci_low": 1.9003937333643368,
+        "ci_high": 2.327047070098977,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "G_control_matched": {
+        "point": 2.088576035655647,
+        "ci_low": 1.8764274062796586,
+        "ci_high": 2.3223860996911863,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_raw": {
+        "point": 1.0056975170466769,
+        "ci_low": 0.9006841207294536,
+        "ci_high": 1.13672254528199,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_isolated_space": {
+        "point": 0.9593112402945979,
+        "ci_low": 0.8446463216825075,
+        "ci_high": 1.0889771104244184,
+        "n_concepts": 76,
+        "n_families": 62,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_raw_tech_families_only": {
+        "point": 1.0056975170466769,
+        "ci_low": 0.9008697687269148,
+        "ci_high": 1.1358357823019398,
+        "n_concepts": 76,
+        "n_families": 63,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_adjusted_length_structure": {
+        "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en)",
+        "n_pairs": 76,
+        "n_families": 62,
+        "R_adjusted": 1.0010612030435366,
+        "ci_low": 0.898991460429254,
+        "ci_high": 1.1255368324873989,
+        "reps_used": 5000,
+        "reps_requested": 5000,
+        "interval_published": true,
+        "seed": 20260918,
+        "interpretation": "описательная поправка; exp(b) не является причинным эффектом"
+      },
+      "R_adjusted_plus_frequency": {
+        "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en) + (zF_ru - zF_en)",
+        "n_pairs": 68,
+        "n_families": 56,
+        "R_adjusted": 0.9790407933400331,
+        "ci_low": 0.8737739039742353,
+        "ci_high": 1.1080522662410683,
+        "reps_used": 5000,
+        "reps_requested": 5000,
+        "interval_published": true,
+        "seed": 20260918,
+        "interpretation": "описательная поправка; exp(b) не является причинным эффектом"
+      },
+      "by_stratum": {
+        "A": {
+          "point": 1.0809568380785484,
+          "ci_low": 0.8928507105231138,
+          "ci_high": 1.3406404867329154,
+          "n_concepts": 30,
+          "n_families": 29,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "B": {
+          "point": 0.9098092502471595,
+          "ci_low": 0.7711975915624921,
+          "ci_high": 1.0605843896810259,
+          "n_concepts": 24,
+          "n_families": 20,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "C": {
+          "point": 1.0167233736732384,
+          "ci_low": 0.8441373912297434,
+          "ci_high": 1.2207441504807235,
+          "n_concepts": 22,
+          "n_families": 20,
+          "reps_used": 5000,
+          "seed": 20260918
+        }
+      },
+      "R_raw_on_frequency_subset": {
+        "point": 1.0036752793900194,
+        "ci_low": 0.8942458429538758,
+        "ci_high": 1.1394665883807455,
+        "n_concepts": 68,
+        "n_families": 56,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_log_halfwidth": 0.11637491588037942,
+      "R_meets_practical_threshold": false,
+      "interval_excludes_1": false
+    }
+  }
+}

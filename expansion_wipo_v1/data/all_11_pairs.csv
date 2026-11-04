@@ -1,0 +1,148 @@
+rec_id,en,ru,raw_en,raw_ru
+amplifier_p01.json#rec_0,amplifier,усилитель,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>amplifier</B></p>,усилитель
+amplifier_p02.json#rec_0,ase,уси,ASE,УСИ
+battery_p01.json#rec_0,battery,аккумулятор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>battery</B></p>,аккумулятор
+battery_p01.json#rec_0,battery,батарея,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>battery</B></p>,батарея
+battery_p01.json#rec_4,separator,сепаратор,separator,сепаратор
+battery_p01.json#rec_18,lsb,лса,LSB,ЛСА
+battery_p01.json#rec_21,thermopile,термобатарея,thermopile,термобатарея
+battery_p01.json#rec_21,thermobattery,термобатарея,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>thermobattery</B></p>,термобатарея
+bearing_p01.json#rec_0,bearing,подшипник,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>bearing</B></p>,подшипник
+bearing_p01.json#rec_24,cage,сепаратор,cage,сепаратор
+caliper_p01.json#rec_0,caliper,штангенциркуль,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>caliper</B></p>,штангенциркуль
+calorimeter_p01.json#rec_2,dsc,дск,DSC,ДСК
+cam_p01.json#rec_0,cam,cam,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>CAM</B></p>,CAM
+cam_p01.json#rec_1,cam,кулачок,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>cam</B></p>,кулачок
+cam_p01.json#rec_5,tic,тепловизор,TIC,тепловизор
+cam_p01.json#rec_5,tic,твк,TIC,ТВК
+capacitor_p01.json#rec_0,capacitor,конденсатор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>capacitor</B></p>,конденсатор
+capacitor_p01.json#rec_13,dlc,ионистор,DLC,ионистор
+capacitor_p01.json#rec_13,dlc,суперконденсатор,DLC,суперконденсатор
+capacitor_p01.json#rec_13,edlc,ионистор,EDLC,ионистор
+capacitor_p01.json#rec_13,edlc,суперконденсатор,EDLC,суперконденсатор
+capacitor_p01.json#rec_13,supercapacitor,ионистор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>supercapacitor</B></p>,ионистор
+capacitor_p01.json#rec_13,supercapacitor,суперконденсатор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>supercapacitor</B></p>,суперконденсатор
+capacitor_p01.json#rec_13,supercap,ионистор,supercap,ионистор
+capacitor_p01.json#rec_13,supercap,суперконденсатор,supercap,суперконденсатор
+capacitor_p01.json#rec_13,ultracapacitor,ионистор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>ultracapacitor</B></p>,ионистор
+capacitor_p01.json#rec_13,ultracapacitor,суперконденсатор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>ultracapacitor</B></p>,суперконденсатор
+coil_p01.json#rec_0,coil,катушка,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>coil</B></p>,катушка
+coil_p01.json#rec_1,turn,виток,turn,виток
+coil_p01.json#rec_1,coil,виток,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>coil</B></p>,виток
+commutator_p01.json#rec_0,commutator,коллектор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>commutator</B></p>,коллектор
+compressor_p01.json#rec_0,compressor,компрессор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>compressor</B></p>,компрессор
+connector_p01.json#rec_5,disconnector,разъединитель,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>disconnector</B></p>,разъединитель
+controller_p01.json#rec_2,servocontroller,сервоконтроллер,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>servocontroller</B></p>,сервоконтроллер
+controller_p01.json#rec_4,plc,плк,PLC,ПЛК
+converter_p01.json#rec_9,dac,цап,DAC,ЦАП
+converter_p01.json#rec_16,tdc,вцп,TDC,ВЦП
+converter_p01.json#rec_17,m2lc,ммп,M2LC,ММП
+converter_p01.json#rec_17,mmc,ммп,MMC,ММП
+conveyor_p01.json#rec_0,conveyor,конвейер,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>conveyor</B></p>,конвейер
+conveyor_p01.json#rec_0,conveyer,конвейер,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>conveyer</B></p>,конвейер
+coupler_p01.json#rec_0,coupler,ответвитель,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>coupler</B></p>,ответвитель
+coupler_p01.json#rec_3,ccd,пзс,CCD,ПЗС
+coupler_p01.json#rec_4,icp-ms,icp-ms,ICP-MS,ICP-MS
+coupler_p01.json#rec_4,icp-ms,исп-мс,ICP-MS,ИСП-МС
+coupler_p01.json#rec_4,icpms,icp-ms,ICPMS,ICP-MS
+coupler_p01.json#rec_4,icpms,исп-мс,ICPMS,ИСП-МС
+coupler_p01.json#rec_5,optocoupler,оптопара,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>optocoupler</B></p>,оптопара
+coupler_p01.json#rec_5,opto-isolator,оптопара,opto-isolator,оптопара
+diode_p01.json#rec_0,diode,диод,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>diode</B></p>,диод
+diode_p01.json#rec_4,varactor,варикап,varactor,варикап
+diode_p01.json#rec_4,varactor,варактор,varactor,варактор
+diode_p01.json#rec_4,varicap,варикап,varicap,варикап
+diode_p01.json#rec_4,varicap,варактор,varicap,варактор
+diode_p01.json#rec_15,led,светодиод,LED,светодиод
+diode_p01.json#rec_17,oled,осид,OLED,ОСИД
+diode_p01.json#rec_22,p-oled,p-oled,P-OLED,P-OLED
+diode_p01.json#rec_22,p-oled,pled,P-OLED,PLED
+diode_p01.json#rec_22,pled,p-oled,PLED,P-OLED
+diode_p01.json#rec_22,pled,pled,PLED,PLED
+diode_p02.json#rec_0,spad,spad,SPAD,SPAD
+ejector_p01.json#rec_0,ejector,выталкиватель,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>ejector</B></p>,выталкиватель
+electrode_p01.json#rec_1,electrode,электрод,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>electrode</B></p>,электрод
+filter_p01.json#rec_0,filter,фильтр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>filter</B></p>,фильтр
+flange_p01.json#rec_0,flange,фланец,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>flange</B></p>,фланец
+fuse_p01.json#rec_2,fdm,fdm,FDM,FDM
+galvanometer_p01.json#rec_0,galvanometer,гальванометр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>galvanometer</B></p>,гальванометр
+gas_analyzer_p01.json#rec_8,cgds,хгн,CGDS,ХГН
+gate_valve_p01.json#rec_6,fpga,плис,FPGA,ПЛИС
+gate_valve_p01.json#rec_18,igbt,igbt-транзистор,IGBT,IGBT-транзистор
+gear_p01.json#rec_0,gear,шестерня,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>gear</B></p>,шестерня
+gear_p01.json#rec_1,speed,передача,speed,передача
+gear_p01.json#rec_1,speed,ступень,speed,ступень
+gear_p01.json#rec_1,speed,скорость,speed,скорость
+gear_unit_p01.json#rec_9,pmu,усви,PMU,УСВИ
+gear_unit_p01.json#rec_13,imu,ииб,IMU,ИИБ
+generator_p01.json#rec_0,genset,электроагрегат,genset,электроагрегат
+gyroscope_p01.json#rec_0,gyroscope,гироскоп,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>gyroscope</B></p>,гироскоп
+gyroscope_p01.json#rec_3,fog,вог,FOG,ВОГ
+indicator_p01.json#rec_3,rssi,rssi,RSSI,RSSI
+inverter_p01.json#rec_0,inverter,инвертор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>inverter</B></p>,инвертор
+level_gauge_p01.json#rec_16,wlp,wlp,WLP,WLP
+manifold_p01.json#rec_0,manifold,коллектор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>manifold</B></p>,коллектор
+meter_p01.json#rec_12,microbolometer,микроболометр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>microbolometer</B></p>,микроболометр
+meter_p01.json#rec_14,tribometer,трибометр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>tribometer</B></p>,трибометр
+meter_p01.json#rec_16,ammeter,амперметр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>ammeter</B></p>,амперметр
+meter_p01.json#rec_17,opacimeter,дымомер,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>opacimeter</B></p>,дымомер
+meter_p01.json#rec_18,durometer,твердомер,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>durometer</B></p>,твердомер
+meter_p01.json#rec_18,durometer,дюрометр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>durometer</B></p>,дюрометр
+meter_p02.json#rec_1,rheometer,реометр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>rheometer</B></p>,реометр
+micrometer_p01.json#rec_0,micrometer,микрометр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>micrometer</B></p>,микрометр
+micrometer_p01.json#rec_0,micrometre,микрометр,micrometre,микрометр
+micrometer_p01.json#rec_0,micron,микрометр,micron,микрометр
+micrometer_p01.json#rec_0,μ,микрометр,μ,микрометр
+motor_p01.json#rec_17,servomotor,сервопривод,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>servomotor</B></p>,сервопривод
+motor_p01.json#rec_17,servomotor,сервомотор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>servomotor</B></p>,сервомотор
+nozzle_p01.json#rec_0,nozzle,сопло,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>nozzle</B></p>,сопло
+oscillator_p01.json#rec_0,oscillator,генератор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>oscillator</B></p>,генератор
+oscillator_p01.json#rec_8,vcxo,кгун,VCXO,КГУН
+photometer_p01.json#rec_0,spectrophotometer,спектрофотометр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>spectrophotometer</B></p>,спектрофотометр
+piston_p01.json#rec_0,piston,поршень,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>piston</B></p>,поршень
+potentiometer_p01.json#rec_0,potentiometer,потенциометр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>potentiometer</B></p>,потенциометр
+pressure_gauge_p01.json#rec_14,apcvd,apcvd,APCVD,APCVD
+probe_p01.json#rec_0,probe,щуп,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>probe</B></p>,щуп
+pump_p01.json#rec_0,pump,насос,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>pump</B></p>,насос
+rectifier_p01.json#rec_0,rectifier,выпрямитель,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>rectifier</B></p>,выпрямитель
+refractometer_p01.json#rec_0,refractometer,рефрактометр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>refractometer</B></p>,рефрактометр
+relay_p01.json#rec_0,relay,реле,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>relay</B></p>,реле
+resistor_p01.json#rec_0,resistor,резистор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>resistor</B></p>,резистор
+resistor_p01.json#rec_4,terminator,терминатор,terminator,терминатор
+resistor_p01.json#rec_5,memristor,мемристор,memristor,мемристор
+resistor_p01.json#rec_11,piezoresistor,пьезорезистор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>piezoresistor</B></p>,пьезорезистор
+rotor_p01.json#rec_0,rotor,ротор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>rotor</B></p>,ротор
+ru_волновод_p01.json#rec_0,waveguide,волновод,waveguide,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>волновод</B></p>
+ru_волновод_p01.json#rec_6,finline,вщл,finline,ВЩЛ
+ru_светодиод_p01.json#rec_3,woled,босид,WOLED,БОСИД
+ru_светодиод_p01.json#rec_4,foled,foled,FOLED,FOLED
+ru_светодиод_p01.json#rec_5,pholed,pholed,PHOLED,PHOLED
+ru_светодиод_p01.json#rec_6,sm-oled,sm-oled,SM-OLED,SM-OLED
+ru_термопара_p01.json#rec_0,thermocouple,термопара,thermocouple,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>термопара</B></p>
+ru_терморезистор_p01.json#rec_0,thermistor,терморезистор,thermistor,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>терморезистор</B></p>
+ru_фотодиод_p01.json#rec_0,photodiode,фотодиод,photodiode,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>фотодиод</B></p>
+seal_p01.json#rec_0,seal,уплотнитель,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>seal</B></p>,уплотнитель
+sensor_p01.json#rec_0,sensor,датчик,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>sensor</B></p>,датчик
+shaft_p01.json#rec_0,shaft,вал,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>shaft</B></p>,вал
+slip_ring_p01.json#rec_3,crds,врлс,CRDS,ВРЛС
+slip_ring_p01.json#rec_3,crds,crds,CRDS,CRDS
+slip_ring_p01.json#rec_9,bling,блинг,bling,блинг
+slip_ring_p01.json#rec_10,srr,ркр,SRR,РКР
+spark_gap_p01.json#rec_5,sps,ипс,SPS,ИПС
+spectrometer_p01.json#rec_5,ms,масс-спектрометрия,MS,масс-спектрометрия
+spectrometer_p01.json#rec_5,ms,мс,MS,МС
+spectrometer_p01.json#rec_9,ims,сип,IMS,СИП
+spindle_p01.json#rec_0,spindle,шпиндель,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>spindle</B></p>,шпиндель
+spring_p01.json#rec_0,spring,пружина,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>spring</B></p>,пружина
+stator_p01.json#rec_0,stator,статор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>stator</B></p>,статор
+switch_p01.json#rec_0,switch,выключатель,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>switch</B></p>,выключатель
+switch_p01.json#rec_1,switch,переключатель,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>switch</B></p>,переключатель
+terminal_block_p01.json#rec_8,terminal,борн,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>terminal</B></p>,борн
+transducer_p01.json#rec_0,transducer,преобразователь,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>transducer</B></p>,преобразователь
+transformer_p01.json#rec_0,transformer,трансформатор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>transformer</B></p>,трансформатор
+transformer_p01.json#rec_16,autotransformer,автотрансформатор,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>autotransformer</B></p>,автотрансформатор
+turbine_p01.json#rec_0,turbine,турбина,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>turbine</B></p>,турбина
+vacuum_gauge_p01.json#rec_15,vacuum,вакуум,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>vacuum</B></p>,вакуум
+valve_p01.json#rec_0,valve,клапан,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>valve</B></p>,клапан
+viscometer_p01.json#rec_0,viscometer,вискозиметр,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>viscometer</B></p>,вискозиметр
+winding_p01.json#rec_0,winding,обмотка,<p style='display: inline-block;background-color:yellow;font-size:1.0em !important'><B>winding</B></p>,обмотка

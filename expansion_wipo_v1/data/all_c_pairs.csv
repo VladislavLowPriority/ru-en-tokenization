@@ -1,0 +1,73 @@
+rec_id,en,ru,is_primary
+actuator_p01.json#rec_2,piezo actuator,пьезопривод,False
+actuator_p01.json#rec_5,hydraulic actuator,гидропривод,True
+actuator_p01.json#rec_9,pneumatic actuator,пневмопривод,True
+amplifier_p01.json#rec_14,summing amplifier,сумматор,False
+battery_p01.json#rec_4,battery separator,сепаратор,False
+battery_p01.json#rec_4,separator,сепаратор аккумулятора,False
+battery_p01.json#rec_4,electrical separator,сепаратор,False
+battery_p01.json#rec_21,thermopile,термоэлектрическая батарея,True
+battery_p01.json#rec_21,thermobattery,термоэлектрическая батарея,False
+bearing_p01.json#rec_24,bearing cage,сепаратор,False
+bearing_p02.json#rec_2,ball bearing,шарикоподшипник,False
+bushing_p01.json#rec_0,bushing,фильерный питатель,True
+cam_p01.json#rec_5,thermographic camera,тепловизор,False
+cam_p01.json#rec_5,thermal imaging camera,тепловизор,False
+capacitor_p01.json#rec_13,double layer capacitor,ионистор,False
+capacitor_p01.json#rec_13,double layer capacitor,суперконденсатор,False
+capacitor_p01.json#rec_13,supercapacitor,двухслойный конденсатор,False
+capacitor_p01.json#rec_13,supercap,двухслойный конденсатор,False
+capacitor_p01.json#rec_13,ultracapacitor,двухслойный конденсатор,False
+coil_p01.json#rec_6,solenoid,электромагнитная катушка,False
+conveyor_p01.json#rec_2,vibratory conveyor,виброконвейер,False
+conveyor_p01.json#rec_13,roller conveyor,рольганг,False
+cylinder_p01.json#rec_0,hydraulic cylinder,гидроцилиндр,True
+diode_p01.json#rec_4,varicap diode,варикап,False
+diode_p01.json#rec_4,varicap diode,варактор,False
+diode_p01.json#rec_4,varactor diode,варикап,False
+diode_p01.json#rec_4,varactor diode,варактор,False
+diode_p01.json#rec_4,variable capacitance diode,варикап,False
+diode_p01.json#rec_4,variable capacitance diode,варактор,False
+diode_p01.json#rec_15,light emitting diode,светодиод,False
+electrode_p01.json#rec_0,electrode,сварочный электрод,False
+filter_p01.json#rec_12,filterbank,банк фильтров,False
+flow_meter_p01.json#rec_9,electricity meter,электросчетчик,False
+flow_meter_p01.json#rec_9,electrical energy meter,электросчетчик,False
+flow_meter_p01.json#rec_12,varmeter,измеритель реактивной мощности,False
+flowmeter_p01.json#rec_0,magmeter,электромагнитный расходомер,False
+gauge_p01.json#rec_0,strain gauge,тензодатчик,True
+gauge_p01.json#rec_0,strain gauge,тензометр,False
+gauge_p01.json#rec_0,strain gage,тензодатчик,False
+gauge_p01.json#rec_0,strain gage,тензометр,False
+gear_p01.json#rec_5,annulus,коронная шестерня,False
+generator_p01.json#rec_0,generator set,электроагрегат,False
+generator_p01.json#rec_0,genset,генераторная установка,False
+generator_p01.json#rec_0,engine generator set,электроагрегат,False
+hydraulic_valve_p01.json#rec_0,hydraulic valve,гидроклапан,False
+hydraulic_valve_p01.json#rec_0,hydraulic valve,гидрозатвор,False
+hydraulic_valve_p01.json#rec_18,hydraulic motor,гидродвигатель,True
+impeller_p01.json#rec_0,impeller,рабочее колесо,True
+lamp_p01.json#rec_7,lampholder,ламповый патрон,False
+meter_p01.json#rec_4,light meter,люксметр,True
+meter_p01.json#rec_4,lux meter,люксметр,False
+moisture_meter_p01.json#rec_5,moisture separator,влагоотделитель,False
+motor_p01.json#rec_17,servo motor,сервомотор,False
+oscillator_p01.json#rec_0,oscillator,генератор сигналов,True
+pump_p01.json#rec_24,forepump,форвакуумный насос,False
+rectifier_p01.json#rec_0,voltage rectifier,выпрямитель,False
+resistor_p01.json#rec_4,terminating resistor,терминатор,False
+ru_золотник_p01.json#rec_0,spool valve,золотник,True
+sensor_p01.json#rec_20,piezoelectric sensor,пьезодатчик,False
+sensor_p01.json#rec_20,piezo sensor,пьезодатчик,False
+sensor_p01.json#rec_21,strain sensor,тензодатчик,False
+separator_p01.json#rec_1,cyclone,циклонный сепаратор,False
+slip_ring_p01.json#rec_9,bladed ring,блинг,False
+solenoid_p01.json#rec_1,solenoid,электромагнитный клапан,False
+suction_cup_p01.json#rec_0,suction cup,присоска,True
+suction_cup_p01.json#rec_0,suction cup,присос,False
+switch_p01.json#rec_1,changeover switch,переключатель,False
+terminal_block_p01.json#rec_1,terminal block,клеммник,False
+terminal_block_p01.json#rec_13,contact terminal,клемма,True
+transducer_p01.json#rec_9,piezoelectric transducer,пьезопреобразователь,False
+transformer_p01.json#rec_1,piezoelectric transformer,пьезотрансформатор,False
+transmitter_p01.json#rec_0,light transmitter,светоизлучатель,False

@@ -1,0 +1,56 @@
+tech_concept_id,tech_cohort,tech_family_id,stratum,exact_cell,RU_words,EN_words,tech_RU,tech_EN,ctrl_cand_id,ctrl_family_id,ctrl_RU,ctrl_EN,tech_RU_chars,ctrl_RU_chars,tech_EN_chars,ctrl_EN_chars,d_RU_chars,d_EN_chars,score,ctrl_source,ctrl_source_ref,ctrl_category,ctrl_variants,is_historical_repaired
+EXP61,wipo_expansion_v1,FAM_c_EXP61,C,2_1,2,1,фильерный питатель,bushing,S2_0398,CFAM_c_S2_0398,временная шкала,timeline,17,14,7,8,-3,1,4,Wiktionary,timeline (rev 92548582),Time,календарный график|шкала времени|хронологическая диаграмма|расписание|распорядок,False
+EXP63,wipo_expansion_v1,FAM_c_EXP63,C,2_1,2,1,рабочее колесо,impeller,S2_0360,CFAM_c_S2_0360,грудная клетка,breast,13,13,8,6,0,-2,2,Wiktionary,breast (rev 92700688),Cooking,грудинка,False
+EXP58,wipo_expansion_v1,FAM_c_EXP58,B,2_3,2,3,планетарный ряд,planetary gear set,S2_0141,CFAM_c_S2_0141,башня молчания,tower of silence,14,13,16,14,-1,-2,3,Wiktionary,tower of silence (rev 92191664),Buildings,дахма,False
+EXP31,wipo_expansion_v1,FAM_c_EXP31,B,2_2,2,2,первичная обмотка,primary winding,S2_0248,CFAM_c_S2_0248,велосипедный шлем,bicycle helmet,16,16,14,13,0,-1,1,Wiktionary,bicycle helmet (rev 91980071),Headwear,велошлем,False
+EXP33,wipo_expansion_v1,FAM_c_EXP33,B,2_2,2,2,центробежный распылитель,rotary atomizer,S2_0257,CFAM_c_S2_0257,велосипедная дорожка,bicycle path,23,19,14,11,-4,-3,7,Wiktionary,bicycle path (rev 88574181),Roads,велодорожка,False
+EXP34,wipo_expansion_v1,FAM_c_EXP34,B,2_2,2,2,наружное кольцо,outer ring,S2_0011,CFAM_c_S2_0011,вторая половина,other half,14,14,9,9,0,0,0,Wiktionary,other half (rev 89476435),Family,,False
+EXP35,wipo_expansion_v1,FAM_c_EXP35,B,2_2,2,2,упорная площадка,thrust pad,S2_0075,CFAM_c_S2_0075,кольцевая дорога,ring road,15,15,9,8,0,-1,1,Wiktionary,ring road (rev 91647511),Roads,окружная дорога|кольцевая|окружная,False
+EXP36,wipo_expansion_v1,FAM_c_EXP36,B,2_2,2,2,тормозной ключ,braking chopper,S2_0044,CFAM_c_S2_0044,групповой брак,group marriage,13,13,14,13,0,-1,1,Wiktionary,group marriage (rev 88665601),Family,,False
+EXP38,wipo_expansion_v1,FAM_c_EXP38,B,2_2,2,2,кабельный ввод,cable feedthrough,S2_0252,CFAM_c_S2_0252,плавленый сыр,processed cheese,13,12,16,15,-1,-1,2,Wiktionary,processed cheese (rev 90075955),Foods,,False
+EXP41,wipo_expansion_v1,FAM_c_EXP41,B,2_2,2,2,предохранительная муфта,overload clutch,S2_0090,CFAM_c_S2_0090,ограничение скорости,speed limit,22,19,14,10,-3,-4,7,Wiktionary,speed limit (rev 89283191),Roads,,False
+EXP42,wipo_expansion_v1,FAM_c_EXP42,B,2_2,2,2,каркас катушки,coil former,S2_0082,CFAM_c_S2_0082,верхняя палата,upper house,13,13,10,10,0,0,0,Wiktionary,upper house (rev 90651684),Rooms,,False
+EXP44,wipo_expansion_v1,FAM_c_EXP44,B,2_2,2,2,коллекторная пластина,commutator bar,S2_0223,CFAM_c_S2_0223,стиральный порошок,washing powder,20,17,13,13,-3,0,3,Wiktionary,washing powder (rev 89873011),Hygiene,,False
+EXP46,wipo_expansion_v1,FAM_c_EXP46,B,2_2,2,2,конвейерная цепь,conveyor chain,S2_0200,CFAM_c_S2_0200,туалетный столик,dressing table,15,15,13,13,0,0,0,Wiktionary,dressing table (rev 91564978),Furniture,комод|туалетный стол,False
+EXP47,wipo_expansion_v1,FAM_c_EXP47,B,2_2,2,2,колосниковый холодильник,grate cooler,S2_0085,CFAM_c_S2_0085,безалкогольный напиток,soft drink,23,21,11,9,-2,-2,4,Wiktionary,soft drink (rev 92289314),Beverages,газированный напиток,False
+EXP48,wipo_expansion_v1,FAM_c_EXP48,B,2_2,2,2,втулка цилиндра,cylinder sleeve,S2_0277,CFAM_c_S2_0277,выходное платье,cocktail dress,14,14,14,13,0,-1,1,Wiktionary,cocktail dress (rev 90054420),Clothing,,False
+EXP49,wipo_expansion_v1,FAM_c_EXP49,B,2_2,2,2,блок цилиндров,cylinder block,S2_0158,CFAM_c_S2_0158,школьная форма,school uniform,13,13,13,13,0,0,0,Wiktionary,school uniform (rev 91478119),Clothing,,False
+EXP50,wipo_expansion_v1,FAM_c_EXP50,B,2_2,2,2,квантовый детектор,quantum detector,S2_0222,CFAM_c_S2_0222,молочный продукт,dairy product,17,15,15,12,-2,-3,5,Wiktionary,dairy product (rev 92242693),Foods,,False
+EXP53,wipo_expansion_v1,FAM_c_EXP53,B,2_2,2,2,осевой вентилятор,axial fan,S2_0171,CFAM_c_S2_0171,водопроводная вода,tap water,16,17,8,8,1,0,1,Wiktionary,tap water (rev 90956207),Beverages,,False
+EXP55,wipo_expansion_v1,FAM_c_EXP55,B,2_2,2,2,уплотнительная прокладка,sealing gasket,S2_0191,CFAM_c_S2_0191,железнодорожное депо,engine shed,23,19,13,10,-4,-3,7,Wiktionary,engine shed (rev 85076682),Buildings,,False
+EXP56,wipo_expansion_v1,FAM_c_EXP56,B,2_2,2,2,плавающий затвор,floating gate,S2_0264,CFAM_c_S2_0264,арахисовое масло,peanut butter,15,15,12,12,0,0,0,Wiktionary,peanut butter (rev 92554575),Foods,ореховое масло|арахисовая паста,False
+EXP57,wipo_expansion_v1,FAM_c_EXP57,B,2_2,2,2,зубчатая рейка,gear rack,S2_0002,CFAM_c_S2_0002,реальное время,real time,13,13,8,8,0,0,0,Wiktionary,real time (rev 91449396),Time,,False
+EXP59,wipo_expansion_v1,FAM_c_EXP59,B,2_2,2,2,направляющая лопатка,guide vane,S2_0045,CFAM_c_S2_0045,двуспальная кровать,double bed,19,18,9,9,-1,0,1,Wiktionary,double bed (rev 88266312),Bedding,,False
+EXP43,wipo_expansion_v1,FAM_c_EXP43,B,3_2,3,2,спиральная нить накала,coiled filament,S2_0097,CFAM_c_S2_0097,история древнего мира,ancient history,20,19,14,14,-1,0,1,Wiktionary,ancient history (rev 89291207),Time,античная история|старая история|дело прошлое,False
+EXP65,wipo_expansion_v1,FAM_c_EXP65,C,1_2,1,2,присоска,suction cup,S2_0145,CFAM_c_S2_0145,кастрюля,cooking pot,8,8,10,10,0,0,0,Wiktionary,cooking pot (rev 91952960),Cookware and bakeware,котелок|чугунок|горшок,False
+EXP66,wipo_expansion_v1,FAM_c_EXP66,C,1_2,1,2,клемма,contact terminal,S1_419,CFAM_c_S1_419,точилка,pencil sharpener,6,7,15,15,1,0,1,Concepticon,Miklashevsky-2018-506-419,Tool_precise_grip,,False
+EXP68,wipo_expansion_v1,FAM_c_EXP68,C,1_2,1,2,люксметр,light meter,S2_0202,CFAM_c_S2_0202,столовая,dining room,8,8,10,10,0,0,0,Wiktionary,dining room (rev 91674946),Rooms,,False
+EXP01,wipo_expansion_v1,FAM_c_EXP01,A,1_1,1,1,микрометр,micrometer,S1_174,CFAM_c_S1_174,крыжовник,gooseberry,9,9,10,10,0,0,0,Concepticon,Miklashevsky-2018-506-174,Food,,False
+EXP02,wipo_expansion_v1,FAM_c_EXP02,A,1_1,1,1,сепаратор,cage,S1_240,CFAM_c_S1_240,напильник,file,9,9,4,4,0,0,0,Concepticon,Miklashevsky-2018-506-240,Tool_power_grip,,False
+EXP03,wipo_expansion_v1,FAM_c_EXP03,A,1_1,1,1,штангенциркуль,caliper,S2_0382,CFAM_c_S2_0382,обмундирование,outfit,14,14,7,6,0,-1,1,Wiktionary,outfit (rev 92671912),Clothing,экипировка|костюм|наряд|снаряжение|подразделение|группа|компания|фирма|команда,False
+EXP04,wipo_expansion_v1,FAM_c_EXP04,A,1_1,1,1,виток,turn,S1_138,CFAM_c_S1_138,кабан,boar,5,5,4,4,0,0,0,Concepticon,Miklashevsky-2018-506-138,Animal,,False
+EXP05,wipo_expansion_v1,FAM_c_EXP05,A,1_1,1,1,коллектор,commutator,S1_196,CFAM_c_S1_196,локомотив,locomotive,9,9,10,10,0,0,0,Concepticon,Miklashevsky-2018-506-196,Transport,,False
+EXP06,wipo_expansion_v1,FAM_c_EXP06,A,1_1,1,1,сервоконтроллер,servocontroller,S1_322,CFAM_c_S1_322,произношение,pronunciation,15,12,15,13,-3,-2,5,Concepticon,Miklashevsky-2018-506-322,Sound,,False
+EXP07,wipo_expansion_v1,FAM_c_EXP07,A,1_1,1,1,оптопара,optocoupler,S1_269,CFAM_c_S1_269,отвертка,screwdriver,8,8,11,11,0,0,0,Concepticon,Miklashevsky-2018-506-269,Tool_power_grip,,False
+EXP08,wipo_expansion_v1,FAM_c_EXP08,A,1_1,1,1,варикап,varactor,S1_136,CFAM_c_S1_136,интерес,interest,7,7,8,8,0,0,0,Concepticon,Miklashevsky-2018-506-136,Sense_Emotion,,False
+EXP09,wipo_expansion_v1,FAM_c_EXP09,A,1_1,1,1,выталкиватель,ejector,S2_0365,CFAM_c_S2_0365,растягивание,stretch,13,12,7,7,-1,0,1,Wiktionary,stretch (rev 92708093),Time,растяжка|эластичность|промежуток|участок,False
+EXP10,wipo_expansion_v1,FAM_c_EXP10,A,1_1,1,1,гальванометр,galvanometer,S1_68,CFAM_c_S1_68,галлюцинация,hallucination,12,12,12,13,0,1,1,Concepticon,Miklashevsky-2018-506-68,Intelligence,,False
+EXP11,wipo_expansion_v1,FAM_c_EXP11,A,1_1,1,1,инвертор,inverter,S1_211,CFAM_c_S1_211,мандарин,mandarin,8,8,8,8,0,0,0,Concepticon,Miklashevsky-2018-506-211,Food,,False
+EXP12,wipo_expansion_v1,FAM_c_EXP12,A,1_1,1,1,микроболометр,microbolometer,S1_317,CFAM_c_S1_317,представление,conception,13,13,14,10,0,-4,4,Concepticon,Miklashevsky-2018-506-317,Intelligence,,False
+EXP13,wipo_expansion_v1,FAM_c_EXP13,A,1_1,1,1,трибометр,tribometer,S1_245,CFAM_c_S1_245,небоскреб,skyscraper,9,9,10,10,0,0,0,Concepticon,Miklashevsky-2018-506-245,Building,,False
+EXP14,wipo_expansion_v1,FAM_c_EXP14,A,1_1,1,1,дымомер,opacimeter,S1_106,CFAM_c_S1_106,ежевика,blackberry,7,7,10,10,0,0,0,Concepticon,Miklashevsky-2018-506-106,Food,,False
+EXP15,wipo_expansion_v1,FAM_c_EXP15,A,1_1,1,1,реометр,rheometer,S1_116,CFAM_c_S1_116,замысел,intention,7,7,9,9,0,0,0,Concepticon,Miklashevsky-2018-506-116,Intelligence,,False
+EXP17,wipo_expansion_v1,FAM_c_EXP17,A,1_1,1,1,потенциометр,potentiometer,S2_0331,CFAM_c_S2_0331,консерватор,conservative,12,11,13,12,-1,-1,2,Wiktionary,conservative (rev 92723283),Clothing,тори,False
+EXP18,wipo_expansion_v1,FAM_c_EXP18,A,1_1,1,1,щуп,probe,S1_204,CFAM_c_S1_204,люк,hatch,3,3,5,5,0,0,0,Concepticon,Miklashevsky-2018-506-204,Ground,,False
+EXP19,wipo_expansion_v1,FAM_c_EXP19,A,1_1,1,1,выпрямитель,rectifier,S2_0368,CFAM_c_S2_0368,уменьшение,reduction,11,10,9,9,-1,0,1,Wiktionary,reduction (rev 91327056),Cooking,снижение|сведение,False
+EXP20,wipo_expansion_v1,FAM_c_EXP20,A,1_1,1,1,рефрактометр,refractometer,S2_0450,CFAM_c_S2_0450,перекрёсток,intersection,12,11,13,12,-1,-1,2,Wiktionary,intersection (rev 92202383),Roads,пересечение,False
+EXP21,wipo_expansion_v1,FAM_c_EXP21,A,1_1,1,1,пьезорезистор,piezoresistor,S2_0467,CFAM_c_S2_0467,обсерватория,observatory,13,12,13,11,-1,-2,3,Wiktionary,observatory (rev 91646665),Buildings,,False
+EXP22,wipo_expansion_v1,FAM_c_EXP22,A,1_1,1,1,терминатор,terminator,S1_62,CFAM_c_S1_62,восприятие,perception,10,10,10,10,0,0,0,Concepticon,Miklashevsky-2018-506-62,Sense_Phys,,False
+EXP23,wipo_expansion_v1,FAM_c_EXP23,A,1_1,1,1,ротор,rotor,S1_143,CFAM_c_S1_143,каноэ,canoe,5,5,5,5,0,0,0,Concepticon,Miklashevsky-2018-506-143,Transport,,False
+EXP24,wipo_expansion_v1,FAM_c_EXP24,A,1_1,1,1,волновод,waveguide,S1_172,CFAM_c_S1_172,крокодил,crocodile,8,8,9,9,0,0,0,Concepticon,Miklashevsky-2018-506-172,Animal,,False
+EXP25,wipo_expansion_v1,FAM_c_EXP25,A,1_1,1,1,фотодиод,photodiode,S1_227,CFAM_c_S1_227,мотоцикл,motorcycle,8,8,10,10,0,0,0,Concepticon,Miklashevsky-2018-506-227,Transport,,False
+EXP26,wipo_expansion_v1,FAM_c_EXP26,A,1_1,1,1,уплотнитель,seal,S1_3,CFAM_c_S1_3,автомобиль,car,11,10,4,3,-1,-1,2,Concepticon,Miklashevsky-2018-506-3,Transport,,False
+EXP27,wipo_expansion_v1,FAM_c_EXP27,A,1_1,1,1,шпиндель,spindle,S1_129,CFAM_c_S1_129,значение,meaning,8,8,7,7,0,0,0,Concepticon,Miklashevsky-2018-506-129,Intelligence,,False
+EXP28,wipo_expansion_v1,FAM_c_EXP28,A,1_1,1,1,пружина,spring,S1_179,CFAM_c_S1_179,кукушка,cuckoo,7,7,6,6,0,0,0,Concepticon,Miklashevsky-2018-506-179,Animal,,False
+EXP29,wipo_expansion_v1,FAM_c_EXP29,A,1_1,1,1,статор,stator,S1_18,CFAM_c_S1_18,барсук,badger,6,6,6,6,0,0,0,Concepticon,Miklashevsky-2018-506-18,Animal,,False
+EXP30,wipo_expansion_v1,FAM_c_EXP30,A,1_1,1,1,турбина,turbine,S1_11,CFAM_c_S1_11,асфальт,asphalt,7,7,7,7,0,0,0,Concepticon,Miklashevsky-2018-506-11,Ground,,False

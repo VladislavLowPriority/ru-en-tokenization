@@ -1,0 +1,24 @@
+{
+  "total_matched": 131,
+  "baseline_matches": 76,
+  "new_matches": 55,
+  "historical_repaired_matches": 0,
+  "total_unmatched": 28,
+  "match_rate_combined": 0.8238993710691824,
+  "signed_mean_d_RU_chars": -0.549618320610687,
+  "signed_mean_d_EN_chars": -0.5343511450381679,
+  "mean_abs_d_RU_chars": 0.5954198473282443,
+  "mean_abs_d_EN_chars": 0.5801526717557252,
+  "max_abs_d_RU_chars": 4,
+  "max_abs_d_EN_chars": 4,
+  "stratum_distribution": {
+    "A": 59,
+    "B": 45,
+    "C": 27
+  },
+  "cohort_distribution": {
+    "wipo_expansion_v1": 55,
+    "doc_pilot_60": 54,
+    "wipo_pilot_30": 22
+  }
+}

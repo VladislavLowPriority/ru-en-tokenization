@@ -1,0 +1,130 @@
+concept_id,record_id,lang,variant_index,designation,is_chosen,words,has_hyphen,tokenizer_id,T_iso0,T_isosp
+WP15,9010317,ru,0,аэродинамический подшипник,True,2,False,o200k_base,9,8
+WP15,9010317,ru,0,аэродинамический подшипник,True,2,False,cl100k_base,13,13
+WP15,9010317,ru,0,аэродинамический подшипник,True,2,False,qwen2.5-7b-instruct,10,10
+WP15,9010317,en,0,aerodynamic bearing,True,2,False,o200k_base,4,2
+WP15,9010317,en,0,aerodynamic bearing,True,2,False,cl100k_base,4,3
+WP15,9010317,en,0,aerodynamic bearing,True,2,False,qwen2.5-7b-instruct,4,3
+WP15,9010317,en,1,self-acting gas bearing,False,3,True,o200k_base,5,5
+WP15,9010317,en,1,self-acting gas bearing,False,3,True,cl100k_base,5,5
+WP15,9010317,en,1,self-acting gas bearing,False,3,True,qwen2.5-7b-instruct,5,5
+WP14,9942950,ru,0,накопительный конвейер,True,2,False,o200k_base,6,5
+WP14,9942950,ru,0,накопительный конвейер,True,2,False,cl100k_base,9,9
+WP14,9942950,ru,0,накопительный конвейер,True,2,False,qwen2.5-7b-instruct,8,9
+WP14,9942950,ru,1,конвейер-накопитель,False,1,True,o200k_base,7,7
+WP14,9942950,ru,1,конвейер-накопитель,False,1,True,cl100k_base,10,9
+WP14,9942950,ru,1,конвейер-накопитель,False,1,True,qwen2.5-7b-instruct,8,8
+WP14,9942950,en,0,accumulating conveyor,True,2,False,o200k_base,4,2
+WP14,9942950,en,0,accumulating conveyor,True,2,False,cl100k_base,3,2
+WP14,9942950,en,0,accumulating conveyor,True,2,False,qwen2.5-7b-instruct,3,2
+WP14,9942950,en,1,accumulation conveyor,False,2,False,o200k_base,4,2
+WP14,9942950,en,1,accumulation conveyor,False,2,False,cl100k_base,3,2
+WP14,9942950,en,1,accumulation conveyor,False,2,False,qwen2.5-7b-instruct,3,2
+WP14,9942950,en,2,accumulator conveyor,False,2,False,o200k_base,3,2
+WP14,9942950,en,2,accumulator conveyor,False,2,False,cl100k_base,2,2
+WP14,9942950,en,2,accumulator conveyor,False,2,False,qwen2.5-7b-instruct,2,2
+WP10,8828706,ru,0,твердомер,True,1,False,o200k_base,3,3
+WP10,8828706,ru,0,твердомер,True,1,False,cl100k_base,4,4
+WP10,8828706,ru,0,твердомер,True,1,False,qwen2.5-7b-instruct,2,4
+WP10,8828706,ru,1,дюрометр,False,1,False,o200k_base,4,4
+WP10,8828706,ru,1,дюрометр,False,1,False,cl100k_base,6,6
+WP10,8828706,ru,1,дюрометр,False,1,False,qwen2.5-7b-instruct,5,5
+WP10,8828706,en,0,durometer,True,1,False,o200k_base,2,2
+WP10,8828706,en,0,durometer,True,1,False,cl100k_base,2,2
+WP10,8828706,en,0,durometer,True,1,False,qwen2.5-7b-instruct,2,2
+WP08,9015774,ru,0,конвейер,True,1,False,o200k_base,3,3
+WP08,9015774,ru,0,конвейер,True,1,False,cl100k_base,5,4
+WP08,9015774,ru,0,конвейер,True,1,False,qwen2.5-7b-instruct,4,4
+WP08,9015774,en,0,conveyor,True,1,False,o200k_base,2,1
+WP08,9015774,en,0,conveyor,True,1,False,cl100k_base,2,1
+WP08,9015774,en,0,conveyor,True,1,False,qwen2.5-7b-instruct,2,1
+WP08,9015774,en,1,conveyer,False,1,False,o200k_base,3,2
+WP08,9015774,en,1,conveyer,False,1,False,cl100k_base,3,2
+WP08,9015774,en,1,conveyer,False,1,False,qwen2.5-7b-instruct,3,2
+WP16,8922805,ru,0,симметрирующее устройство,True,2,False,o200k_base,6,6
+WP16,8922805,ru,0,симметрирующее устройство,True,2,False,cl100k_base,12,12
+WP16,8922805,ru,0,симметрирующее устройство,True,2,False,qwen2.5-7b-instruct,7,8
+WP16,8922805,en,0,balun,True,1,False,o200k_base,2,2
+WP16,8922805,en,0,balun,True,1,False,cl100k_base,2,2
+WP16,8922805,en,0,balun,True,1,False,qwen2.5-7b-instruct,2,2
+WP16,8922805,en,1,balanced to unbalanced converter,False,4,False,o200k_base,5,5
+WP16,8922805,en,1,balanced to unbalanced converter,False,4,False,cl100k_base,5,5
+WP16,8922805,en,1,balanced to unbalanced converter,False,4,False,qwen2.5-7b-instruct,5,5
+WP16,8922805,en,2,balun signal transformer,False,3,False,o200k_base,4,4
+WP16,8922805,en,2,balun signal transformer,False,3,False,cl100k_base,4,4
+WP16,8922805,en,2,balun signal transformer,False,3,False,qwen2.5-7b-instruct,4,4
+WP12,10027603,ru,0,сервопривод,True,1,False,o200k_base,5,4
+WP12,10027603,ru,0,сервопривод,True,1,False,cl100k_base,7,6
+WP12,10027603,ru,0,сервопривод,True,1,False,qwen2.5-7b-instruct,6,6
+WP12,10027603,ru,1,сервомотор,False,1,False,o200k_base,4,3
+WP12,10027603,ru,1,сервомотор,False,1,False,cl100k_base,5,4
+WP12,10027603,ru,1,сервомотор,False,1,False,qwen2.5-7b-instruct,4,4
+WP12,10027603,en,0,servomotor,True,1,False,o200k_base,3,3
+WP12,10027603,en,0,servomotor,True,1,False,cl100k_base,3,3
+WP12,10027603,en,0,servomotor,True,1,False,qwen2.5-7b-instruct,3,3
+WP12,10027603,en,1,servo motor,False,2,False,o200k_base,2,2
+WP12,10027603,en,1,servo motor,False,2,False,cl100k_base,3,2
+WP12,10027603,en,1,servo motor,False,2,False,qwen2.5-7b-instruct,3,2
+WP20,8847816,ru,0,противоэлектрод,True,1,False,o200k_base,6,5
+WP20,8847816,ru,0,противоэлектрод,True,1,False,cl100k_base,10,9
+WP20,8847816,ru,0,противоэлектрод,True,1,False,qwen2.5-7b-instruct,7,4
+WP20,8847816,ru,1,вспомогательный электрод,False,2,False,o200k_base,7,5
+WP20,8847816,ru,1,вспомогательный электрод,False,2,False,cl100k_base,11,11
+WP20,8847816,ru,1,вспомогательный электрод,False,2,False,qwen2.5-7b-instruct,8,8
+WP20,8847816,en,0,counter electrode,True,2,False,o200k_base,2,2
+WP20,8847816,en,0,counter electrode,True,2,False,cl100k_base,2,2
+WP20,8847816,en,0,counter electrode,True,2,False,qwen2.5-7b-instruct,2,2
+WP20,8847816,en,1,auxiliary electrode,False,2,False,o200k_base,3,2
+WP20,8847816,en,1,auxiliary electrode,False,2,False,cl100k_base,3,2
+WP20,8847816,en,1,auxiliary electrode,False,2,False,qwen2.5-7b-instruct,3,2
+WP21,8875687,ru,0,токоограничитель,True,1,False,o200k_base,5,5
+WP21,8875687,ru,0,токоограничитель,True,1,False,cl100k_base,8,8
+WP21,8875687,ru,0,токоограничитель,True,1,False,qwen2.5-7b-instruct,7,7
+WP21,8875687,ru,1,ограничитель тока,False,2,False,o200k_base,5,4
+WP21,8875687,ru,1,ограничитель тока,False,2,False,cl100k_base,7,8
+WP21,8875687,ru,1,ограничитель тока,False,2,False,qwen2.5-7b-instruct,7,5
+WP21,8875687,en,0,current limiter,True,2,False,o200k_base,2,2
+WP21,8875687,en,0,current limiter,True,2,False,cl100k_base,3,3
+WP21,8875687,en,0,current limiter,True,2,False,qwen2.5-7b-instruct,3,3
+WP25,10019350,ru,0,сателлит,True,1,False,o200k_base,3,3
+WP25,10019350,ru,0,сателлит,True,1,False,cl100k_base,5,5
+WP25,10019350,ru,0,сателлит,True,1,False,qwen2.5-7b-instruct,4,4
+WP25,10019350,en,0,planet gear,True,2,False,o200k_base,2,2
+WP25,10019350,en,0,planet gear,True,2,False,cl100k_base,2,2
+WP25,10019350,en,0,planet gear,True,2,False,qwen2.5-7b-instruct,2,2
+WP25,10019350,en,1,planetary gear,False,2,False,o200k_base,3,2
+WP25,10019350,en,1,planetary gear,False,2,False,cl100k_base,3,2
+WP25,10019350,en,1,planetary gear,False,2,False,qwen2.5-7b-instruct,3,2
+WP24,8945106,ru,0,мемристор,True,1,False,o200k_base,4,3
+WP24,8945106,ru,0,мемристор,True,1,False,cl100k_base,5,5
+WP24,8945106,ru,0,мемристор,True,1,False,qwen2.5-7b-instruct,4,4
+WP24,8945106,en,0,memory resistor,True,2,False,o200k_base,2,2
+WP24,8945106,en,0,memory resistor,True,2,False,cl100k_base,2,2
+WP24,8945106,en,0,memory resistor,True,2,False,qwen2.5-7b-instruct,2,2
+WP24,8945106,en,1,memristor,False,1,False,o200k_base,3,3
+WP24,8945106,en,1,memristor,False,1,False,cl100k_base,3,3
+WP24,8945106,en,1,memristor,False,1,False,qwen2.5-7b-instruct,3,3
+WP27,9004439,ru,0,геркон,True,1,False,o200k_base,2,2
+WP27,9004439,ru,0,геркон,True,1,False,cl100k_base,4,4
+WP27,9004439,ru,0,геркон,True,1,False,qwen2.5-7b-instruct,2,2
+WP27,9004439,ru,1,герконовый переключатель,False,2,False,o200k_base,5,5
+WP27,9004439,ru,1,герконовый переключатель,False,2,False,cl100k_base,10,10
+WP27,9004439,ru,1,герконовый переключатель,False,2,False,qwen2.5-7b-instruct,7,7
+WP27,9004439,en,0,reed switch,True,2,False,o200k_base,2,2
+WP27,9004439,en,0,reed switch,True,2,False,cl100k_base,2,3
+WP27,9004439,en,0,reed switch,True,2,False,qwen2.5-7b-instruct,2,3
+WP28,8890605,ru,0,аккумулятор,True,1,False,o200k_base,4,2
+WP28,8890605,ru,0,аккумулятор,True,1,False,cl100k_base,6,6
+WP28,8890605,ru,0,аккумулятор,True,1,False,qwen2.5-7b-instruct,5,5
+WP28,8890605,en,0,secondary battery,True,2,False,o200k_base,2,2
+WP28,8890605,en,0,secondary battery,True,2,False,cl100k_base,2,2
+WP28,8890605,en,0,secondary battery,True,2,False,qwen2.5-7b-instruct,2,2
+WP28,8890605,en,1,secondary cell,False,2,False,o200k_base,2,2
+WP28,8890605,en,1,secondary cell,False,2,False,cl100k_base,2,2
+WP28,8890605,en,1,secondary cell,False,2,False,qwen2.5-7b-instruct,2,2
+WP28,8890605,en,2,storage battery,False,2,False,o200k_base,2,2
+WP28,8890605,en,2,storage battery,False,2,False,cl100k_base,2,2
+WP28,8890605,en,2,storage battery,False,2,False,qwen2.5-7b-instruct,2,2
+WP28,8890605,en,3,rechargeable battery,False,2,False,o200k_base,4,2
+WP28,8890605,en,3,rechargeable battery,False,2,False,cl100k_base,4,3
+WP28,8890605,en,3,rechargeable battery,False,2,False,qwen2.5-7b-instruct,4,3

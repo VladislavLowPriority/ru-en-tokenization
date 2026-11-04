@@ -1,0 +1,942 @@
+local_concept_id,concept_record_id,term_en_clean,term_ru_clean,stratum,status,decision_note
+WEXP_0001,actuator_p01.json#rec_0,actuator,исполнительный орган,C,excluded,duplicate_of_baseline
+WEXP_0002,actuator_p01.json#rec_1,actuator,исполнительный орган,C,excluded,"low_rating(EN=3,RU=0); duplicate_of_baseline"
+WEXP_0003,actuator_p01.json#rec_2,piezo actuator,пьезоэлектрический привод,B,eligible,Eligible according to protocol criteria
+WEXP_0004,actuator_p01.json#rec_3,sma actuator,привод с эффектом памяти формы,Other,excluded,"word_count_exceeded(5w_ru,2w_en)"
+WEXP_0005,actuator_p01.json#rec_5,hydraulic actuator,гидропривод,C,eligible,Eligible according to protocol criteria
+WEXP_0006,actuator_p01.json#rec_7,electromagnetic actuator,электромагнитный привод,B,eligible,Eligible according to protocol criteria
+WEXP_0007,actuator_p01.json#rec_8,linear actuator,линейный актуатор,B,eligible,Eligible according to protocol criteria
+WEXP_0008,actuator_p01.json#rec_9,pneumatic actuator,пневмопривод,C,eligible,Eligible according to protocol criteria
+WEXP_0009,amplifier_p01.json#rec_0,amplifier,усилитель,A,excluded,duplicate_of_baseline
+WEXP_0010,amplifier_p01.json#rec_1,instrumentation amplifier,измерительный усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0011,amplifier_p01.json#rec_2,regenerative amplifier,регенеративный усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0012,amplifier_p01.json#rec_3,transconductance amplifier,транскондуктивный усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0013,amplifier_p01.json#rec_4,differential amplifier,дифференциальный усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0014,amplifier_p01.json#rec_5,operational amplifier,операционный усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0015,amplifier_p01.json#rec_6,transimpedance amplifier,трансимпедансный усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0016,amplifier_p01.json#rec_7,transistor amplifier,транзисторный усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0017,amplifier_p01.json#rec_8,lock-in amplifier,синхронный усилитель,B,excluded,hyphenated_term
+WEXP_0018,amplifier_p01.json#rec_9,power amplifier,усилитель мощности,B,eligible,Eligible according to protocol criteria
+WEXP_0019,amplifier_p01.json#rec_10,optical amplifier,оптический усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0020,amplifier_p01.json#rec_11,limiting amplifier,усилитель-ограничитель,C,excluded,hyphenated_term
+WEXP_0021,amplifier_p01.json#rec_12,sense amplifier,усилитель считывания,B,eligible,Eligible according to protocol criteria
+WEXP_0022,amplifier_p01.json#rec_13,rotating amplifier,электромашинный усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0023,amplifier_p01.json#rec_14,summing amplifier,суммирующий усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0024,amplifier_p01.json#rec_15,buffer circuit,буферный каскад,B,eligible,Eligible according to protocol criteria
+WEXP_0025,amplifier_p01.json#rec_16,chopper-stabilized amplifier,усилитель с прерыванием,B,excluded,hyphenated_term
+WEXP_0026,amplifier_p01.json#rec_17,low noise amplifier,малошумящий усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0027,amplifier_p01.json#rec_18,radio-frequency amplifier,высокочастотный усилитель,B,excluded,hyphenated_term
+WEXP_0028,amplifier_p01.json#rec_19,variable gain amplifier,усилитель с регулируемым усилением,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0029,amplifier_p01.json#rec_20,push-pull amplifier,двухтактный усилитель,B,excluded,hyphenated_term
+WEXP_0030,amplifier_p01.json#rec_21,capacitive transimpedance amplifier,емкостной трансимпедансный усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0031,amplifier_p01.json#rec_22,class-d amplifier,усилитель класса d,B,excluded,latin_in_russian; hyphenated_term
+WEXP_0032,amplifier_p01.json#rec_23,semiconductor optical amplifier,полупроводниковый оптический усилитель,B,eligible,Eligible according to protocol criteria
+WEXP_0033,amplifier_p01.json#rec_24,thulium doped fiber amplifier,волоконно-оптический усилитель,Other,excluded,"low_rating(EN=3,RU=0); eponym; word_count_exceeded(2w_ru,4w_en); hyphenated_term"
+WEXP_0034,amplifier_p02.json#rec_0,amplified spontaneous emission,усиленное спонтанное излучение,B,excluded,non_device_head(emission/излучение)
+WEXP_0035,amplifier_p02.json#rec_1,preamplifier,предварительный усилитель,C,excluded,duplicate_of_baseline
+WEXP_0036,atomizer_p01.json#rec_0,rotary atomizer,центробежный распылитель,B,eligible,Eligible according to protocol criteria
+WEXP_0037,atomizer_p01.json#rec_1,ultrasonic atomizer,ультразвуковой распылитель,B,eligible,Eligible according to protocol criteria
+WEXP_0038,atomizer_p01.json#rec_2,atomizer nozzle,форсунка,C,excluded,duplicate_of_baseline
+WEXP_0039,battery_p01.json#rec_0,battery,аккумулятор,A,excluded,duplicate_of_baseline
+WEXP_0040,battery_p01.json#rec_1,backup battery,резервная батарея,B,eligible,Eligible according to protocol criteria
+WEXP_0041,battery_p01.json#rec_2,nickel-cadmium battery,никель-кадмиевый аккумулятор,B,excluded,hyphenated_term
+WEXP_0042,battery_p01.json#rec_3,secondary battery,аккумулятор,C,excluded,duplicate_of_baseline
+WEXP_0043,battery_p01.json#rec_4,battery separator,сепаратор аккумулятора,B,eligible,Eligible according to protocol criteria
+WEXP_0044,battery_p01.json#rec_5,primary cell,первичная батарея,B,eligible,Eligible according to protocol criteria
+WEXP_0045,battery_p01.json#rec_6,flexible battery,гибкий аккумулятор,B,eligible,Eligible according to protocol criteria
+WEXP_0046,battery_p01.json#rec_7,battery pack,аккумуляторная батарея,B,eligible,Eligible according to protocol criteria
+WEXP_0047,battery_p01.json#rec_8,lithium battery,литиевый аккумулятор,B,eligible,Eligible according to protocol criteria
+WEXP_0048,battery_p01.json#rec_9,lithium-ion battery,литий-ионный аккумулятор,B,excluded,hyphenated_term
+WEXP_0049,battery_p01.json#rec_10,coin cell battery,миниатюрный элемент питания,B,eligible,Eligible according to protocol criteria
+WEXP_0050,battery_p01.json#rec_11,lead-acid battery,свинцово-кислотный аккумулятор,B,excluded,hyphenated_term
+WEXP_0051,battery_p01.json#rec_12,battery state of charge,степень заряженности аккумулятора,Other,excluded,"word_count_exceeded(3w_ru,4w_en)"
+WEXP_0052,battery_p01.json#rec_13,aluminum air battery,батарея воздушно-алюминиевых топливных элементов,Other,excluded,"word_count_exceeded(4w_ru,3w_en); hyphenated_term"
+WEXP_0053,battery_p01.json#rec_14,lithium-air battery,литий-кислородный аккумулятор,B,excluded,hyphenated_term
+WEXP_0054,battery_p01.json#rec_15,solid state battery,батарея с твёрдым электролитом,Other,excluded,"low_rating(EN=3,RU=1); usage_not_allowed(EN=allowed,RU=proposed term); word_count_exceeded(4w_ru,3w_en)"
+WEXP_0055,battery_p01.json#rec_16,all-solid-state battery,твердотельная батарея,B,excluded,hyphenated_term
+WEXP_0056,battery_p01.json#rec_17,battery management system,система управления батареей,B,excluded,non_device_head(system/система)
+WEXP_0057,battery_p01.json#rec_18,lithium-sulfur battery,литий-серный аккумулятор,B,excluded,hyphenated_term
+WEXP_0058,battery_p01.json#rec_19,lithium metal battery,литий-металлическая батарея,B,excluded,hyphenated_term
+WEXP_0059,battery_p01.json#rec_20,lithium polymer battery,литий-полимерная батарея,B,excluded,hyphenated_term
+WEXP_0060,battery_p01.json#rec_21,thermopile,термоэлектрическая батарея,C,eligible,Eligible according to protocol criteria
+WEXP_0061,bearing_p01.json#rec_0,bearing,подшипник,A,excluded,duplicate_of_baseline
+WEXP_0062,bearing_p01.json#rec_1,pivot bearing,подшипник качения,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0063,bearing_p01.json#rec_2,magnetic bearing,магнитный подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0064,bearing_p01.json#rec_3,bearing current,подшипниковый ток,B,excluded,non_device_head(current/ток)
+WEXP_0065,bearing_p01.json#rec_4,plane bearing,подшипник скольжения,B,eligible,Eligible according to protocol criteria
+WEXP_0066,bearing_p01.json#rec_5,hydrostatic bearing,гидростатический подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0067,bearing_p01.json#rec_7,spherical bearing,сферический подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0068,bearing_p01.json#rec_9,aerodynamic bearing,аэродинамический подшипник,B,excluded,duplicate_of_baseline
+WEXP_0069,bearing_p01.json#rec_10,aerostatic bearing,аэростатический подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0070,bearing_p01.json#rec_11,liquid bearing,жидкостный подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0071,bearing_p01.json#rec_12,hydrodynamic bearing,гидродинамический подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0072,bearing_p01.json#rec_13,gas bearing,газостатический подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0073,bearing_p01.json#rec_14,rolling element bearing,подшипник качения,B,eligible,Eligible according to protocol criteria
+WEXP_0074,bearing_p01.json#rec_15,bearing ring,кольцо подшипника,B,eligible,Eligible according to protocol criteria
+WEXP_0075,bearing_p01.json#rec_16,air bearing,аэростатический подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0076,bearing_p01.json#rec_17,plain bearing,подшипник скольжения,B,eligible,Eligible according to protocol criteria
+WEXP_0077,bearing_p01.json#rec_18,sleeve bearing,подшипник скольжения,B,eligible,Eligible according to protocol criteria
+WEXP_0078,bearing_p01.json#rec_19,fluid bearing,подшипник жидкостного трения,B,eligible,Eligible according to protocol criteria
+WEXP_0079,bearing_p01.json#rec_20,floating bearing,плавающий подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0080,bearing_p01.json#rec_21,radial bearing,радиальный подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0081,bearing_p01.json#rec_22,needle bearing,игольчатый подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0082,bearing_p01.json#rec_23,bearing cap,крышка подшипника,B,eligible,Eligible according to protocol criteria
+WEXP_0083,bearing_p01.json#rec_24,cage,сепаратор,A,eligible,Eligible according to protocol criteria
+WEXP_0084,bearing_p02.json#rec_0,fixed bearing,зафиксированный подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0085,bearing_p02.json#rec_1,thrust bearing,упорный подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0086,bearing_p02.json#rec_2,ball bearing,шариковый подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0087,bearing_p02.json#rec_3,bearing preload,предварительный натяг подшипника,B,eligible,Eligible according to protocol criteria
+WEXP_0088,bearing_p02.json#rec_4,big end bearing,подшипник нижней головки шатуна,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0089,bearing_p02.json#rec_5,tilting pad bearing,подшипник качения,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0090,bearing_p02.json#rec_6,double-sided thrust bearing,упорный двухсторонний подшипник,B,excluded,hyphenated_term
+WEXP_0091,bearing_p02.json#rec_9,thrust pad,упорная площадка,B,eligible,Eligible according to protocol criteria
+WEXP_0092,bearing_p02.json#rec_10,angular contact ball bearing,радиально-упорный шариковый подшипник,Other,excluded,"word_count_exceeded(3w_ru,4w_en); hyphenated_term"
+WEXP_0093,bearing_p02.json#rec_11,cylindrical roller bearing,цилиндрический роликовый подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0094,bearing_p02.json#rec_12,outer ring,наружное кольцо,B,eligible,Eligible according to protocol criteria
+WEXP_0095,bearing_p02.json#rec_13,inner ring,внутреннее кольцо,B,eligible,Eligible according to protocol criteria
+WEXP_0096,bearing_p02.json#rec_14,tapered roller bearing,конический роликовый подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0097,bearing_p02.json#rec_15,large rolling bearing,большой подшипник качения,B,eligible,Eligible according to protocol criteria
+WEXP_0098,bearing_p02.json#rec_16,self-lubricating bearing,самосмазывающийся подшипник,B,excluded,hyphenated_term
+WEXP_0099,bearing_p02.json#rec_17,spherical roller bearing,роликовый сферический подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0100,bearing_p02.json#rec_18,ball thrust bearing,упорный шариковый подшипник,B,eligible,Eligible according to protocol criteria
+WEXP_0101,bearing_p02.json#rec_19,self-aligning bearing,самоустанавливающийся подшипник,B,excluded,hyphenated_term
+WEXP_0102,brake_p01.json#rec_0,braking chopper,тормозной ключ,B,eligible,Eligible according to protocol criteria
+WEXP_0103,brake_p01.json#rec_1,electromagnetic brake,электромагнитный тормоз,B,eligible,Eligible according to protocol criteria
+WEXP_0104,brake_p01.json#rec_2,press brake,пресс-тормоз,C,excluded,"low_rating(EN=3,RU=0); hyphenated_term"
+WEXP_0105,bushing_p01.json#rec_0,bushing,фильерный питатель,C,eligible,Eligible according to protocol criteria
+WEXP_0106,bushing_p01.json#rec_1,camshaft bushing,втулка распределительного вала,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0107,bushing_p01.json#rec_2,cable feedthrough,кабельный ввод,B,eligible,Eligible according to protocol criteria
+WEXP_0108,bushing_p01.json#rec_3,piston bushing,втулка поршня,B,eligible,Eligible according to protocol criteria
+WEXP_0109,caliper_p01.json#rec_0,caliper,штангенциркуль,A,eligible,Eligible according to protocol criteria
+WEXP_0110,calorimeter_p01.json#rec_0,differential scanning calorimeter,дифференциальный сканирующий калориметр,B,eligible,Eligible according to protocol criteria
+WEXP_0111,calorimeter_p01.json#rec_1,calorimetry,калориметрия,A,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0112,calorimeter_p01.json#rec_2,differential scanning calorimetry,дифференциальная сканирующая калориметрия,B,eligible,Eligible according to protocol criteria
+WEXP_0113,cam_p01.json#rec_0,computer aided manufacturing,производство с помощью компьютера,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0114,cam_p01.json#rec_1,cam,кулачок,A,excluded,duplicate_of_baseline
+WEXP_0115,cam_p01.json#rec_2,cam follower,кулачковый следящий элемент,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0116,cam_p01.json#rec_3,control cam,управляющий кулачок,B,eligible,Eligible according to protocol criteria
+WEXP_0117,cam_p01.json#rec_4,cam control mechanism,кулачковый механизм,B,eligible,Eligible according to protocol criteria
+WEXP_0118,cam_p01.json#rec_5,thermographic camera,тепловизионная камера,B,eligible,Eligible according to protocol criteria
+WEXP_0119,cam_p01.json#rec_7,mean camber line,средняя линия профиля,B,eligible,Eligible according to protocol criteria
+WEXP_0120,capacitor_p01.json#rec_0,capacitor,конденсатор,A,excluded,duplicate_of_baseline
+WEXP_0121,capacitor_p01.json#rec_1,flying capacitor,навесной конденсатор,B,eligible,Eligible according to protocol criteria
+WEXP_0122,capacitor_p01.json#rec_2,feedback capacitor,конденсатор обратной связи,B,eligible,Eligible according to protocol criteria
+WEXP_0123,capacitor_p01.json#rec_3,electrolytic capacitor,электролитический конденсатор,B,eligible,Eligible according to protocol criteria
+WEXP_0124,capacitor_p01.json#rec_4,variable capacitor,переменный конденсатор,B,eligible,Eligible according to protocol criteria
+WEXP_0125,capacitor_p01.json#rec_5,resonant capacitor,резонансный конденсатор,B,eligible,Eligible according to protocol criteria
+WEXP_0126,capacitor_p01.json#rec_6,tantalum capacitor,танталовый конденсатор,B,eligible,Eligible according to protocol criteria
+WEXP_0127,capacitor_p01.json#rec_7,capacitor discharge,разряд конденсатора,B,eligible,Eligible according to protocol criteria
+WEXP_0128,capacitor_p01.json#rec_8,trench capacitor,щелевой конденсатор,B,eligible,Eligible according to protocol criteria
+WEXP_0129,capacitor_p01.json#rec_9,smoothing capacitor,сглаживающий конденсатор,B,eligible,Eligible according to protocol criteria
+WEXP_0130,capacitor_p01.json#rec_10,floating capacitor,плавающий конденсатор,B,eligible,Eligible according to protocol criteria
+WEXP_0131,capacitor_p01.json#rec_11,snubber capacitor,снабберный конденсатор,B,eligible,Eligible according to protocol criteria
+WEXP_0132,capacitor_p01.json#rec_12,multi-layer capacitor,многослойный конденсатор,B,excluded,hyphenated_term
+WEXP_0133,capacitor_p01.json#rec_13,double layer capacitor,конденсатор с двойным электрическим слоем,Other,excluded,"word_count_exceeded(5w_ru,3w_en)"
+WEXP_0134,capacitor_p01.json#rec_14,solid electrolytic capacitor,оксидно-полупроводниковый конденсатор,B,excluded,hyphenated_term
+WEXP_0135,capacitor_p01.json#rec_15,dc blocking capacitor,развязывающий конденсатор,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0136,clutch_p01.json#rec_0,overload clutch,предохранительная муфта,B,eligible,Eligible according to protocol criteria
+WEXP_0137,clutch_p01.json#rec_1,magnetic powder clutch,электромагнитное порошковое сцепление,B,eligible,Eligible according to protocol criteria
+WEXP_0138,coil_p01.json#rec_0,coil,катушка,A,excluded,duplicate_of_baseline
+WEXP_0139,coil_p01.json#rec_1,turn,виток,A,eligible,Eligible according to protocol criteria
+WEXP_0140,coil_p01.json#rec_2,field coil,катушка возбуждения,B,eligible,Eligible according to protocol criteria
+WEXP_0141,coil_p01.json#rec_3,induction coil,катушка индуктивности,B,eligible,Eligible according to protocol criteria
+WEXP_0142,coil_p01.json#rec_4,primary winding,первичная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0143,coil_p01.json#rec_5,secondary winding,вторичная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0144,coil_p01.json#rec_6,solenoid coil,электромагнитная катушка,B,eligible,Eligible according to protocol criteria
+WEXP_0145,coil_p01.json#rec_7,pancake coil,бликовая катушка,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0146,coil_p01.json#rec_9,radiofrequency coil,радиочастотная катушка,B,eligible,Eligible according to protocol criteria
+WEXP_0147,coil_p01.json#rec_10,coil former,каркас катушки,B,eligible,Eligible according to protocol criteria
+WEXP_0148,coil_p01.json#rec_11,pull-in coil,втягивающая катушка,B,excluded,hyphenated_term
+WEXP_0149,coil_p01.json#rec_13,rogowski coil,пояс роговского,B,excluded,eponym
+WEXP_0150,coil_p01.json#rec_16,superconducting coil,сверхпроводящая катушка,B,eligible,Eligible according to protocol criteria
+WEXP_0151,coil_p01.json#rec_19,coiled filament,спиральная нить накала,B,eligible,Eligible according to protocol criteria
+WEXP_0152,commutator_p01.json#rec_0,commutator,коллектор,A,eligible,Eligible according to protocol criteria
+WEXP_0153,commutator_p01.json#rec_1,commutator motor,коллекторный электродвигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0154,commutator_p01.json#rec_2,flat commutator,плоский коммутатор,B,eligible,Eligible according to protocol criteria
+WEXP_0155,commutator_p01.json#rec_3,commutator bar,коллекторная пластина,B,eligible,Eligible according to protocol criteria
+WEXP_0156,commutator_p01.json#rec_4,drum commutator,барабанный коммутатор,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0157,commutator_p01.json#rec_5,series commutator motor,сериесный двигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0158,compressor_p01.json#rec_0,compressor,компрессор,A,excluded,duplicate_of_baseline
+WEXP_0159,compressor_p01.json#rec_1,screw compressor,винтовой компрессор,B,eligible,Eligible according to protocol criteria
+WEXP_0160,compressor_p01.json#rec_2,piston compressor,поршневой компрессор,B,eligible,Eligible according to protocol criteria
+WEXP_0161,compressor_p01.json#rec_3,linear compressor,линейный компрессор,B,eligible,Eligible according to protocol criteria
+WEXP_0162,compressor_p01.json#rec_4,air compressor,воздушный компрессор,B,eligible,Eligible according to protocol criteria
+WEXP_0163,compressor_p01.json#rec_5,scroll compressor,спиральный компрессор,B,eligible,Eligible according to protocol criteria
+WEXP_0164,compressor_p01.json#rec_6,gas compressor,газовый компрессор,B,eligible,Eligible according to protocol criteria
+WEXP_0165,compressor_p01.json#rec_7,rotary compressor,роторный компрессор,B,eligible,Eligible according to protocol criteria
+WEXP_0166,compressor_p01.json#rec_8,compressor piston,поршень компрессора,B,eligible,Eligible according to protocol criteria
+WEXP_0167,compressor_p01.json#rec_9,jet compressor,струйный компрессор,B,eligible,Eligible according to protocol criteria
+WEXP_0168,compressor_p01.json#rec_10,high-pressure compressor,компрессор высокого давления,B,excluded,hyphenated_term
+WEXP_0169,compressor_p01.json#rec_11,low pressure compressor,компрессор низкого давления,B,eligible,Eligible according to protocol criteria
+WEXP_0170,compressor_p01.json#rec_12,variable displacement compressor,компрессор с переменным рабочим объемом,Other,excluded,"low_rating(EN=3,RU=0); word_count_exceeded(5w_ru,3w_en)"
+WEXP_0171,compressor_p01.json#rec_13,positive displacement compressor,компрессор объемного действия,B,eligible,Eligible according to protocol criteria
+WEXP_0172,connector_p01.json#rec_0,edge connector,краевой разъем,B,eligible,Eligible according to protocol criteria
+WEXP_0173,connector_p01.json#rec_1,electrical connector,электрический разъем,B,eligible,Eligible according to protocol criteria
+WEXP_0174,connector_p01.json#rec_2,mating connector,ответный соединитель,B,eligible,Eligible according to protocol criteria
+WEXP_0175,connector_p01.json#rec_3,insulation displacement connector,соединитель типа idc,B,excluded,latin_in_russian
+WEXP_0176,connector_p01.json#rec_4,fuse-switch- disconnector,предохранитель-выключатель-разъединитель,C,excluded,hyphenated_term
+WEXP_0177,connector_p01.json#rec_5,disconnector,разъединитель,A,excluded,duplicate_of_baseline
+WEXP_0178,controller_p01.json#rec_0,controller,контроллер,A,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0179,controller_p01.json#rec_1,flow controller,регулятор расхода,B,eligible,Eligible according to protocol criteria
+WEXP_0180,controller_p01.json#rec_2,servocontroller,сервоконтроллер,A,eligible,Eligible according to protocol criteria
+WEXP_0181,controller_p01.json#rec_3,differential pressure controller,регулятор перепада давления,B,eligible,Eligible according to protocol criteria
+WEXP_0182,controller_p01.json#rec_4,programmable logic controller,программируемый логический контроллер,B,eligible,Eligible according to protocol criteria
+WEXP_0183,controller_p01.json#rec_6,mass flow controller,регулятор массового расхода,B,eligible,Eligible according to protocol criteria
+WEXP_0184,converter_p01.json#rec_0,frequency converter,преобразователь частоты,B,eligible,Eligible according to protocol criteria
+WEXP_0185,converter_p01.json#rec_1,flyback converter,обратноходовой преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0186,converter_p01.json#rec_2,step-up converter,повышающий преобразователь напряжения,B,excluded,hyphenated_term
+WEXP_0187,converter_p01.json#rec_3,step-down converter,понижающий конвертор,B,excluded,hyphenated_term
+WEXP_0188,converter_p01.json#rec_4,forward converter,прямоходовой преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0189,converter_p01.json#rec_5,electronic power converter,электронный преобразователь мощности,B,eligible,Eligible according to protocol criteria
+WEXP_0190,converter_p01.json#rec_6,bidirectional converter,двунаправленный преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0191,converter_p01.json#rec_7,cuk converter,преобразователь кука,B,excluded,eponym
+WEXP_0192,converter_p01.json#rec_8,voltage converter,преобразователь напряжения,B,eligible,Eligible according to protocol criteria
+WEXP_0193,converter_p01.json#rec_9,digital-to-analog converter,цифро-аналоговый преобразователь,B,excluded,hyphenated_term
+WEXP_0194,converter_p01.json#rec_10,switch mode power converter,импульсный преобразователь напряжения,Other,excluded,"low_rating(EN=3,RU=0); word_count_exceeded(3w_ru,4w_en)"
+WEXP_0195,converter_p01.json#rec_11,balun,симметрирующее устройство,C,excluded,duplicate_of_baseline
+WEXP_0196,converter_p01.json#rec_12,buck-boost converter,инвертирующий преобразователь,B,excluded,hyphenated_term
+WEXP_0197,converter_p01.json#rec_13,analog to digital converter,аналого-цифровой преобразователь,Other,excluded,"word_count_exceeded(2w_ru,4w_en); hyphenated_term"
+WEXP_0198,converter_p01.json#rec_14,push-pull converter,двухтактный преобразователь,B,excluded,hyphenated_term
+WEXP_0199,converter_p01.json#rec_16,time-to-digital converter,время-цифровой преобразователь,B,excluded,hyphenated_term
+WEXP_0200,converter_p01.json#rec_17,modular multi-level converter,модульный многоуровневый преобразователь,B,excluded,hyphenated_term
+WEXP_0201,converter_p01.json#rec_19,dc-to-dc converter,преобразователь постоянного напряжения в постоянное,Other,excluded,"word_count_exceeded(5w_ru,2w_en); hyphenated_term"
+WEXP_0202,conveyor_p01.json#rec_0,conveyor,конвейер,A,excluded,duplicate_of_baseline
+WEXP_0203,conveyor_p01.json#rec_1,indexing conveyor,шаговый конвейер,B,eligible,Eligible according to protocol criteria
+WEXP_0204,conveyor_p01.json#rec_2,vibratory conveyor,вибрационный конвейер,B,eligible,Eligible according to protocol criteria
+WEXP_0205,conveyor_p01.json#rec_3,overhead conveyor,подвесной конвейер,B,eligible,Eligible according to protocol criteria
+WEXP_0206,conveyor_p01.json#rec_4,screw conveyor,винтовой конвейер,B,eligible,Eligible according to protocol criteria
+WEXP_0207,conveyor_p01.json#rec_5,continuous conveyor,сплошной транспортер,B,eligible,Eligible according to protocol criteria
+WEXP_0208,conveyor_p01.json#rec_6,chain conveyor,цепной транспортер,B,eligible,Eligible according to protocol criteria
+WEXP_0209,conveyor_p01.json#rec_7,intermittent conveyor,прерывистый конвейер,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0210,conveyor_p01.json#rec_8,belt conveyor,ленточный конвейер,B,eligible,Eligible according to protocol criteria
+WEXP_0211,conveyor_p01.json#rec_9,conveyor chain,конвейерная цепь,B,eligible,Eligible according to protocol criteria
+WEXP_0212,conveyor_p01.json#rec_10,inclined conveyor,наклонный транспортер,B,eligible,Eligible according to protocol criteria
+WEXP_0213,conveyor_p01.json#rec_11,accumulating conveyor,накопительный конвейер,B,excluded,duplicate_of_baseline
+WEXP_0214,conveyor_p01.json#rec_12,conveyor belt,конвейерная лента,B,eligible,Eligible according to protocol criteria
+WEXP_0215,conveyor_p01.json#rec_13,roller conveyor,роликовый конвейер,B,eligible,Eligible according to protocol criteria
+WEXP_0216,conveyor_p01.json#rec_14,bucket conveyor,ковшовый конвейер,B,eligible,Eligible according to protocol criteria
+WEXP_0217,conveyor_p01.json#rec_15,armored face conveyor,забойный скребковый конвейер,B,eligible,Eligible according to protocol criteria
+WEXP_0218,conveyor_p01.json#rec_19,high angle conveyor,крутонаклонный конвейер,B,eligible,Eligible according to protocol criteria
+WEXP_0219,cooler_p01.json#rec_0,grate cooler,колосниковый холодильник,B,eligible,Eligible according to protocol criteria
+WEXP_0220,cooler_p01.json#rec_1,dry-type transformer,сухой трансформатор,B,excluded,hyphenated_term
+WEXP_0221,coupler_p01.json#rec_0,coupler,ответвитель,A,excluded,duplicate_of_baseline
+WEXP_0222,coupler_p01.json#rec_1,directional coupler,направленный ответвитель,B,eligible,Eligible according to protocol criteria
+WEXP_0223,coupler_p01.json#rec_2,coupled line filter,фильтр с обратной связью,Other,excluded,"low_rating(EN=3,RU=0); word_count_exceeded(4w_ru,3w_en)"
+WEXP_0224,coupler_p01.json#rec_3,charge coupled device,прибор с зарядовой связью,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0225,coupler_p01.json#rec_4,inductively coupled plasma mass spectrometry,масс-спектрометрия с индуктивно связанной плазмой,Other,excluded,"word_count_exceeded(5w_ru,5w_en); hyphenated_term"
+WEXP_0226,coupler_p01.json#rec_5,optocoupler,оптопара,A,eligible,Eligible according to protocol criteria
+WEXP_0227,coupling_p01.json#rec_0,capacitive coupling,емкостная связь,B,eligible,Eligible according to protocol criteria
+WEXP_0228,coupling_p01.json#rec_1,inductive coupling,индуктивная связь,B,eligible,Eligible according to protocol criteria
+WEXP_0229,coupling_p01.json#rec_2,electromagnetic coupling,электромагнитная связь,B,eligible,Eligible according to protocol criteria
+WEXP_0230,coupling_p01.json#rec_3,coupling impedance,полное сопротивление связи,B,excluded,non_device_head(impedance/связи)
+WEXP_0231,coupling_p01.json#rec_4,diaphragm coupling,мембранная муфта,B,eligible,Eligible according to protocol criteria
+WEXP_0232,coupling_p01.json#rec_5,magnetic coupling,магнитная муфта,B,eligible,Eligible according to protocol criteria
+WEXP_0233,coupling_p01.json#rec_6,threaded coupling,резьбовое соединение,B,eligible,Eligible according to protocol criteria
+WEXP_0234,coupling_p01.json#rec_7,shaft coupling,муфта для соединения валов,Other,excluded,"word_count_exceeded(4w_ru,2w_en)"
+WEXP_0235,coupling_p01.json#rec_8,spin-orbit coupling,спин-орбитальное взаимодействие,B,excluded,hyphenated_term
+WEXP_0236,coupling_p01.json#rec_9,quick connect coupling,быстроразъёмное соединение,B,eligible,Eligible according to protocol criteria
+WEXP_0237,cylinder_p01.json#rec_0,hydraulic cylinder,гидроцилиндр,C,eligible,Eligible according to protocol criteria
+WEXP_0238,cylinder_p01.json#rec_1,tilt cylinder,цилиндр наклона,B,eligible,Eligible according to protocol criteria
+WEXP_0239,cylinder_p01.json#rec_2,main cylinder,рабочий цилиндр,B,eligible,Eligible according to protocol criteria
+WEXP_0240,cylinder_p01.json#rec_3,lift cylinder,подъемный гидроцилиндр,B,eligible,Eligible according to protocol criteria
+WEXP_0241,cylinder_p01.json#rec_4,boom cylinder,стреловой цилиндр,B,eligible,Eligible according to protocol criteria
+WEXP_0242,cylinder_p01.json#rec_5,cylinder sleeve,втулка цилиндра,B,eligible,Eligible according to protocol criteria
+WEXP_0243,cylinder_p01.json#rec_6,cylinder block,блок цилиндров,B,eligible,Eligible according to protocol criteria
+WEXP_0244,damper_p01.json#rec_0,damper winding,демпферная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0245,damper_p01.json#rec_1,pneumatic damper,пневматический амортизатор,B,eligible,Eligible according to protocol criteria
+WEXP_0246,damper_p01.json#rec_2,tuned mass damper,демпферный масс-демпфер,B,excluded,"low_rating(EN=3,RU=0); hyphenated_term"
+WEXP_0247,detector_p01.json#rec_0,motion sensor,датчик движения,B,eligible,Eligible according to protocol criteria
+WEXP_0248,detector_p01.json#rec_1,quantum detector,квантовый детектор,B,eligible,Eligible according to protocol criteria
+WEXP_0249,detector_p01.json#rec_2,smoke detector,датчик дыма,B,eligible,Eligible according to protocol criteria
+WEXP_0250,detector_p01.json#rec_3,radiation detector,детектор излучения,B,eligible,Eligible according to protocol criteria
+WEXP_0251,detector_p01.json#rec_4,photon detector,детектор фотонов,B,eligible,Eligible according to protocol criteria
+WEXP_0252,detector_p01.json#rec_5,gesture sensor,датчик жестов,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0253,detector_p01.json#rec_6,neutron detector,детектор нейтронов,B,eligible,Eligible according to protocol criteria
+WEXP_0254,detector_p01.json#rec_7,zero crossing detector,детектор перехода через нуль,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0255,detector_p01.json#rec_9,gamma ray detector,гамма-детектор,C,excluded,hyphenated_term
+WEXP_0256,diode_p01.json#rec_0,diode,диод,A,eligible,Eligible according to protocol criteria
+WEXP_0257,diode_p01.json#rec_1,freewheeling diode,обратный диод,B,eligible,Eligible according to protocol criteria
+WEXP_0258,diode_p01.json#rec_2,pump diode,диод накачки,B,eligible,Eligible according to protocol criteria
+WEXP_0259,diode_p01.json#rec_3,gunn diode,диод ганна,B,excluded,eponym
+WEXP_0260,diode_p01.json#rec_4,varactor,варикап,A,eligible,Eligible according to protocol criteria
+WEXP_0261,diode_p01.json#rec_5,zener diode,диод зенера,B,excluded,eponym; duplicate_of_baseline
+WEXP_0262,diode_p01.json#rec_6,laser diode,лазерный диод,B,eligible,Eligible according to protocol criteria
+WEXP_0263,diode_p01.json#rec_7,schottky diode,диод шоттки,B,excluded,eponym
+WEXP_0264,diode_p01.json#rec_8,rectifying diode,выпрямительный диод,B,eligible,Eligible according to protocol criteria
+WEXP_0265,diode_p01.json#rec_9,avalanche diode,лавинный диод,B,eligible,Eligible according to protocol criteria
+WEXP_0266,diode_p01.json#rec_10,clamping diode,фиксирующий диод,B,eligible,Eligible according to protocol criteria
+WEXP_0267,diode_p01.json#rec_11,bypass diode,байпасный диод,B,eligible,Eligible according to protocol criteria
+WEXP_0268,diode_p01.json#rec_12,body diode,внутренний диод,B,eligible,Eligible according to protocol criteria
+WEXP_0269,diode_p01.json#rec_13,tunnel diode,туннельный диод,B,eligible,Eligible according to protocol criteria
+WEXP_0270,diode_p01.json#rec_14,semiconductor laser,полупроводниковый лазер,B,eligible,Eligible according to protocol criteria
+WEXP_0271,diode_p01.json#rec_15,light emitting diode,светоизлучающий диод,B,eligible,Eligible according to protocol criteria
+WEXP_0272,diode_p01.json#rec_16,led chip,светодиодный кристалл,B,eligible,Eligible according to protocol criteria
+WEXP_0273,diode_p01.json#rec_17,organic light emitting diode,органический светоизлучающий диод,Other,excluded,"word_count_exceeded(3w_ru,4w_en)"
+WEXP_0274,diode_p01.json#rec_18,step-recovery diode,диод с накоплением заряда,Other,excluded,"word_count_exceeded(4w_ru,2w_en); hyphenated_term"
+WEXP_0275,diode_p01.json#rec_19,infrared emitting diode,излучающий инфракрасный диод,B,eligible,Eligible according to protocol criteria
+WEXP_0276,diode_p01.json#rec_20,laser diode bar,линейка лазерных диодов,B,eligible,Eligible according to protocol criteria
+WEXP_0277,diode_p01.json#rec_21,led lamp,светодиодная лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0278,diode_p01.json#rec_22,polymer oled,полимерный oled,B,excluded,latin_in_russian
+WEXP_0279,diode_p01.json#rec_23,led downlight,светодиодный потолочный светильник,B,eligible,Eligible according to protocol criteria
+WEXP_0280,diode_p01.json#rec_24,led display,жидкокристаллический дисплей,B,eligible,Eligible according to protocol criteria
+WEXP_0281,diode_p02.json#rec_0,single-photon avalanche diode,однофотонный лавинный диод,B,excluded,hyphenated_term
+WEXP_0282,diode_p02.json#rec_1,diode pumped solid state laser,твердотельный лазер с диодной накачкой,Other,excluded,"word_count_exceeded(5w_ru,5w_en)"
+WEXP_0283,distributor_p01.json#rec_0,distributed winding,распределенная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0284,distributor_p01.json#rec_1,distributed generation,распределенная генерация,B,excluded,non_device_head(generation/генерация)
+WEXP_0285,distributor_p01.json#rec_2,distributed feedback laser,лазер с распределенной обратной связью,Other,excluded,"word_count_exceeded(5w_ru,3w_en)"
+WEXP_0286,distributor_p01.json#rec_3,distributed energy system,des,C,excluded,"low_rating(EN=3,RU=0); non_device_head(system/des); latin_in_russian"
+WEXP_0287,distributor_p01.json#rec_4,distribution cabinet,распределительный шкаф,B,eligible,Eligible according to protocol criteria
+WEXP_0288,distributor_p01.json#rec_5,distribution transformer,распределительный трансформатор,B,eligible,Eligible according to protocol criteria
+WEXP_0289,distributor_p01.json#rec_6,distribution power line,распределительная линия электропередачи,B,eligible,Eligible according to protocol criteria
+WEXP_0290,distributor_p01.json#rec_7,cumulative distribution function,кумулятивная функция распределения,B,eligible,Eligible according to protocol criteria
+WEXP_0291,distributor_p01.json#rec_8,particle size distribution,распределение частиц по размерам,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0292,drive_p01.json#rec_0,optical drive,оптический дисковод,B,eligible,Eligible according to protocol criteria
+WEXP_0293,drive_p01.json#rec_1,drive voltage,управляющее напряжение,B,excluded,non_device_head(voltage/напряжение)
+WEXP_0294,drive_p01.json#rec_2,drive current,ток возбуждения,B,excluded,non_device_head(current/ток)
+WEXP_0295,drive_p01.json#rec_3,belt drive,ременная передача,B,eligible,Eligible according to protocol criteria
+WEXP_0296,drive_p01.json#rec_4,drive shaft,приводной вал,B,eligible,Eligible according to protocol criteria
+WEXP_0297,drive_p01.json#rec_5,tight side,набегающая ветвь,B,eligible,Eligible according to protocol criteria
+WEXP_0298,drive_p01.json#rec_6,flexible drive,гибкая передача,B,eligible,Eligible according to protocol criteria
+WEXP_0299,drive_p01.json#rec_7,drive torque,вращающий момент,B,excluded,non_device_head(torque/момент)
+WEXP_0300,drive_p01.json#rec_8,drive motor,приводной двигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0301,drive_p01.json#rec_9,drive belt,приводной ремень,B,eligible,Eligible according to protocol criteria
+WEXP_0302,drive_p01.json#rec_10,parallel hybrid drive system,параллельная гибридная система привода,Other,excluded,"low_rating(EN=3,RU=0); non_device_head(system/привода); word_count_exceeded(4w_ru,4w_en)"
+WEXP_0303,drive_p01.json#rec_11,ball screw drive,шариковинтовая передача,B,eligible,Eligible according to protocol criteria
+WEXP_0304,drive_p01.json#rec_12,hybrid drive system,гибридный привод,B,excluded,non_device_head(system/привод)
+WEXP_0305,drive_p01.json#rec_13,harmonic drive transmission,волновая передача,B,excluded,non_device_head(transmission/передача)
+WEXP_0306,drive_p01.json#rec_14,magnetic drive pump,насос с магнитным приводом,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0307,ejector_p01.json#rec_0,ejector,выталкиватель,A,eligible,Eligible according to protocol criteria
+WEXP_0308,electrode_p01.json#rec_0,welding electrode,сварочный электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0309,electrode_p01.json#rec_1,electrode,электрод,A,eligible,Eligible according to protocol criteria
+WEXP_0310,electrode_p01.json#rec_2,guard electrode,охранный электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0311,electrode_p01.json#rec_3,extraction electrode,вытягивающий электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0312,electrode_p01.json#rec_4,wire electrode,проволочный электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0313,electrode_p01.json#rec_5,coated electrode,покрытый электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0314,electrode_p01.json#rec_6,counter electrode,противоэлектрод,C,excluded,duplicate_of_baseline
+WEXP_0315,electrode_p01.json#rec_7,lens electrode,линзовый электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0316,electrode_p01.json#rec_8,electrode plate,электродная пластина,B,eligible,Eligible according to protocol criteria
+WEXP_0317,electrode_p01.json#rec_9,measuring electrode,измерительный электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0318,electrode_p01.json#rec_10,oxygen electrode,кислородный электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0319,electrode_p01.json#rec_11,braided electrode,плетеный электрод,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0320,electrode_p01.json#rec_12,collector electrode,осадительный электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0321,electrode_p01.json#rec_13,trigger electrode,пусковой электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0322,electrode_p01.json#rec_14,consumable electrode,плавящийся электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0323,electrode_p01.json#rec_15,working electrode,рабочий электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0324,electrode_p01.json#rec_16,interdigitated electrode,встречно-штыревой электрод,B,excluded,hyphenated_term
+WEXP_0325,electrode_p01.json#rec_17,signal electrode,сигнальный электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0326,electrode_p01.json#rec_18,gate electrode,электрод затвора,B,eligible,Eligible according to protocol criteria
+WEXP_0327,electrode_p01.json#rec_19,electrode comb,гребенка электродов,B,eligible,Eligible according to protocol criteria
+WEXP_0328,electrode_p01.json#rec_21,source electrode,электрод истока,B,eligible,Eligible according to protocol criteria
+WEXP_0329,electrode_p01.json#rec_22,drain electrode,электрод стока,B,eligible,Eligible according to protocol criteria
+WEXP_0330,electrode_p01.json#rec_23,electrode holder,держатель электрода,B,eligible,Eligible according to protocol criteria
+WEXP_0331,electrode_p02.json#rec_0,tool electrode,электрод-инструмент,C,excluded,hyphenated_term
+WEXP_0332,electrode_p02.json#rec_1,electrochromic electrode,электрохромный электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0333,electrode_p02.json#rec_2,electrode potential,электродный потенциал,B,eligible,Eligible according to protocol criteria
+WEXP_0334,electrode_p02.json#rec_3,flux-cored wire electrode,порошковая проволока,B,excluded,"low_rating(EN=3,RU=0); hyphenated_term"
+WEXP_0335,electrode_p02.json#rec_4,positive electrode paste,паста для положительного электрода,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0336,electrode_p02.json#rec_5,non-consumable electrode,нерасходуемый электрод,B,excluded,hyphenated_term
+WEXP_0337,electrode_p02.json#rec_6,gas diffusion electrode,газодиффузионный электрод,B,eligible,Eligible according to protocol criteria
+WEXP_0338,encoder_p01.json#rec_0,encoder,кодирующее устройство,C,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0339,encoder_p01.json#rec_1,incremental encoder,инкрементальный энкодер,B,eligible,Eligible according to protocol criteria
+WEXP_0340,encoder_p01.json#rec_2,absolute encoder,абсолютный энкодер,B,excluded,duplicate_of_baseline
+WEXP_0341,encoder_p01.json#rec_3,rotary encoder,роторный энкодер,B,eligible,Eligible according to protocol criteria
+WEXP_0342,encoder_p01.json#rec_4,optical encoder,оптический энкодер,B,eligible,Eligible according to protocol criteria
+WEXP_0343,encoder_p01.json#rec_5,linear encoder,линейный энкодер,B,eligible,Eligible according to protocol criteria
+WEXP_0344,exchanger_p01.json#rec_0,charge exchange,обдирка,C,excluded,non_device_head(exchange/обдирка)
+WEXP_0345,filter_p01.json#rec_0,filter,фильтр,A,eligible,Eligible according to protocol criteria
+WEXP_0346,filter_p01.json#rec_1,filter,фильтр,A,eligible,Eligible according to protocol criteria
+WEXP_0347,filter_p01.json#rec_2,finite impulse response filter,ких-фильтр,Other,excluded,"word_count_exceeded(1w_ru,4w_en); hyphenated_term"
+WEXP_0348,filter_p01.json#rec_3,infinite-impulse response filter,фильтр с бесконечной импульсной характеристикой,Other,excluded,"word_count_exceeded(5w_ru,3w_en); hyphenated_term"
+WEXP_0349,filter_p01.json#rec_4,linear filter,линейный фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0350,filter_p01.json#rec_5,upsampling filter,повышающий дискретизатор,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0351,filter_p01.json#rec_6,analog filter,аналоговый фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0352,filter_p01.json#rec_7,liquid filter,жидкостный фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0353,filter_p01.json#rec_8,bandpass filter,полосовой фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0354,filter_p01.json#rec_9,ceramic filter,керамический фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0355,filter_p01.json#rec_10,comb filter,гребенчатый фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0356,filter_p01.json#rec_11,matched filter,cогласованный фильтр,B,excluded,latin_in_russian
+WEXP_0357,filter_p01.json#rec_12,filter bank,банк фильтров,B,eligible,Eligible according to protocol criteria
+WEXP_0358,filter_p01.json#rec_13,filter cake,фильтрационный осадок,B,eligible,Eligible according to protocol criteria
+WEXP_0359,filter_p01.json#rec_14,surface acoustic wave filter,фильтр на поверхностных акустических волнах,Other,excluded,"word_count_exceeded(5w_ru,4w_en)"
+WEXP_0360,filter_p01.json#rec_15,apodizing filter,аподизирующий фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0361,filter_p01.json#rec_16,oil filter,масляный фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0362,filter_p01.json#rec_17,filter cloth,фильтровальная ткань,B,eligible,Eligible according to protocol criteria
+WEXP_0363,filter_p01.json#rec_18,filter cartridge,фильтровальный патрон,B,excluded,duplicate_of_baseline
+WEXP_0364,filter_p01.json#rec_19,coalescing filter,коалесцирующий фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0365,filter_p01.json#rec_21,passive filter,пассивный фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0366,filter_p01.json#rec_22,fuel filter,топливный фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0367,filter_p01.json#rec_24,lc filter,lc-фильтр,C,excluded,latin_in_russian; hyphenated_term
+WEXP_0368,filter_p02.json#rec_0,gas filter,газовый фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0369,filter_p02.json#rec_1,digital filter,цифровой фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0370,filter_p02.json#rec_2,loop filter,петлевой фильтр,B,eligible,Eligible according to protocol criteria
+WEXP_0371,flange_p01.json#rec_0,flange,фланец,A,excluded,duplicate_of_baseline
+WEXP_0372,flange_p01.json#rec_1,flange nut,гайка с буртиком,B,eligible,Eligible according to protocol criteria
+WEXP_0373,flow_meter_p01.json#rec_0,flow meter,расходомер,C,excluded,duplicate_of_baseline
+WEXP_0374,flow_meter_p01.json#rec_1,air mass flow meter,датчик массового расхода воздуха,Other,excluded,"word_count_exceeded(4w_ru,4w_en)"
+WEXP_0375,flow_meter_p01.json#rec_2,vortex flowmeter,вихревой расходомер,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0376,flow_meter_p01.json#rec_3,electricity metering,измерение электропотребления,B,eligible,Eligible according to protocol criteria
+WEXP_0377,flow_meter_p01.json#rec_5,mass flow rate,массовый расход,B,excluded,non_device_head(rate/расход)
+WEXP_0378,flow_meter_p01.json#rec_7,flow control valve,клапан регулирования потока,B,eligible,Eligible according to protocol criteria
+WEXP_0379,flow_meter_p01.json#rec_9,electricity meter,счетчик электроэнергии,B,eligible,Eligible according to protocol criteria
+WEXP_0380,flow_meter_p01.json#rec_12,reactive power meter,измеритель реактивной мощности,B,eligible,Eligible according to protocol criteria
+WEXP_0381,flow_meter_p01.json#rec_14,axial fan,осевой вентилятор,B,eligible,Eligible according to protocol criteria
+WEXP_0382,flowmeter_p01.json#rec_0,magnetic flowmeter,электромагнитный расходомер,B,eligible,Eligible according to protocol criteria
+WEXP_0383,flowmeter_p01.json#rec_1,multiphase flowmeter,многофазный расходомер,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0384,flowmeter_p01.json#rec_3,coriolis mass flowmeter,массовый расходомер кориолиса,B,excluded,eponym
+WEXP_0385,fuse_p01.json#rec_0,thermal fuse,термопредохранитель,C,excluded,duplicate_of_baseline
+WEXP_0386,fuse_p01.json#rec_2,fused deposition modeling,технология послойного наплавления,B,excluded,non_device_head(modeling/технология)
+WEXP_0387,fuse_p01.json#rec_3,diffuser plate,диффузорная пластина,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0388,galvanometer_p01.json#rec_0,galvanometer,гальванометр,A,eligible,Eligible according to protocol criteria
+WEXP_0389,gas_analyzer_p01.json#rec_0,gas discharge lamp,газоразрядная лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0390,gas_analyzer_p01.json#rec_1,gas electron multiplier,газовый электронный умножитель,B,eligible,Eligible according to protocol criteria
+WEXP_0391,gas_analyzer_p01.json#rec_2,high electron mobility transistor,транзистор с высокой подвижностью электронов,Other,excluded,"word_count_exceeded(5w_ru,4w_en)"
+WEXP_0392,gas_analyzer_p01.json#rec_3,fluid analyser,анализатор текучей среды,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0393,gas_analyzer_p01.json#rec_4,gas sensor,газовый сенсор,B,eligible,Eligible according to protocol criteria
+WEXP_0394,gas_analyzer_p01.json#rec_5,metal inert gas welding,mig-сварка,Other,excluded,"latin_in_russian; word_count_exceeded(1w_ru,4w_en); hyphenated_term"
+WEXP_0395,gas_analyzer_p01.json#rec_6,gas turbine,газовая турбина,B,eligible,Eligible according to protocol criteria
+WEXP_0396,gas_analyzer_p01.json#rec_7,gas spring,газовая пружина,B,eligible,Eligible according to protocol criteria
+WEXP_0397,gas_analyzer_p01.json#rec_8,cold spray,холодное газодинамическое напыление,B,eligible,Eligible according to protocol criteria
+WEXP_0398,gas_analyzer_p01.json#rec_9,gas injection nozzle,сопло для подачи газа,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0399,gas_analyzer_p01.json#rec_10,spectrum analyzer,анализатор спектра,B,eligible,Eligible according to protocol criteria
+WEXP_0400,gas_analyzer_p01.json#rec_11,gas insulated switchgear,элегазовое распределительное устройство,B,eligible,Eligible according to protocol criteria
+WEXP_0401,gasket_p01.json#rec_0,sealing gasket,уплотнительная прокладка,B,eligible,Eligible according to protocol criteria
+WEXP_0402,gate_valve_p01.json#rec_0,pinch valve,шланговая задвижка,B,eligible,Eligible according to protocol criteria
+WEXP_0403,gate_valve_p01.json#rec_1,floating gate,плавающий затвор,B,eligible,Eligible according to protocol criteria
+WEXP_0404,gate_valve_p01.json#rec_2,four-way valve,четырехходовой клапан,B,excluded,hyphenated_term
+WEXP_0405,gate_valve_p01.json#rec_3,gate finger,палец затвора,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0406,gate_valve_p01.json#rec_4,pilot valve,пилотный клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0407,gate_valve_p01.json#rec_5,stop valve,запорный кран,B,eligible,Eligible according to protocol criteria
+WEXP_0408,gate_valve_p01.json#rec_6,field-programmable gate array,программируемая логическая интегральная схема,Other,excluded,"word_count_exceeded(4w_ru,3w_en); hyphenated_term"
+WEXP_0409,gate_valve_p01.json#rec_7,valve spring retainer,тарелка пружины клапана,B,eligible,Eligible according to protocol criteria
+WEXP_0410,gate_valve_p01.json#rec_9,gate metal,металл затвора,B,eligible,Eligible according to protocol criteria
+WEXP_0411,gate_valve_p01.json#rec_10,valve body,корпус клапана,B,eligible,Eligible according to protocol criteria
+WEXP_0412,gate_valve_p01.json#rec_11,valve seat,седло клапана,B,eligible,Eligible according to protocol criteria
+WEXP_0413,gate_valve_p01.json#rec_12,sliding sleeve valve,золотниковый клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0414,gate_valve_p01.json#rec_13,control valve,регулирующий клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0415,gate_valve_p01.json#rec_14,ball valve,шаровой кран,B,eligible,Eligible according to protocol criteria
+WEXP_0416,gate_valve_p01.json#rec_15,air-operated valve,пневмоклапан,C,excluded,hyphenated_term
+WEXP_0417,gate_valve_p01.json#rec_16,bypass valve,перепускной клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0418,gate_valve_p01.json#rec_17,gate dielectric,подзатворный диэлектрик,B,eligible,Eligible according to protocol criteria
+WEXP_0419,gate_valve_p01.json#rec_18,insulated gate bipolar transistor,биполярный транзистор с изолированным затвором,Other,excluded,"word_count_exceeded(5w_ru,4w_en)"
+WEXP_0420,gauge_p01.json#rec_0,strain gauge,тензодатчик,C,eligible,Eligible according to protocol criteria
+WEXP_0421,gauge_p01.json#rec_1,dial gauge,циферблат,C,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0422,gear_p01.json#rec_0,gear,зубчатое колесо,C,eligible,Eligible according to protocol criteria
+WEXP_0423,gear_p01.json#rec_1,gear speed,передача,C,excluded,non_device_head(speed/передача)
+WEXP_0424,gear_p01.json#rec_2,magnetic gear,магнитная передача,B,eligible,Eligible according to protocol criteria
+WEXP_0425,gear_p01.json#rec_3,double gear,двойное зубчатое колесо,B,eligible,Eligible according to protocol criteria
+WEXP_0426,gear_p01.json#rec_4,gear pump,шестеренный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0427,gear_p01.json#rec_5,ring gear,коронная шестерня,B,eligible,Eligible according to protocol criteria
+WEXP_0428,gear_p01.json#rec_6,sun gear,солнечная шестерня,B,eligible,Eligible according to protocol criteria
+WEXP_0429,gear_p01.json#rec_7,planet gear,сателлит,C,excluded,duplicate_of_baseline
+WEXP_0430,gear_p01.json#rec_8,bevel gear,коническое зубчатое колесо,B,eligible,Eligible according to protocol criteria
+WEXP_0431,gear_p01.json#rec_9,spur gear,прямозубое цилиндрическое колесо,B,eligible,Eligible according to protocol criteria
+WEXP_0432,gear_p01.json#rec_10,worm gear,червячная передача,B,eligible,Eligible according to protocol criteria
+WEXP_0433,gear_p01.json#rec_11,angular gear,угловая передача,B,eligible,Eligible according to protocol criteria
+WEXP_0434,gear_p01.json#rec_12,reduction gear,редуктор,C,excluded,duplicate_of_baseline
+WEXP_0435,gear_p01.json#rec_13,gear rack,зубчатая рейка,B,eligible,Eligible according to protocol criteria
+WEXP_0436,gear_p01.json#rec_14,helical gear,винтовая зубчатая передача,B,eligible,Eligible according to protocol criteria
+WEXP_0437,gear_p01.json#rec_15,forward gear,передача прямого хода,B,eligible,Eligible according to protocol criteria
+WEXP_0438,gear_p01.json#rec_16,reverse gear,передача обратного хода,B,eligible,Eligible according to protocol criteria
+WEXP_0439,gear_p01.json#rec_17,crankshaft timing gear,распределительная шестерня коленчатого вала,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0440,gear_p01.json#rec_18,water pump gear,водяная шестеренная передача,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0441,gear_p01.json#rec_20,internal gear pump,шестеренный насос с внутренним зацеплением,Other,excluded,"word_count_exceeded(5w_ru,3w_en)"
+WEXP_0442,gear_p01.json#rec_21,oil pump gear,шестерня масляного насоса,B,eligible,Eligible according to protocol criteria
+WEXP_0443,gear_p01.json#rec_22,planetary gear set,планетарный ряд,B,eligible,Eligible according to protocol criteria
+WEXP_0444,gear_p01.json#rec_23,bevel gear transmission,коническая зубчатая передача,B,excluded,non_device_head(transmission/передача)
+WEXP_0445,gear_p02.json#rec_0,non-circular gear,некруглая шестерня,B,excluded,hyphenated_term
+WEXP_0446,gear_unit_p01.json#rec_0,arbitrary unit,произвольный блок,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0447,gear_unit_p01.json#rec_1,power supply unit,блок питания,B,eligible,Eligible according to protocol criteria
+WEXP_0448,gear_unit_p01.json#rec_4,inductance per unit length,погонная индуктивность,Other,excluded,"non_device_head(length/индуктивность); word_count_exceeded(2w_ru,4w_en)"
+WEXP_0449,gear_unit_p01.json#rec_9,phasor measurement unit,устройство синхронизированных векторных измерений,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0450,gear_unit_p01.json#rec_12,withdrawal unit,тянущее устройство,B,eligible,Eligible according to protocol criteria
+WEXP_0451,gear_unit_p01.json#rec_13,inertial measurement unit,инерциальный измерительный блок,B,eligible,Eligible according to protocol criteria
+WEXP_0452,generator_p01.json#rec_0,generator set,генераторная установка,B,eligible,Eligible according to protocol criteria
+WEXP_0453,generator_p01.json#rec_1,synchronous generator,синхронный генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0454,generator_p01.json#rec_2,electrical generator,электрический генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0455,generator_p01.json#rec_3,plasma generator,плазменный генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0456,generator_p01.json#rec_4,magnetohydrodynamic generator,магнитогидродинамический генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0457,generator_p01.json#rec_5,electrochemical generator,электрохимический генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0458,generator_p01.json#rec_6,homopolar generator,униполярный генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0459,generator_p01.json#rec_7,helicon generator,геликоновый генератор,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0460,generator_p01.json#rec_8,electromagnetic field generator,генератор электромагнитного поля,B,eligible,Eligible according to protocol criteria
+WEXP_0461,generator_p01.json#rec_9,clock signal generator,генератор тактовых импульсов,B,eligible,Eligible according to protocol criteria
+WEXP_0462,generator_p01.json#rec_10,impulse voltage generator,генератор импульсных напряжений,B,eligible,Eligible according to protocol criteria
+WEXP_0463,generator_p01.json#rec_11,perturbation signal generator,генератор возмущений,B,eligible,Eligible according to protocol criteria
+WEXP_0464,gripper_p01.json#rec_0,grasper,захват,A,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0465,guide_rail_p01.json#rec_0,guide rail,направляющая рейка,B,excluded,duplicate_of_baseline
+WEXP_0466,guide_rail_p01.json#rec_1,guide vane,направляющая лопатка,B,eligible,Eligible according to protocol criteria
+WEXP_0467,guide_rail_p01.json#rec_2,automatic guided cart,автоматическая самоходная тележка,B,eligible,Eligible according to protocol criteria
+WEXP_0468,guide_rail_p01.json#rec_3,valve guide,направляющая втулка,B,eligible,Eligible according to protocol criteria
+WEXP_0469,guide_rail_p01.json#rec_4,gain- guided laser,лазер с регулируемым усилением,Other,excluded,"low_rating(EN=3,RU=0); word_count_exceeded(4w_ru,3w_en); hyphenated_term"
+WEXP_0470,guide_rail_p01.json#rec_6,guide pin,направляющий штифт,B,eligible,Eligible according to protocol criteria
+WEXP_0471,guide_rail_p01.json#rec_7,automated guided vehicle,автоматически управляемое транспортное средство,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0472,guide_rail_p01.json#rec_8,linear guide,линейная направляющая,B,eligible,Eligible according to protocol criteria
+WEXP_0473,gyroscope_p01.json#rec_0,gyroscope,гироскоп,A,excluded,duplicate_of_baseline
+WEXP_0474,gyroscope_p01.json#rec_1,vibratory gyroscope,вибрационный гироскоп,B,eligible,Eligible according to protocol criteria
+WEXP_0475,gyroscope_p01.json#rec_2,hemispherical resonator gyroscope,полусферический резонаторный гироскоп,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0476,gyroscope_p01.json#rec_3,fiber optic gyroscope,волоконно-оптический гироскоп,B,excluded,hyphenated_term
+WEXP_0477,heat_exchanger_p01.json#rec_0,heat shrink tubing,термоусаживающаяся труба,B,eligible,Eligible according to protocol criteria
+WEXP_0478,heat_exchanger_p01.json#rec_1,heat engine,тепловой двигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0479,heat_exchanger_p01.json#rec_2,induction heating,индукционный нагрев,B,eligible,Eligible according to protocol criteria
+WEXP_0480,heat_exchanger_p01.json#rec_3,electromagnetic heating,электромагнитный нагрев,B,eligible,Eligible according to protocol criteria
+WEXP_0481,heat_exchanger_p01.json#rec_4,heat deflection temperature,температура тепловой деформации,B,excluded,non_device_head(temperature/температура)
+WEXP_0482,heat_exchanger_p01.json#rec_5,heating mirror,зеркало нагрева,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0483,heat_exchanger_p01.json#rec_6,dielectric heating,диэлектрический нагрев,B,eligible,Eligible according to protocol criteria
+WEXP_0484,heat_exchanger_p01.json#rec_7,radiofrequency heating,высокочастотный нагрев,B,eligible,Eligible according to protocol criteria
+WEXP_0485,heat_exchanger_p01.json#rec_8,microwave heating,микроволновый нагрев,B,eligible,Eligible according to protocol criteria
+WEXP_0486,heater_p01.json#rec_0,heated wedge,нагретый клин,B,eligible,Eligible according to protocol criteria
+WEXP_0487,hopper_p01.json#rec_2,copper metallization,медная металлизация,B,eligible,Eligible according to protocol criteria
+WEXP_0488,hopper_p01.json#rec_3,copper mould,медная форма,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0489,hopper_p01.json#rec_4,copper braid,медная оплетка,B,eligible,Eligible according to protocol criteria
+WEXP_0490,hopper_p01.json#rec_5,copper vapor laser,импульсный лазер на парах меди,Other,excluded,"word_count_exceeded(5w_ru,3w_en)"
+WEXP_0491,hydraulic_valve_p01.json#rec_0,hydraulic valve,гидравлический клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0492,hydraulic_valve_p01.json#rec_1,hydraulic directional control valve,гидрораспределитель,Other,excluded,"low_rating(EN=3,RU=0); word_count_exceeded(1w_ru,4w_en)"
+WEXP_0493,hydraulic_valve_p01.json#rec_12,hydraulic pump,гидронасос,C,excluded,duplicate_of_baseline
+WEXP_0494,hydraulic_valve_p01.json#rec_16,hydraulic fluid,гидравлическая жидкость,B,eligible,Eligible according to protocol criteria
+WEXP_0495,hydraulic_valve_p01.json#rec_18,hydraulic motor,гидродвигатель,C,eligible,Eligible according to protocol criteria
+WEXP_0496,impeller_p01.json#rec_0,impeller,рабочее колесо,C,eligible,Eligible according to protocol criteria
+WEXP_0497,impeller_p01.json#rec_1,pump impeller,рабочее колесо центробежного насоса,Other,excluded,"word_count_exceeded(4w_ru,2w_en)"
+WEXP_0498,impeller_p01.json#rec_2,impeller wheel,лопастное колесо,B,eligible,Eligible according to protocol criteria
+WEXP_0499,indicator_p01.json#rec_1,indicator lamp,световой индикатор,B,eligible,Eligible according to protocol criteria
+WEXP_0500,indicator_p01.json#rec_3,received signal strength indicator,индикатор силы принимаемого сигнала,Other,excluded,"word_count_exceeded(4w_ru,4w_en)"
+WEXP_0501,interrupter_p01.json#rec_0,load interrupter,прерыватель нагрузки,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0502,interrupter_p01.json#rec_1,vacuum fault interrupter,вакуумный выключатель,B,eligible,Eligible according to protocol criteria
+WEXP_0503,interrupter_p01.json#rec_2,vacuum interrupter chamber,вакуумная дугогасительная камера,B,eligible,Eligible according to protocol criteria
+WEXP_0504,inverter_p01.json#rec_0,inverter,инвертор,A,eligible,Eligible according to protocol criteria
+WEXP_0505,inverter_p01.json#rec_1,off-grid inverter,автономный инвертор,B,excluded,hyphenated_term
+WEXP_0506,inverter_p01.json#rec_2,static inverter,статический инвертор,B,eligible,Eligible according to protocol criteria
+WEXP_0507,inverter_p01.json#rec_3,single-phase full-bridge inverter,однофазный полномостовой инвертор,B,excluded,hyphenated_term
+WEXP_0508,inverter_p01.json#rec_4,inverted oled,инвертированный oled,B,excluded,"low_rating(EN=3,RU=1); usage_not_allowed(EN=allowed,RU=proposed term); latin_in_russian"
+WEXP_0509,lamp_p01.json#rec_0,lamp,источник света,C,eligible,Eligible according to protocol criteria
+WEXP_0510,lamp_p01.json#rec_2,incandescent lamp,лампa накаливания,B,excluded,latin_in_russian
+WEXP_0511,lamp_p01.json#rec_3,flat lamp,плоская лампа,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0512,lamp_p01.json#rec_4,table lamp,настольная лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0513,lamp_p01.json#rec_5,lamp cap,цоколь лампы,B,eligible,Eligible according to protocol criteria
+WEXP_0514,lamp_p01.json#rec_6,high intensity discharge lamp,разрядная лампа высокой интенсивности,Other,excluded,"word_count_exceeded(4w_ru,4w_en)"
+WEXP_0515,lamp_p01.json#rec_7,lamp holder,ламповый патрон,B,eligible,Eligible according to protocol criteria
+WEXP_0516,lamp_p01.json#rec_9,fluorescent lamp,люминесцентная лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0517,lamp_p01.json#rec_11,electrodeless lamp,безэлектродная лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0518,lamp_p01.json#rec_12,halogen lamp,галогенная лампа накаливания,B,eligible,Eligible according to protocol criteria
+WEXP_0519,lamp_p01.json#rec_14,standing lamp,напольный светильник,B,eligible,Eligible according to protocol criteria
+WEXP_0520,lamp_p01.json#rec_15,desk lamp,настольная лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0521,lamp_p01.json#rec_16,compact fluorescent lamp,компактная люминесцентная лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0522,lamp_p01.json#rec_17,metal halide lamp,металлогалогенная лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0523,lamp_p01.json#rec_18,high-pressure sodium lamp,натриевая лампа высокого давления,Other,excluded,"word_count_exceeded(4w_ru,3w_en); hyphenated_term"
+WEXP_0524,lamp_p01.json#rec_19,short arc lamp,короткодуговая лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0525,level_gauge_p01.json#rec_0,radar level gauge,радиолокационный уровнемер,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0526,level_gauge_p01.json#rec_1,wafer level package,wlp-корпус,C,excluded,latin_in_russian; hyphenated_term
+WEXP_0527,level_gauge_p01.json#rec_2,level sensor,датчик уровня,B,eligible,Eligible according to protocol criteria
+WEXP_0528,level_gauge_p01.json#rec_3,voltage level,уровень напряжения,B,excluded,non_device_head(level/уровень)
+WEXP_0529,level_gauge_p01.json#rec_6,high level signal,сигнал высокого уровня,B,excluded,non_device_head(signal/сигнал)
+WEXP_0530,level_gauge_p01.json#rec_7,wafer- level chip scale packaging,корпус wlcsp,Other,excluded,"latin_in_russian; word_count_exceeded(2w_ru,5w_en); hyphenated_term"
+WEXP_0531,level_gauge_p01.json#rec_8,fermi level pinning,закрепление уровня ферми,B,excluded,eponym
+WEXP_0532,level_gauge_p01.json#rec_10,levelling bar,планирная штанга,B,eligible,Eligible according to protocol criteria
+WEXP_0533,level_gauge_p01.json#rec_16,wafer level packaging,корпусирование на уровне пластины,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0534,level_gauge_p01.json#rec_17,zero logic level,логический ноль,B,excluded,non_device_head(level/ноль)
+WEXP_0535,level_gauge_p01.json#rec_18,logic level,логический уровень,B,excluded,non_device_head(level/уровень)
+WEXP_0536,limiter_p01.json#rec_0,current limiter,токоограничитель,C,excluded,duplicate_of_baseline
+WEXP_0537,limiter_p01.json#rec_1,voltage limiter,ограничитель напряжения,B,eligible,Eligible according to protocol criteria
+WEXP_0538,manifold_p01.json#rec_0,manifold,коллектор,A,eligible,Eligible according to protocol criteria
+WEXP_0539,manifold_p01.json#rec_1,valve manifold,коллектор клапана,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0540,manipulator_p01.json#rec_0,robotic arm,робот-манипулятор,C,excluded,"low_rating(EN=4,RU=0); hyphenated_term"
+WEXP_0541,manometer_p01.json#rec_0,manometer,манометр,A,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0542,membrane_p01.json#rec_0,support membrane,опорная мембрана,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0543,membrane_p01.json#rec_1,membrane switch,мембранный переключатель,B,eligible,Eligible according to protocol criteria
+WEXP_0544,meter_p01.json#rec_2,contamination meter,измеритель загрязненности,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0545,meter_p01.json#rec_3,conductivity meter,измеритель электропроводности,B,eligible,Eligible according to protocol criteria
+WEXP_0546,meter_p01.json#rec_4,light meter,люксметр,C,eligible,Eligible according to protocol criteria
+WEXP_0547,meter_p01.json#rec_5,smart meter,интеллектуальный счетчик,B,eligible,Eligible according to protocol criteria
+WEXP_0548,meter_p01.json#rec_11,metering zone,зона дозирования,B,eligible,Eligible according to protocol criteria
+WEXP_0549,meter_p01.json#rec_12,microbolometer,микроболометр,A,eligible,Eligible according to protocol criteria
+WEXP_0550,meter_p01.json#rec_13,number average diameter,среднечисловой диаметр,B,eligible,Eligible according to protocol criteria
+WEXP_0551,meter_p01.json#rec_14,tribometer,трибометр,A,eligible,Eligible according to protocol criteria
+WEXP_0552,meter_p01.json#rec_15,time-of-flight mass spectrometer,времяпролетный масс-спектрометр,B,excluded,hyphenated_term
+WEXP_0553,meter_p01.json#rec_16,ammeter,амперметр,A,excluded,duplicate_of_baseline
+WEXP_0554,meter_p01.json#rec_17,opacimeter,дымомер,A,eligible,Eligible according to protocol criteria
+WEXP_0555,meter_p01.json#rec_18,durometer,твердомер,A,excluded,duplicate_of_baseline
+WEXP_0556,meter_p01.json#rec_19,x-ray diffractometer,рентгеновский дифрактометр,B,excluded,hyphenated_term
+WEXP_0557,meter_p02.json#rec_1,rheometer,реометр,A,eligible,Eligible according to protocol criteria
+WEXP_0558,meter_p02.json#rec_2,mass spectrometer,масс-спектрометр,C,excluded,hyphenated_term
+WEXP_0559,micrometer_p01.json#rec_0,micrometer,микрометр,A,eligible,Eligible according to protocol criteria
+WEXP_0560,mixer_p01.json#rec_0,frequency mixer,смеситель частот,B,eligible,Eligible according to protocol criteria
+WEXP_0561,mixer_p01.json#rec_1,downconversion mixer,понижающий микшер,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0562,mixer_p01.json#rec_2,quadrature mixer,квадратурный смеситель,B,eligible,Eligible according to protocol criteria
+WEXP_0563,moisture_meter_p01.json#rec_5,moisture separator,сепаратор влаги,B,eligible,Eligible according to protocol criteria
+WEXP_0564,motor_p01.json#rec_0,stepper motor,шаговый электродвигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0565,motor_p01.json#rec_2,electric motor,электродвигатель,C,excluded,duplicate_of_baseline
+WEXP_0566,motor_p01.json#rec_3,coreless motor,мотор без сердечника,B,eligible,Eligible according to protocol criteria
+WEXP_0567,motor_p01.json#rec_4,annular motor,кольцевой двигатель,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0568,motor_p01.json#rec_5,brush motor,коллекторный двигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0569,motor_p01.json#rec_6,brushless motor,бесколлекторный двигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0570,motor_p01.json#rec_8,synchronous motor,синхронный электродвигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0571,motor_p01.json#rec_9,linear motor,линейный двигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0572,motor_p01.json#rec_11,torque motor,моментный двигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0573,motor_p01.json#rec_17,servomotor,сервопривод,A,excluded,duplicate_of_baseline
+WEXP_0574,nozzle_p01.json#rec_0,nozzle,сопло,A,eligible,Eligible according to protocol criteria
+WEXP_0575,nozzle_p01.json#rec_1,spray nozzle,распылительная форсунка,B,eligible,Eligible according to protocol criteria
+WEXP_0576,nozzle_p01.json#rec_2,anode nozzle,сопло-анод,C,excluded,hyphenated_term
+WEXP_0577,nozzle_p01.json#rec_3,casting nozzle,разливочный стакан,B,eligible,Eligible according to protocol criteria
+WEXP_0578,nozzle_p01.json#rec_4,cavitation nozzle,кавитационная форсунка,B,eligible,Eligible according to protocol criteria
+WEXP_0579,nozzle_p01.json#rec_5,cutting tip,режущая пластина,B,eligible,Eligible according to protocol criteria
+WEXP_0580,nozzle_p01.json#rec_6,magnetic nozzle,магнитное сопло,B,eligible,Eligible according to protocol criteria
+WEXP_0581,nozzle_p01.json#rec_7,sander nozzle,шлифовальный насадок,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0582,nozzle_p01.json#rec_8,pump nozzle,заправочный пистолет,B,eligible,Eligible according to protocol criteria
+WEXP_0583,nozzle_p01.json#rec_10,suction nozzle,всасывающее сопло,B,eligible,Eligible according to protocol criteria
+WEXP_0584,nozzle_p01.json#rec_11,divergent nozzle,расширяющееся сопло,B,eligible,Eligible according to protocol criteria
+WEXP_0585,nozzle_p01.json#rec_13,submerged entry nozzle,погружной разливочный стакан,B,eligible,Eligible according to protocol criteria
+WEXP_0586,nozzle_p01.json#rec_16,solid cone nozzle,форсунка со сплошным конусом распыла,Other,excluded,"word_count_exceeded(5w_ru,3w_en)"
+WEXP_0587,oscillator_p01.json#rec_0,oscillator,генератор сигналов,C,eligible,Eligible according to protocol criteria
+WEXP_0588,oscillator_p01.json#rec_1,shared oscillator,совместно используемый генератор,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0589,oscillator_p01.json#rec_2,crystal oscillator,кварцевый генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0590,oscillator_p01.json#rec_3,laser oscillator,лазерный генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0591,oscillator_p01.json#rec_4,local oscillator,местный гетеродин,B,eligible,Eligible according to protocol criteria
+WEXP_0592,oscillator_p01.json#rec_6,voltage controlled oscillator,управляемый напряжением генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0593,oscillator_p01.json#rec_7,optical parametric oscillator,оптический параметрический генератор,B,eligible,Eligible according to protocol criteria
+WEXP_0594,oscillator_p01.json#rec_8,voltage controlled crystal oscillator,"кварцевый генератор, управляемый напряжением",Other,excluded,"word_count_exceeded(4w_ru,4w_en)"
+WEXP_0595,oscillator_p01.json#rec_9,temperature compensated crystal oscillator,термокомпенсированный кварцевый генератор,Other,excluded,"word_count_exceeded(3w_ru,4w_en)"
+WEXP_0596,photometer_p01.json#rec_0,spectrophotometer,спектрофотометр,A,eligible,Eligible according to protocol criteria
+WEXP_0597,piston_p01.json#rec_0,piston,поршень,A,excluded,duplicate_of_baseline
+WEXP_0598,piston_p01.json#rec_2,piston skirt,юбка поршня,B,eligible,Eligible according to protocol criteria
+WEXP_0599,piston_p01.json#rec_3,piston stroke,ход поршня,B,eligible,Eligible according to protocol criteria
+WEXP_0600,piston_p01.json#rec_4,piston head,головка поршня,B,eligible,Eligible according to protocol criteria
+WEXP_0601,piston_p01.json#rec_5,piston pump,поршневой насос,B,eligible,Eligible according to protocol criteria
+WEXP_0602,piston_p01.json#rec_6,piston shoe,колодка поршня,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0603,piston_p01.json#rec_7,reciprocating engine,поршневой двигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0604,piston_p01.json#rec_9,wrist pin,поршневой палец,B,eligible,Eligible according to protocol criteria
+WEXP_0605,piston_p01.json#rec_11,piston rod,шток поршневой,B,eligible,Eligible according to protocol criteria
+WEXP_0606,piston_p01.json#rec_12,piston accumulator,поршневой аккумулятор,B,eligible,Eligible according to protocol criteria
+WEXP_0607,piston_p01.json#rec_14,axial piston machine,аксиально-поршневая машина,B,excluded,hyphenated_term
+WEXP_0608,piston_p01.json#rec_15,rotary piston machine,роторно-поршневая машина,B,excluded,hyphenated_term
+WEXP_0609,piston_p01.json#rec_16,axial piston pump,аксиально-поршневой насос,B,excluded,hyphenated_term
+WEXP_0610,piston_p01.json#rec_17,radial piston pump,радиально-поршневой насос,B,excluded,hyphenated_term
+WEXP_0611,pneumatic_valve_p01.json#rec_11,air hammer,пневматический молоток,B,eligible,Eligible according to protocol criteria
+WEXP_0612,pneumatic_valve_p01.json#rec_14,pneumatic gun,пневматическое ружье,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0613,pneumatic_valve_p01.json#rec_16,safety valve,предохранительный клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0614,pneumatic_valve_p01.json#rec_17,proportional valve,пропорциональный клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0615,pneumatic_valve_p01.json#rec_18,pressure relief valve,клапан сброса давления,B,eligible,Eligible according to protocol criteria
+WEXP_0616,potentiometer_p01.json#rec_0,potentiometer,потенциометр,A,eligible,Eligible according to protocol criteria
+WEXP_0617,pressure_gauge_p01.json#rec_0,pressure gauge,манометр,C,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0618,pressure_gauge_p01.json#rec_1,low pressure line,линия низкого давления,B,eligible,Eligible according to protocol criteria
+WEXP_0619,pressure_gauge_p01.json#rec_6,die casting,литьe металлов под давлением,Other,excluded,"latin_in_russian; word_count_exceeded(4w_ru,2w_en)"
+WEXP_0620,pressure_gauge_p01.json#rec_7,pressure sensor,датчик давления,B,eligible,Eligible according to protocol criteria
+WEXP_0621,pressure_gauge_p01.json#rec_8,metallostatic pressure,металлостатическое давление,B,excluded,non_device_head(pressure/давление)
+WEXP_0622,pressure_gauge_p01.json#rec_9,pressure switch,дифференциальный манометр,B,eligible,Eligible according to protocol criteria
+WEXP_0623,pressure_gauge_p01.json#rec_11,pressure transducer,преобразователь давления,B,eligible,Eligible according to protocol criteria
+WEXP_0624,pressure_gauge_p01.json#rec_13,pressure angle,угол давления,B,eligible,Eligible according to protocol criteria
+WEXP_0625,pressure_gauge_p01.json#rec_14,atmospheric pressure chemical vapor deposition,химическое парофазное осаждение при атмосферном давлении,Other,excluded,"word_count_exceeded(6w_ru,5w_en)"
+WEXP_0626,pressure_gauge_p01.json#rec_17,pressure vessel,сосуд давления,B,eligible,Eligible according to protocol criteria
+WEXP_0627,pressure_gauge_p01.json#rec_20,pressure pipe,напорный трубопровод,B,eligible,Eligible according to protocol criteria
+WEXP_0628,probe_p01.json#rec_0,probe,щуп,A,eligible,Eligible according to protocol criteria
+WEXP_0629,probe_p01.json#rec_1,probe card,зондовая карта,B,eligible,Eligible according to protocol criteria
+WEXP_0630,probe_p01.json#rec_2,temperature probe,датчик температуры,B,eligible,Eligible according to protocol criteria
+WEXP_0631,probe_p01.json#rec_3,sniffer probe,сниффер,C,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0632,probe_p01.json#rec_7,phased array probe,датчик с фазированной решеткой,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0633,pump_p01.json#rec_0,pump,насос,A,eligible,Eligible according to protocol criteria
+WEXP_0634,pump_p01.json#rec_3,turbomolecular pump,турбомолекулярный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0635,pump_p01.json#rec_5,charge pump,зарядовый насос,B,eligible,Eligible according to protocol criteria
+WEXP_0636,pump_p01.json#rec_6,centrifugal pump,центробежный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0637,pump_p01.json#rec_7,progressive cavity pump,одновинтовой насос,B,eligible,Eligible according to protocol criteria
+WEXP_0638,pump_p01.json#rec_8,pump housing,корпус насоса,B,eligible,Eligible according to protocol criteria
+WEXP_0639,pump_p01.json#rec_9,peristaltic pump,перистальтический насос,B,eligible,Eligible according to protocol criteria
+WEXP_0640,pump_p01.json#rec_10,injection pump,впрыскивающий насос,B,eligible,Eligible according to protocol criteria
+WEXP_0641,pump_p01.json#rec_11,vacuum pump,вакуумный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0642,pump_p01.json#rec_12,booster pump,подпорный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0643,pump_p01.json#rec_13,airless pump,безвоздушной насос,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0644,pump_p01.json#rec_16,pump light,излучение накачки,B,excluded,non_device_head(light/накачки)
+WEXP_0645,pump_p01.json#rec_17,pump radiation,излучение накачки,B,excluded,non_device_head(radiation/накачки)
+WEXP_0646,pump_p01.json#rec_20,screw pump,винтовой насос,B,eligible,Eligible according to protocol criteria
+WEXP_0647,pump_p01.json#rec_21,rotary pump,роторный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0648,pump_p01.json#rec_22,circulation pump,циркуляционный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0649,pump_p01.json#rec_23,vane pump,пластинчатый насос,B,eligible,Eligible according to protocol criteria
+WEXP_0650,pump_p01.json#rec_24,fore pump,форвакуумный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0651,pump_p02.json#rec_0,diaphragm pump,мембранный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0652,pump_p02.json#rec_1,gerotor pump,героторный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0653,pump_p02.json#rec_2,emergency pump,аварийный насос,B,eligible,Eligible according to protocol criteria
+WEXP_0654,pump_p02.json#rec_4,dynamic pump,динамический насос,B,eligible,Eligible according to protocol criteria
+WEXP_0655,pump_p02.json#rec_5,positive displacement pump,oбъемный насос,B,excluded,latin_in_russian
+WEXP_0656,pump_p02.json#rec_6,molecular drag pump,тнвд,C,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0657,pump_p02.json#rec_8,liquid ring pump,жидкостно-кольцевой насос,B,excluded,hyphenated_term
+WEXP_0658,pump_p02.json#rec_9,self-priming pump,самовсасывающий насос,B,excluded,hyphenated_term
+WEXP_0659,pyrometer_p01.json#rec_0,pyrometer,пирометр,A,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0660,rectifier_p01.json#rec_0,rectifier,выпрямитель,A,eligible,Eligible according to protocol criteria
+WEXP_0661,rectifier_p01.json#rec_1,rectifier circuit,схема выпрямителя,B,eligible,Eligible according to protocol criteria
+WEXP_0662,rectifier_p01.json#rec_2,rectifier bridge,мостовой выпрямитель,B,eligible,Eligible according to protocol criteria
+WEXP_0663,refractometer_p01.json#rec_0,refractometer,рефрактометр,A,eligible,Eligible according to protocol criteria
+WEXP_0664,refractometer_p01.json#rec_1,automatic refractometer,автоматический рефрактометр,B,eligible,Eligible according to protocol criteria
+WEXP_0665,regulator_p01.json#rec_0,switching regulator,импульсный регулятор напряжения,B,eligible,Eligible according to protocol criteria
+WEXP_0666,regulator_p01.json#rec_1,voltage regulator,регулятор напряжения,B,eligible,Eligible according to protocol criteria
+WEXP_0667,regulator_p01.json#rec_2,shunt regulator,шунтовой регулятор,B,eligible,Eligible according to protocol criteria
+WEXP_0668,regulator_p01.json#rec_3,valve integrated pressure regulator,интегральный регулятор давления,Other,excluded,"low_rating(EN=3,RU=0); word_count_exceeded(3w_ru,4w_en)"
+WEXP_0669,relay_p01.json#rec_0,relay,реле,A,excluded,duplicate_of_baseline
+WEXP_0670,relay_p01.json#rec_1,electromechanical relay,электромеханическое реле,B,eligible,Eligible according to protocol criteria
+WEXP_0671,resistor_p01.json#rec_0,resistor,резистор,A,eligible,Eligible according to protocol criteria
+WEXP_0672,resistor_p01.json#rec_1,load resistor,нагрузочный резистор,B,eligible,Eligible according to protocol criteria
+WEXP_0673,resistor_p01.json#rec_2,dummy resistor,эквивалентный резистор,B,eligible,Eligible according to protocol criteria
+WEXP_0674,resistor_p01.json#rec_3,variable resistor,переменный резистор,B,eligible,Eligible according to protocol criteria
+WEXP_0675,resistor_p01.json#rec_4,terminator,терминатор,A,eligible,Eligible according to protocol criteria
+WEXP_0676,resistor_p01.json#rec_5,memory resistor,мемристор,C,excluded,duplicate_of_baseline
+WEXP_0677,resistor_p01.json#rec_6,balancing resistor,балансировочный резистор,B,eligible,Eligible according to protocol criteria
+WEXP_0678,resistor_p01.json#rec_7,identifying resistor,идентифицирующий резистор,B,eligible,Eligible according to protocol criteria
+WEXP_0679,resistor_p01.json#rec_8,pull-down resistor,заземляющий резистор,B,excluded,hyphenated_term
+WEXP_0680,resistor_p01.json#rec_9,positive temperature coefficient resistor,резистор с положительным температурным коэффициентом сопротивления,Other,excluded,"word_count_exceeded(6w_ru,4w_en)"
+WEXP_0681,resistor_p01.json#rec_10,pull-up resistor,подтягивающий резистор,B,excluded,hyphenated_term
+WEXP_0682,resistor_p01.json#rec_11,piezoresistor,пьезорезистор,A,eligible,Eligible according to protocol criteria
+WEXP_0683,rotor_p01.json#rec_0,rotor,ротор,A,eligible,Eligible according to protocol criteria
+WEXP_0684,rotor_p01.json#rec_1,rotor,ротор,A,eligible,Eligible according to protocol criteria
+WEXP_0685,rotor_p01.json#rec_2,rotor shaft,вал ротора,B,eligible,Eligible according to protocol criteria
+WEXP_0686,rotor_p01.json#rec_3,rotor winding,роторная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0687,rotor_p01.json#rec_4,rotor lamination,лист ротора,B,eligible,Eligible according to protocol criteria
+WEXP_0688,rotor_p01.json#rec_5,rotor body,тело ротора,B,eligible,Eligible according to protocol criteria
+WEXP_0689,rotor_p01.json#rec_6,rotor blade,рабочая лопатка,B,eligible,Eligible according to protocol criteria
+WEXP_0690,rotor_p01.json#rec_7,integrally bladed rotor,цельный ротор,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0691,rotor_p01.json#rec_8,slip ring rotor,фазный ротор,B,eligible,Eligible according to protocol criteria
+WEXP_0692,ru_волновод_p01.json#rec_0,waveguide,волновод,A,eligible,Eligible according to protocol criteria
+WEXP_0693,ru_волновод_p01.json#rec_1,ridged waveguide,гребневый волновод,B,eligible,Eligible according to protocol criteria
+WEXP_0694,ru_волновод_p01.json#rec_2,planar waveguide,планарный волновод,B,eligible,Eligible according to protocol criteria
+WEXP_0695,ru_волновод_p01.json#rec_3,circular waveguide,круглый волновод,B,eligible,Eligible according to protocol criteria
+WEXP_0696,ru_волновод_p01.json#rec_4,rectangular dielectric waveguide,прямоугольный диэлектрический волновод,B,eligible,Eligible according to protocol criteria
+WEXP_0697,ru_волновод_p01.json#rec_5,arrayed waveguide grating,решетка на основе массива волноводов,Other,excluded,"word_count_exceeded(5w_ru,3w_en)"
+WEXP_0698,ru_волновод_p01.json#rec_6,finline,волноводно -щелевая линия,C,excluded,hyphenated_term
+WEXP_0699,ru_дроссель_p01.json#rec_0,storage choke,накопительный дроссель,B,eligible,Eligible according to protocol criteria
+WEXP_0700,ru_дроссель_p01.json#rec_1,throttle position sensor,датчик положения дроссельной заслонки,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0701,ru_золотник_p01.json#rec_0,spool valve,золотник,C,eligible,Eligible according to protocol criteria
+WEXP_0702,ru_светодиод_p01.json#rec_3,white oled,белый органический светодиод,B,eligible,Eligible according to protocol criteria
+WEXP_0703,ru_светодиод_p01.json#rec_4,flexible oled,гибкий oled,B,excluded,latin_in_russian
+WEXP_0704,ru_светодиод_p01.json#rec_5,phosphorescent organic light emitting diode,фосфоресцирующий органический светодиод,Other,excluded,"word_count_exceeded(3w_ru,5w_en)"
+WEXP_0705,ru_светодиод_p01.json#rec_6,small molecule oled,органический светодиод на основе малых молекул,Other,excluded,"word_count_exceeded(6w_ru,3w_en)"
+WEXP_0706,ru_светодиод_p01.json#rec_7,led lighting device,светодиодное осветительное устройство,B,eligible,Eligible according to protocol criteria
+WEXP_0707,ru_светодиод_p01.json#rec_11,led array,матрица светодиодов,B,eligible,Eligible according to protocol criteria
+WEXP_0708,ru_термопара_p01.json#rec_0,thermocouple,термопара,A,excluded,duplicate_of_baseline
+WEXP_0709,ru_терморезистор_p01.json#rec_0,thermistor,терморезистор,A,eligible,Eligible according to protocol criteria
+WEXP_0710,ru_терморезистор_p01.json#rec_1,positive temperature coefficient thermistor,терморезистор с положительным температурным коэффициентом сопротивления,Other,excluded,"word_count_exceeded(6w_ru,4w_en)"
+WEXP_0711,ru_фотодиод_p01.json#rec_0,photodiode,фотодиод,A,eligible,Eligible according to protocol criteria
+WEXP_0712,ru_фотодиод_p01.json#rec_1,pinned photodiode,обедненный фотодиод,B,eligible,Eligible according to protocol criteria
+WEXP_0713,ru_фотодиод_p01.json#rec_2,avalanche photodiode,лавинный фотодиод,B,eligible,Eligible according to protocol criteria
+WEXP_0714,ru_фотодиод_p01.json#rec_3,pin photodiode,pin- фотодиод,B,excluded,latin_in_russian; hyphenated_term
+WEXP_0715,ru_фотодиод_p01.json#rec_4,pn photodiode,pn- фотодиод,B,excluded,latin_in_russian; hyphenated_term
+WEXP_0716,ru_фотодиод_p01.json#rec_5,photodiode array,фотодиодная матрица,B,eligible,Eligible according to protocol criteria
+WEXP_0717,seal_p01.json#rec_0,seal,уплотнитель,A,eligible,Eligible according to protocol criteria
+WEXP_0718,seal_p01.json#rec_1,sealing ring,уплотнительное кольцо,B,eligible,Eligible according to protocol criteria
+WEXP_0719,seal_p01.json#rec_2,brush seal,щеточное уплотнение,B,eligible,Eligible according to protocol criteria
+WEXP_0720,seal_p01.json#rec_3,ceramic seal,керамическое уплотнение,B,eligible,Eligible according to protocol criteria
+WEXP_0721,seal_p01.json#rec_4,labyrinth seal,лабиринтное уплотнение,B,eligible,Eligible according to protocol criteria
+WEXP_0722,seal_p01.json#rec_5,shaft seal,уплотнение вала,B,eligible,Eligible according to protocol criteria
+WEXP_0723,seal_p01.json#rec_6,dynamic seal,динамическое уплотнение,B,eligible,Eligible according to protocol criteria
+WEXP_0724,seal_p01.json#rec_7,metal to metal seal system,"уплотнение ""металл-металл""",Other,excluded,"non_device_head(system/""металл-металл""); word_count_exceeded(2w_ru,5w_en); hyphenated_term"
+WEXP_0725,seal_p01.json#rec_8,dry gas seal,сухое газовое уплотнение,B,eligible,Eligible according to protocol criteria
+WEXP_0726,seal_p01.json#rec_9,sealing cord,уплотнительный шнур,B,eligible,Eligible according to protocol criteria
+WEXP_0727,seal_p01.json#rec_10,sealing lip,уплотнительная губка,B,eligible,Eligible according to protocol criteria
+WEXP_0728,seal_p01.json#rec_11,sealing tightness,герметичность,C,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0729,seal_p01.json#rec_12,sealing seat,уплотнительное седло,B,eligible,Eligible according to protocol criteria
+WEXP_0730,sensor_p01.json#rec_0,sensor,датчик,A,eligible,Eligible according to protocol criteria
+WEXP_0731,sensor_p01.json#rec_2,proximity sensor,датчик приближения,B,eligible,Eligible according to protocol criteria
+WEXP_0732,sensor_p01.json#rec_3,weighing sensor,датчик взвешивания,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0733,sensor_p01.json#rec_4,humidity sensor,датчик влажности,B,eligible,Eligible according to protocol criteria
+WEXP_0734,sensor_p01.json#rec_5,surface acoustic wave sensor,датчик на поверхностных акустических волнах,Other,excluded,"word_count_exceeded(5w_ru,4w_en)"
+WEXP_0735,sensor_p01.json#rec_8,colour sensor,цветовой датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0736,sensor_p01.json#rec_11,magnetic sensor,магнитный датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0737,sensor_p01.json#rec_12,amr sensor,анизотропный магниторезистивный датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0738,sensor_p01.json#rec_13,acceleration sensor,датчик ускорения,B,eligible,Eligible according to protocol criteria
+WEXP_0739,sensor_p01.json#rec_16,electromagnetic sensor,электромагнитный датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0740,sensor_p01.json#rec_17,giant magnetoresistance sensor,гигантский магниторезистивный датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0741,sensor_p01.json#rec_18,tunneling magnetoresistive sensor,туннельный магниторезистивный датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0742,sensor_p01.json#rec_19,magnetoresistive sensor,магниторезистивный датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0743,sensor_p01.json#rec_20,piezoelectric sensor,пьезоэлектрический датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0744,sensor_p01.json#rec_21,strain sensor,тензометрический датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0745,sensor_p01.json#rec_22,sensor board,плата датчика,B,eligible,Eligible according to protocol criteria
+WEXP_0746,sensor_p01.json#rec_23,ultrasonic sensor,ультразвуковой датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0747,sensor_p01.json#rec_24,environment sensor,датчик состояния окружающей среды,Other,excluded,"word_count_exceeded(4w_ru,2w_en)"
+WEXP_0748,sensor_p02.json#rec_0,optical sensor,оптический датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0749,sensor_p02.json#rec_1,surface plasmon resonance sensor,ппр-сенсор,Other,excluded,"word_count_exceeded(1w_ru,4w_en); hyphenated_term"
+WEXP_0750,sensor_p02.json#rec_2,sensor data,данные датчика,B,excluded,"low_rating(EN=3,RU=0); non_device_head(data/датчика)"
+WEXP_0751,sensor_p02.json#rec_5,tilt sensor,датчик угла наклона,B,eligible,Eligible according to protocol criteria
+WEXP_0752,sensor_p02.json#rec_8,photoelectric sensor,фотоэлектрический датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0753,sensor_p02.json#rec_9,touch sensor,тактильный датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0754,sensor_p02.json#rec_10,torque sensor,датчик крутящего момента,B,eligible,Eligible according to protocol criteria
+WEXP_0755,sensor_p02.json#rec_11,position sensor,датчик положения,B,excluded,duplicate_of_baseline
+WEXP_0756,sensor_p02.json#rec_13,inertial sensor,инерциальный датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0757,sensor_p02.json#rec_14,rgb sensor,rgb-датчик,C,excluded,latin_in_russian; hyphenated_term
+WEXP_0758,sensor_p02.json#rec_16,depth sensor,датчик глубины,B,eligible,Eligible according to protocol criteria
+WEXP_0759,sensor_p02.json#rec_17,contact sensor,контактный датчик,B,eligible,Eligible according to protocol criteria
+WEXP_0760,separator_p01.json#rec_1,cyclone separator,циклонный сепаратор,B,eligible,Eligible according to protocol criteria
+WEXP_0761,separator_p01.json#rec_3,disc stack separator,дисковый сепаратор,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0762,servo_drive_p01.json#rec_1,driver circuit,задающий контур,B,eligible,Eligible according to protocol criteria
+WEXP_0763,servo_drive_p01.json#rec_6,servo valve,сервоклапан,C,excluded,duplicate_of_baseline
+WEXP_0764,servo_motor_p01.json#rec_1,switched reluctance motor,реактивный коммутируемый электродвигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0765,servo_motor_p01.json#rec_2,linear variable reluctance motor,линейный вентильно-индукторный двигатель,Other,excluded,"low_rating(EN=3,RU=0); word_count_exceeded(3w_ru,4w_en); hyphenated_term"
+WEXP_0766,servo_motor_p01.json#rec_14,reversible electric motor,реверсивный электродвигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0767,servo_motor_p01.json#rec_18,permanent magnet synchronous motor,синхронный электродвигатель с постоянными магнитами,Other,excluded,"word_count_exceeded(5w_ru,4w_en)"
+WEXP_0768,servo_motor_p01.json#rec_19,direct current motor,электрический двигатель постоянного тока,Other,excluded,"word_count_exceeded(4w_ru,3w_en)"
+WEXP_0769,shaft_p01.json#rec_0,shaft,вал,A,eligible,Eligible according to protocol criteria
+WEXP_0770,shaft_p01.json#rec_2,armature shaft,вал якоря,B,eligible,Eligible according to protocol criteria
+WEXP_0771,shaft_p01.json#rec_3,pull shaft,тяговый вал,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0772,shaft_p01.json#rec_5,worm shaft,червячный вал,B,eligible,Eligible according to protocol criteria
+WEXP_0773,shaft_p01.json#rec_7,eccentric shaft,эксцентриковый вал,B,eligible,Eligible according to protocol criteria
+WEXP_0774,shaft_p01.json#rec_10,auxiliary shaft,дополнительный вал,B,eligible,Eligible according to protocol criteria
+WEXP_0775,shaft_p01.json#rec_11,crankshaft,коленчатый вал,C,excluded,duplicate_of_baseline
+WEXP_0776,slip_ring_p01.json#rec_0,slip ring,контактное кольцо,B,eligible,Eligible according to protocol criteria
+WEXP_0777,slip_ring_p01.json#rec_2,ring,кольцо,A,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0778,slip_ring_p01.json#rec_3,cavity ring down spectroscopy,внутрирезонаторная лазерная спектроскопия,Other,excluded,"word_count_exceeded(3w_ru,4w_en)"
+WEXP_0779,slip_ring_p01.json#rec_5,locking ring,стопорное кольцо,B,eligible,Eligible according to protocol criteria
+WEXP_0780,slip_ring_p01.json#rec_9,bling,блинг,A,eligible,Eligible according to protocol criteria
+WEXP_0781,slip_ring_p01.json#rec_10,split ring resonator,разомкнутый кольцевой резонатор,B,eligible,Eligible according to protocol criteria
+WEXP_0782,slip_ring_p01.json#rec_11,slewing ring,опорно-поворотный круг,B,excluded,hyphenated_term
+WEXP_0783,slip_ring_p01.json#rec_13,o- ring,уплотнительное кольцо,B,excluded,hyphenated_term
+WEXP_0784,slip_ring_p01.json#rec_14,ring -rolling mill,кольцепрокатный стан,B,excluded,hyphenated_term
+WEXP_0785,solenoid_p01.json#rec_1,solenoid valve,электромагнитный клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0786,solenoid_p01.json#rec_2,normally-open solenoid valve,нормально открытый электромагнитный клапан,Other,excluded,"word_count_exceeded(4w_ru,3w_en); hyphenated_term"
+WEXP_0787,solenoid_p01.json#rec_3,normally-closed solenoid valve,нормально закрытый соленоидный вентиль,Other,excluded,"word_count_exceeded(4w_ru,3w_en); hyphenated_term"
+WEXP_0788,solenoid_p01.json#rec_4,solenoidal magnetization,соленоидальная намагниченность,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0789,spark_gap_p01.json#rec_0,spark gap,искровой разрядник,B,eligible,Eligible according to protocol criteria
+WEXP_0790,spark_gap_p01.json#rec_1,encapsulated spark gap,инкапсулированный искровой промежуток,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0791,spark_gap_p01.json#rec_2,energy gap,запрещенная зона,B,eligible,Eligible according to protocol criteria
+WEXP_0792,spark_gap_p01.json#rec_3,air gap,воздушный зазор,B,eligible,Eligible according to protocol criteria
+WEXP_0793,spark_gap_p01.json#rec_4,electrical discharge machining,электроэрозионная обработка,B,excluded,non_device_head(machining/обработка)
+WEXP_0794,spark_gap_p01.json#rec_5,spark plasma sintering,искровое плазменное спекание,B,eligible,Eligible according to protocol criteria
+WEXP_0795,spark_gap_p01.json#rec_8,photonic band gap,фотонная запрещённая зона,B,eligible,Eligible according to protocol criteria
+WEXP_0796,spectrometer_p01.json#rec_2,liquid scintillation spectrometer,жидкостной сцинтилляционный спектрометр,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0797,spectrometer_p01.json#rec_4,ion mobility spectrometer,спектрометр ионной подвижности,B,eligible,Eligible according to protocol criteria
+WEXP_0798,spectrometer_p01.json#rec_5,ms,масс-спектрометрия,A,excluded,hyphenated_term
+WEXP_0799,spectrometer_p01.json#rec_9,ion mobility spectrometry,спектрометрия ионной подвижности,B,eligible,Eligible according to protocol criteria
+WEXP_0800,spectrometer_p01.json#rec_10,tandem mass spectrometry,тандемная масс-спектрометрия,B,excluded,hyphenated_term
+WEXP_0801,spindle_p01.json#rec_0,spindle,шпиндель,A,eligible,Eligible according to protocol criteria
+WEXP_0802,spindle_p01.json#rec_1,winding spindle,шпиндель обмотки,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0803,spindle_p01.json#rec_3,multi- spindle machine,многошпиндельный станок,B,excluded,hyphenated_term
+WEXP_0804,spring_p01.json#rec_0,spring,пружина,A,eligible,Eligible according to protocol criteria
+WEXP_0805,spring_p01.json#rec_1,extension spring,пружина растяжения,B,eligible,Eligible according to protocol criteria
+WEXP_0806,spring_p01.json#rec_2,return spring,возвратная пружина,B,eligible,Eligible according to protocol criteria
+WEXP_0807,spring_p01.json#rec_3,spring washer,пружинная шайба,B,eligible,Eligible according to protocol criteria
+WEXP_0808,spring_p01.json#rec_4,torsion spring,пружина кручения,B,eligible,Eligible according to protocol criteria
+WEXP_0809,spring_p01.json#rec_5,spring contact,пружинный контакт,B,eligible,Eligible according to protocol criteria
+WEXP_0810,spring_p01.json#rec_6,helical spring,винтовая пружина,B,eligible,Eligible according to protocol criteria
+WEXP_0811,spring_p01.json#rec_8,calibration spring,калибровочная пружина,B,eligible,Eligible according to protocol criteria
+WEXP_0812,spring_p01.json#rec_9,flat spring,плоская пружина,B,eligible,Eligible according to protocol criteria
+WEXP_0813,spring_p01.json#rec_10,wrap spring,витая пружина,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0814,spring_p01.json#rec_12,belleville washer,тарельчатая пружина,B,excluded,eponym
+WEXP_0815,spring_p01.json#rec_13,valve spring,пружина клапана,B,eligible,Eligible according to protocol criteria
+WEXP_0816,spring_p01.json#rec_14,compression spring,пружина сжатия,B,eligible,Eligible according to protocol criteria
+WEXP_0817,spring_p01.json#rec_16,sprung mass,подрессоренная масса,B,excluded,non_device_head(mass/масса)
+WEXP_0818,stator_p01.json#rec_0,stator,статор,A,eligible,Eligible according to protocol criteria
+WEXP_0819,stator_p01.json#rec_1,stator winding,статорная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0820,stator_p01.json#rec_2,stator lamination,пластина статора,B,eligible,Eligible according to protocol criteria
+WEXP_0821,stator_p01.json#rec_3,stator core,сердечник статора,B,eligible,Eligible according to protocol criteria
+WEXP_0822,stator_p01.json#rec_4,stator tooth,зубец статора,B,eligible,Eligible according to protocol criteria
+WEXP_0823,stator_p01.json#rec_5,stator slot,паз статора,B,eligible,Eligible according to protocol criteria
+WEXP_0824,suction_cup_p01.json#rec_0,suction cup,присоска,C,eligible,Eligible according to protocol criteria
+WEXP_0825,suction_cup_p01.json#rec_1,vacuum casting,литье вакуумным всасыванием,B,eligible,Eligible according to protocol criteria
+WEXP_0826,suction_cup_p01.json#rec_2,flow cup,поточная чаша,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0827,suction_cup_p01.json#rec_4,sprue cup,литниковая чаша,B,eligible,Eligible according to protocol criteria
+WEXP_0828,suction_cup_p01.json#rec_5,suction side,сторона всасывания,B,eligible,Eligible according to protocol criteria
+WEXP_0829,suction_cup_p01.json#rec_8,suction chamber,всасывающая камера,B,eligible,Eligible according to protocol criteria
+WEXP_0830,switch_p01.json#rec_0,switch,выключатель,A,eligible,Eligible according to protocol criteria
+WEXP_0831,switch_p01.json#rec_1,switch,переключатель,A,eligible,Eligible according to protocol criteria
+WEXP_0832,switch_p01.json#rec_2,proximity switch,бесконтактный выключатель,B,excluded,duplicate_of_baseline
+WEXP_0833,switch_p01.json#rec_4,q- switch,модулятор добротности,B,excluded,hyphenated_term
+WEXP_0834,switch_p01.json#rec_5,selector switch,многопозиционный переключатель,B,eligible,Eligible according to protocol criteria
+WEXP_0835,switch_p01.json#rec_6,gain switch,регулятор коэффициента усиления,B,eligible,Eligible according to protocol criteria
+WEXP_0836,switch_p01.json#rec_7,touch switch,сенсорный переключатель,B,eligible,Eligible according to protocol criteria
+WEXP_0837,switch_p01.json#rec_8,time switch,выключатель с выдержкой времени,Other,excluded,"word_count_exceeded(4w_ru,2w_en)"
+WEXP_0838,switch_p01.json#rec_10,single-pole double-throw switch,однополюсный переключатель на два направления,Other,excluded,"word_count_exceeded(5w_ru,3w_en); hyphenated_term"
+WEXP_0839,switch_p01.json#rec_11,single pole/single throw switch,однополюсный ключ на одно направление,Other,excluded,"word_count_exceeded(5w_ru,4w_en)"
+WEXP_0840,switch_p01.json#rec_13,rotary switch,поворотный переключатель,B,eligible,Eligible according to protocol criteria
+WEXP_0841,switch_p01.json#rec_14,reed switch,геркон,C,excluded,duplicate_of_baseline
+WEXP_0842,switch_p01.json#rec_15,dual in-line package switch,dip-переключатель,Other,excluded,"latin_in_russian; word_count_exceeded(1w_ru,4w_en); hyphenated_term"
+WEXP_0843,switch_p01.json#rec_16,semiconductor switch,полупроводниковый ключ,B,eligible,Eligible according to protocol criteria
+WEXP_0844,switch_p01.json#rec_17,switch mode power supply,импульсный источник питания,Other,excluded,"word_count_exceeded(3w_ru,4w_en)"
+WEXP_0845,switch_p01.json#rec_18,high voltage switch,высоковольтный переключатель,B,eligible,Eligible according to protocol criteria
+WEXP_0846,switch_p01.json#rec_19,high current switch,сильноточный переключатель,B,eligible,Eligible according to protocol criteria
+WEXP_0847,switch_p01.json#rec_22,q- switched laser,лазер с модуляцией добротности,Other,excluded,"word_count_exceeded(4w_ru,3w_en); hyphenated_term"
+WEXP_0848,switch_p02.json#rec_0,electromagnetic reed switch,электромагнитный геркон,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0849,switch_p02.json#rec_1,normally open switch,нормально-разомкнутый переключатель,B,excluded,hyphenated_term
+WEXP_0850,switch_p02.json#rec_2,normally closed switch,нормально замкнутый выключатель,B,eligible,Eligible according to protocol criteria
+WEXP_0851,tachometer_p01.json#rec_0,tachymeter,тахимер,A,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0852,terminal_block_p01.json#rec_0,terminal block,клеммная колодка,B,eligible,Eligible according to protocol criteria
+WEXP_0853,terminal_block_p01.json#rec_1,terminal block,клеммный блок,B,eligible,Eligible according to protocol criteria
+WEXP_0854,terminal_block_p01.json#rec_2,electrical terminal block,блок зажимов,B,eligible,Eligible according to protocol criteria
+WEXP_0855,terminal_block_p01.json#rec_3,block linear equalizer,блочный линейный эквалайзер,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0856,terminal_block_p01.json#rec_5,voltage across terminals,напряжение на клеммах,B,eligible,Eligible according to protocol criteria
+WEXP_0857,terminal_block_p01.json#rec_6,input terminal,входная клемма,B,eligible,Eligible according to protocol criteria
+WEXP_0858,terminal_block_p01.json#rec_7,output terminal,выходная клемма,B,eligible,Eligible according to protocol criteria
+WEXP_0859,terminal_block_p01.json#rec_8,terminal,борн,A,eligible,Eligible according to protocol criteria
+WEXP_0860,terminal_block_p01.json#rec_9,terminal box,клеммная коробка,B,eligible,Eligible according to protocol criteria
+WEXP_0861,terminal_block_p01.json#rec_10,terminal board,клеммная панель,B,eligible,Eligible according to protocol criteria
+WEXP_0862,terminal_block_p01.json#rec_11,ground terminal,клемма заземления,B,eligible,Eligible according to protocol criteria
+WEXP_0863,terminal_block_p01.json#rec_12,non-inverting terminal,неинвертирующий вход,B,excluded,hyphenated_term
+WEXP_0864,terminal_block_p01.json#rec_13,contact terminal,клемма,C,eligible,Eligible according to protocol criteria
+WEXP_0865,terminal_block_p01.json#rec_15,hole- blocking layer,дырочно-блокирующий слой,B,excluded,hyphenated_term
+WEXP_0866,terminal_block_p01.json#rec_16,inverting terminal,инвертирующий вход,B,eligible,Eligible according to protocol criteria
+WEXP_0867,thermometer_p01.json#rec_0,thermometer,термометр,A,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0868,transducer_p01.json#rec_0,transducer,преобразователь,A,eligible,Eligible according to protocol criteria
+WEXP_0869,transducer_p01.json#rec_1,transducer material,материал преобразователя,B,excluded,non_device_head(material/материал)
+WEXP_0870,transducer_p01.json#rec_2,interdigital transducer,встречно-штыревой преобразователь,B,excluded,hyphenated_term
+WEXP_0871,transducer_p01.json#rec_3,measuring transducer,измерительный преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0872,transducer_p01.json#rec_4,bender transducer,изгибный преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0873,transducer_p01.json#rec_5,ultrasonic transducer,ультразвуковой преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0874,transducer_p01.json#rec_6,electroacoustic transducer,электроакустический преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0875,transducer_p01.json#rec_8,orthomode transducer,ортомодовый преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0876,transducer_p01.json#rec_9,piezoelectric transducer,пьезоэлектрический преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0877,transducer_p01.json#rec_10,electromechanical transducer,электромеханический преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0878,transducer_p01.json#rec_11,shunt transducer,шунтовой преобразователь,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0879,transducer_p01.json#rec_12,acoustic transducer,акустический преобразователь,B,eligible,Eligible according to protocol criteria
+WEXP_0880,transducer_p01.json#rec_15,capacitive micromachined ultrasonic transducer,емкостный микромеханический ультразвуковой преобразователь,Other,excluded,"word_count_exceeded(4w_ru,4w_en)"
+WEXP_0881,transducer_p01.json#rec_16,piezoelectric micromachined ultrasonic transducer,пьезоэлектрический микрообработанный ультразвуковой преобразователь,Other,excluded,"low_rating(EN=3,RU=1); usage_not_allowed(EN=allowed,RU=proposed term); word_count_exceeded(4w_ru,4w_en)"
+WEXP_0882,transformer_p01.json#rec_0,transformer,трансформатор,A,eligible,Eligible according to protocol criteria
+WEXP_0883,transformer_p01.json#rec_1,piezoelectric transformer,пьезоэлектрический трансформатор,B,eligible,Eligible according to protocol criteria
+WEXP_0884,transformer_p01.json#rec_2,rotary transformer,вращающийся трансформатор,B,eligible,Eligible according to protocol criteria
+WEXP_0885,transformer_p01.json#rec_3,matching transformer,согласующий трансформатор,B,eligible,Eligible according to protocol criteria
+WEXP_0886,transformer_p01.json#rec_4,toroidal transformer,тороидальный трансформатор,B,eligible,Eligible according to protocol criteria
+WEXP_0887,transformer_p01.json#rec_5,beam shaper,формирователь пучка,B,eligible,Eligible according to protocol criteria
+WEXP_0888,transformer_p01.json#rec_7,rotary transformer,вращающийся трансформатор,B,eligible,Eligible according to protocol criteria
+WEXP_0889,transformer_p01.json#rec_8,instrument transformer,измерительный трансформатор,B,eligible,Eligible according to protocol criteria
+WEXP_0890,transformer_p01.json#rec_9,isolation transformer,изолирующий трансформатор,B,excluded,duplicate_of_baseline
+WEXP_0891,transformer_p01.json#rec_10,differential current transformer,дифференциальный трансформатор тока,B,eligible,Eligible according to protocol criteria
+WEXP_0892,transformer_p01.json#rec_13,step-down transformer,понижающий трансформатор,B,excluded,hyphenated_term
+WEXP_0893,transformer_p01.json#rec_14,step-up transformer,повышающий трансформатор,B,excluded,hyphenated_term
+WEXP_0894,transformer_p01.json#rec_15,rvdt,протокол rvdt,C,excluded,"low_rating(EN=3,RU=0); non_device_head(rvdt/протокол); latin_in_russian"
+WEXP_0895,transformer_p01.json#rec_16,autotransformer,автотрансформатор,A,excluded,duplicate_of_baseline
+WEXP_0896,transmitter_p01.json#rec_0,light transmitter,излучатель света,B,eligible,Eligible according to protocol criteria
+WEXP_0897,transmitter_p01.json#rec_1,transmitter wire,провод передатчика,B,excluded,"low_rating(EN=3,RU=1); usage_not_allowed(EN=allowed,RU=proposed term)"
+WEXP_0898,turbine_p01.json#rec_0,turbine,турбина,A,eligible,Eligible according to protocol criteria
+WEXP_0899,turbine_p01.json#rec_1,steam turbine,паровая турбина,B,eligible,Eligible according to protocol criteria
+WEXP_0900,turbine_p01.json#rec_3,power turbine,силовая турбина,B,eligible,Eligible according to protocol criteria
+WEXP_0901,turbine_p01.json#rec_4,turbine vane,лопасть турбины,B,eligible,Eligible according to protocol criteria
+WEXP_0902,turbine_p01.json#rec_5,turbine blade airfoil,перо лопатки турбины,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0903,turbine_p01.json#rec_6,gas turbine engine,газотурбинный двигатель,B,eligible,Eligible according to protocol criteria
+WEXP_0904,vacuum_gauge_p01.json#rec_0,vacuum infusion process,вакуумная инфузия,B,excluded,non_device_head(process/инфузия)
+WEXP_0905,vacuum_gauge_p01.json#rec_2,vacuum tube,электронная лампа,B,eligible,Eligible according to protocol criteria
+WEXP_0906,vacuum_gauge_p01.json#rec_3,vacuum evaporation,вакуумное испарение,B,eligible,Eligible according to protocol criteria
+WEXP_0907,vacuum_gauge_p01.json#rec_5,vacuum sintering,вакуумное спекание,B,eligible,Eligible according to protocol criteria
+WEXP_0908,vacuum_gauge_p01.json#rec_6,vacuum moulding,вакуумная формовка,B,eligible,Eligible according to protocol criteria
+WEXP_0909,vacuum_gauge_p01.json#rec_9,vacuum insulation,вакуумная изоляция,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0910,vacuum_gauge_p01.json#rec_10,vacuum forming,вакуумное формование,B,eligible,Eligible according to protocol criteria
+WEXP_0911,vacuum_gauge_p01.json#rec_11,vacuum tank,вакуумный бак,B,eligible,Eligible according to protocol criteria
+WEXP_0912,vacuum_gauge_p01.json#rec_15,vacuum,вакуум,A,eligible,Eligible according to protocol criteria
+WEXP_0913,vacuum_gauge_p01.json#rec_18,vacuum annealing,вакуумный отжиг,B,eligible,Eligible according to protocol criteria
+WEXP_0914,vacuum_gauge_p01.json#rec_20,vacuum deposition,вакуумное осаждение,B,eligible,Eligible according to protocol criteria
+WEXP_0915,vacuum_gauge_p01.json#rec_21,fore vacuum,форвакуум,C,eligible,Eligible according to protocol criteria
+WEXP_0916,vacuum_gauge_p01.json#rec_22,vacuum control valve,клапан регулировки вакуума,B,eligible,Eligible according to protocol criteria
+WEXP_0917,valve_p01.json#rec_0,valve,клапан,A,eligible,Eligible according to protocol criteria
+WEXP_0918,valve_p01.json#rec_12,spin valve,спиновый клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0919,valve_p01.json#rec_15,electric valve,электрический вентиль,B,eligible,Eligible according to protocol criteria
+WEXP_0920,valve_p01.json#rec_16,reed valve,пластинчатый клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0921,valve_p01.json#rec_18,poppet valve,тарельчатый клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0922,valve_p01.json#rec_21,valve plate,клапанная тарелка,B,eligible,Eligible according to protocol criteria
+WEXP_0923,valve_p01.json#rec_24,diverter valve,перепускной клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0924,valve_p02.json#rec_0,relief valve,разгрузочный клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0925,valve_p02.json#rec_1,rotary valve,поворотный клапан,B,eligible,Eligible according to protocol criteria
+WEXP_0926,valve_p02.json#rec_2,valve overlap,перекрытие клапана,B,excluded,"low_rating(EN=3,RU=0)"
+WEXP_0927,valve_p02.json#rec_3,valve lift,высота подъема клапана,B,eligible,Eligible according to protocol criteria
+WEXP_0928,valve_p02.json#rec_4,non-return valve,обратный клапан,B,excluded,hyphenated_term
+WEXP_0929,valve_p02.json#rec_6,valve stem,шток клапана,B,eligible,Eligible according to protocol criteria
+WEXP_0930,viscometer_p01.json#rec_0,viscometer,вискозиметр,A,eligible,Eligible according to protocol criteria
+WEXP_0931,winding_p01.json#rec_0,winding,обмотка,A,eligible,Eligible according to protocol criteria
+WEXP_0932,winding_p01.json#rec_4,lap winding,петлевая обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0933,winding_p01.json#rec_5,armature winding,обмотка якоря,B,eligible,Eligible according to protocol criteria
+WEXP_0934,winding_p01.json#rec_6,winding overhang,лобовая часть обмотки,B,eligible,Eligible according to protocol criteria
+WEXP_0935,winding_p01.json#rec_9,phase winding,фазная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0936,winding_p01.json#rec_10,auxiliary winding,вспомогательная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0937,winding_p01.json#rec_13,concentrated winding,сосредоточенная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0938,winding_p01.json#rec_14,polyphase winding,многофазная обмотка,B,eligible,Eligible according to protocol criteria
+WEXP_0939,winding_p01.json#rec_19,fractional slot winding,обмотка с дробным числом пазов на полюс и фазу,Other,excluded,"word_count_exceeded(9w_ru,3w_en)"
+WEXP_0940,winding_p01.json#rec_21,squirrel cage winding,короткозамкнутая обмотка типа «беличья клетка»,Other,excluded,"word_count_exceeded(5w_ru,3w_en)"
+WEXP_0941,winding_p01.json#rec_23,radio direction finding,радиопеленгация,C,excluded,non_device_head(finding/радиопеленгация)

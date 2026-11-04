@@ -1,0 +1,857 @@
+{
+  "created_at_utc": "2026-09-20T15:34:22.231486+00:00",
+  "total_seeds_planned": 106,
+  "total_requests": 117,
+  "cache_hits": 88,
+  "network_requests": 29,
+  "seeds": [
+    {
+      "seed": "sensor",
+      "queue_type": "primary",
+      "hits": 93,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 43
+    },
+    {
+      "seed": "detector",
+      "queue_type": "primary",
+      "hits": 26,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 10
+    },
+    {
+      "seed": "transducer",
+      "queue_type": "primary",
+      "hits": 19,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 17
+    },
+    {
+      "seed": "actuator",
+      "queue_type": "primary",
+      "hits": 22,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 12
+    },
+    {
+      "seed": "encoder",
+      "queue_type": "primary",
+      "hits": 11,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 6
+    },
+    {
+      "seed": "meter",
+      "queue_type": "primary",
+      "hits": 50,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 28
+    },
+    {
+      "seed": "gauge",
+      "queue_type": "primary",
+      "hits": 18,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "switch",
+      "queue_type": "primary",
+      "hits": 45,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 28
+    },
+    {
+      "seed": "valve",
+      "queue_type": "primary",
+      "hits": 81,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 35
+    },
+    {
+      "seed": "drive",
+      "queue_type": "primary",
+      "hits": 49,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 15
+    },
+    {
+      "seed": "motor",
+      "queue_type": "primary",
+      "hits": 36,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 18
+    },
+    {
+      "seed": "relay",
+      "queue_type": "primary",
+      "hits": 8,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "controller",
+      "queue_type": "primary",
+      "hits": 42,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 8
+    },
+    {
+      "seed": "regulator",
+      "queue_type": "primary",
+      "hits": 19,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "transformer",
+      "queue_type": "primary",
+      "hits": 26,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 17
+    },
+    {
+      "seed": "coupler",
+      "queue_type": "primary",
+      "hits": 18,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 6
+    },
+    {
+      "seed": "indicator",
+      "queue_type": "primary",
+      "hits": 17,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "transmitter",
+      "queue_type": "primary",
+      "hits": 12,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "limiter",
+      "queue_type": "primary",
+      "hits": 8,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "filter",
+      "queue_type": "primary",
+      "hits": 70,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 28
+    },
+    {
+      "seed": "pump",
+      "queue_type": "primary",
+      "hits": 82,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 37
+    },
+    {
+      "seed": "gear",
+      "queue_type": "primary",
+      "hits": 50,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 26
+    },
+    {
+      "seed": "probe",
+      "queue_type": "primary",
+      "hits": 34,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 10
+    },
+    {
+      "seed": "diode",
+      "queue_type": "primary",
+      "hits": 27,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 27
+    },
+    {
+      "seed": "amplifier",
+      "queue_type": "primary",
+      "hits": 31,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 27
+    },
+    {
+      "seed": "bearing",
+      "queue_type": "primary",
+      "hits": 76,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 46
+    },
+    {
+      "seed": "connector",
+      "queue_type": "primary",
+      "hits": 10,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 6
+    },
+    {
+      "seed": "capacitor",
+      "queue_type": "primary",
+      "hits": 19,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 16
+    },
+    {
+      "seed": "resistor",
+      "queue_type": "primary",
+      "hits": 14,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 12
+    },
+    {
+      "seed": "inductor",
+      "queue_type": "primary",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "fuse",
+      "queue_type": "primary",
+      "hits": 17,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "converter",
+      "queue_type": "primary",
+      "hits": 36,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 20
+    },
+    {
+      "seed": "rectifier",
+      "queue_type": "primary",
+      "hits": 3,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 3
+    },
+    {
+      "seed": "oscillator",
+      "queue_type": "primary",
+      "hits": 11,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 10
+    },
+    {
+      "seed": "antenna",
+      "queue_type": "primary",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "electrode",
+      "queue_type": "primary",
+      "hits": 49,
+      "pages_collected": 2,
+      "max_pages_available": 2,
+      "total_records": 32
+    },
+    {
+      "seed": "nozzle",
+      "queue_type": "primary",
+      "hits": 23,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 17
+    },
+    {
+      "seed": "piston",
+      "queue_type": "primary",
+      "hits": 30,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 18
+    },
+    {
+      "seed": "spring",
+      "queue_type": "primary",
+      "hits": 42,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 17
+    },
+    {
+      "seed": "shaft",
+      "queue_type": "primary",
+      "hits": 46,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 14
+    },
+    {
+      "seed": "clutch",
+      "queue_type": "primary",
+      "hits": 29,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "brake",
+      "queue_type": "primary",
+      "hits": 49,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 5
+    },
+    {
+      "seed": "generator",
+      "queue_type": "primary",
+      "hits": 43,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 13
+    },
+    {
+      "seed": "rotor",
+      "queue_type": "primary",
+      "hits": 28,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 10
+    },
+    {
+      "seed": "stator",
+      "queue_type": "primary",
+      "hits": 6,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 6
+    },
+    {
+      "seed": "winding",
+      "queue_type": "primary",
+      "hits": 59,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 25
+    },
+    {
+      "seed": "contactor",
+      "queue_type": "primary",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "solenoid",
+      "queue_type": "primary",
+      "hits": 6,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 5
+    },
+    {
+      "seed": "accelerometer",
+      "queue_type": "primary",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "gyroscope",
+      "queue_type": "primary",
+      "hits": 5,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "thermometer",
+      "queue_type": "primary",
+      "hits": 2,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "compressor",
+      "queue_type": "primary",
+      "hits": 17,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 14
+    },
+    {
+      "seed": "turbine",
+      "queue_type": "primary",
+      "hits": 32,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 7
+    },
+    {
+      "seed": "coil",
+      "queue_type": "primary",
+      "hits": 40,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 20
+    },
+    {
+      "seed": "lamp",
+      "queue_type": "primary",
+      "hits": 31,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 21
+    },
+    {
+      "seed": "battery",
+      "queue_type": "primary",
+      "hits": 32,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 22
+    },
+    {
+      "seed": "membrane",
+      "queue_type": "primary",
+      "hits": 48,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "bushing",
+      "queue_type": "primary",
+      "hits": 8,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "seal",
+      "queue_type": "primary",
+      "hits": 33,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 14
+    },
+    {
+      "seed": "gasket",
+      "queue_type": "primary",
+      "hits": 11,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "damper",
+      "queue_type": "primary",
+      "hits": 28,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 3
+    },
+    {
+      "seed": "flange",
+      "queue_type": "primary",
+      "hits": 6,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "coupling",
+      "queue_type": "primary",
+      "hits": 30,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 10
+    },
+    {
+      "seed": "spindle",
+      "queue_type": "primary",
+      "hits": 9,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "cam",
+      "queue_type": "primary",
+      "hits": 65,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 9
+    },
+    {
+      "seed": "gripper",
+      "queue_type": "primary",
+      "hits": 8,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 3
+    },
+    {
+      "seed": "conveyor",
+      "queue_type": "primary",
+      "hits": 26,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 20
+    },
+    {
+      "seed": "hopper",
+      "queue_type": "primary",
+      "hits": 34,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 6
+    },
+    {
+      "seed": "mixer",
+      "queue_type": "primary",
+      "hits": 16,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "heater",
+      "queue_type": "primary",
+      "hits": 35,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "cooler",
+      "queue_type": "primary",
+      "hits": 27,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "exchanger",
+      "queue_type": "primary",
+      "hits": 46,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "rheostat",
+      "queue_type": "primary",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "potentiometer",
+      "queue_type": "primary",
+      "hits": 1,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "thermostat",
+      "queue_type": "primary",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "manipulator",
+      "queue_type": "primary",
+      "hits": 7,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "impeller",
+      "queue_type": "primary",
+      "hits": 3,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 3
+    },
+    {
+      "seed": "manifold",
+      "queue_type": "backup",
+      "hits": 6,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "cylinder",
+      "queue_type": "backup",
+      "hits": 36,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 7
+    },
+    {
+      "seed": "fitting",
+      "queue_type": "backup",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "caliper",
+      "queue_type": "backup",
+      "hits": 5,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "tachometer",
+      "queue_type": "backup",
+      "hits": 2,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "pyrometer",
+      "queue_type": "backup",
+      "hits": 2,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "flowmeter",
+      "queue_type": "backup",
+      "hits": 5,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "manometer",
+      "queue_type": "backup",
+      "hits": 2,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "inverter",
+      "queue_type": "backup",
+      "hits": 17,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 5
+    },
+    {
+      "seed": "interrupter",
+      "queue_type": "backup",
+      "hits": 3,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 3
+    },
+    {
+      "seed": "isolator",
+      "queue_type": "backup",
+      "hits": 3,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "interlock",
+      "queue_type": "backup",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "commutator",
+      "queue_type": "backup",
+      "hits": 6,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 6
+    },
+    {
+      "seed": "distributor",
+      "queue_type": "backup",
+      "hits": 55,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 9
+    },
+    {
+      "seed": "lubricator",
+      "queue_type": "backup",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "ejector",
+      "queue_type": "backup",
+      "hits": 2,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "separator",
+      "queue_type": "backup",
+      "hits": 18,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 4
+    },
+    {
+      "seed": "atomizer",
+      "queue_type": "backup",
+      "hits": 4,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 3
+    },
+    {
+      "seed": "calibrator",
+      "queue_type": "backup",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "densitometer",
+      "queue_type": "backup",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "micrometer",
+      "queue_type": "backup",
+      "hits": 1,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "anemometer",
+      "queue_type": "backup",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "spectrometer",
+      "queue_type": "backup",
+      "hits": 29,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 16
+    },
+    {
+      "seed": "refractometer",
+      "queue_type": "backup",
+      "hits": 5,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 2
+    },
+    {
+      "seed": "barometer",
+      "queue_type": "backup",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "altimeter",
+      "queue_type": "backup",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "dynamometer",
+      "queue_type": "backup",
+      "hits": 0,
+      "pages_collected": 1,
+      "max_pages_available": 0,
+      "total_records": 0
+    },
+    {
+      "seed": "viscometer",
+      "queue_type": "backup",
+      "hits": 1,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    },
+    {
+      "seed": "galvanometer",
+      "queue_type": "backup",
+      "hits": 1,
+      "pages_collected": 1,
+      "max_pages_available": 1,
+      "total_records": 1
+    }
+  ]
+}

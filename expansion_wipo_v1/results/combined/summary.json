@@ -1,0 +1,604 @@
+{
+  "slice_name": "combined_180_slice",
+  "evaluated_at_utc": "2026-09-20T19:03:56.373133+00:00",
+  "seed": 20260918,
+  "bootstrap_reps": 5000,
+  "equivalence_margin": {
+    "ln_r_margin": 0.095,
+    "r_low": 0.9093729344682314,
+    "r_high": 1.0996588551261028
+  },
+  "by_tokenizer": {
+    "o200k_base": {
+      "H1_G_tech_all": {
+        "point": 1.8960009463849357,
+        "ci_low": 1.7881223569243774,
+        "ci_high": 2.007149337661159,
+        "ci_90_low": 1.807044525641946,
+        "ci_90_high": 1.9878802901724917,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "H1_G_by_stratum": {
+        "A": {
+          "point": 1.689502388804417,
+          "ci_low": 1.5299749985435505,
+          "ci_high": 1.8707039120389843,
+          "ci_90_low": 1.553641415803816,
+          "ci_90_high": 1.8420082630711108,
+          "n_concepts": 60,
+          "n_families": 60,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "B": {
+          "point": 2.064240447755684,
+          "ci_low": 1.905738604007779,
+          "ci_high": 2.2319324022725264,
+          "ci_90_low": 1.9311192650902511,
+          "ci_90_high": 2.2037094995882565,
+          "n_concepts": 60,
+          "n_families": 59,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "C": {
+          "point": 1.9864682847082242,
+          "ci_low": 1.7806591754465244,
+          "ci_high": 2.207445753822397,
+          "ci_90_low": 1.8098573328560152,
+          "ci_90_high": 2.173511574583927,
+          "n_concepts": 39,
+          "n_families": 31,
+          "reps_used": 5000,
+          "seed": 20260918
+        }
+      },
+      "H2_M_all": {
+        "point": 0.0440251572327044,
+        "ci_low": -0.07976690903582519,
+        "ci_high": 0.1722017823563075,
+        "ci_90_low": -0.05961652853233929,
+        "ci_90_high": 0.15151515151515152,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "H3_context_shift": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "ci_90_low": 0.0,
+        "ci_90_high": 0.0,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "matched_control": {
+        "n_pairs": 131,
+        "n_tech_families": 121,
+        "n_ctrl_families": 120,
+        "n_joint_clusters": 110,
+        "G_tech_matched": {
+          "point": 1.8244977841404608,
+          "ci_low": 1.7081655755155865,
+          "ci_high": 1.9414956130620125,
+          "ci_90_low": 1.7250077178505352,
+          "ci_90_high": 1.920302300117386,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "G_control_matched": {
+          "point": 1.8461821158941,
+          "ci_low": 1.716482710336749,
+          "ci_high": 1.9871549546631562,
+          "ci_90_low": 1.736167534590494,
+          "ci_90_high": 1.9616431328218809,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_raw": {
+          "point": 0.9882545001563199,
+          "ci_low": 0.9129370374735702,
+          "ci_high": 1.0730124698564283,
+          "ci_90_low": 0.9248019041446676,
+          "ci_90_high": 1.0592084722934818,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_isolated_sp": {
+          "point": 0.9661553200700883,
+          "ci_low": 0.8760127967684328,
+          "ci_high": 1.0612639420997594,
+          "ci_90_low": 0.8902953676591738,
+          "ci_90_high": 1.0454774173282002,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_by_stratum": {
+          "A": {
+            "point": 0.9959630297017653,
+            "ci_low": 0.8656198204490937,
+            "ci_high": 1.1323927869320123,
+            "ci_90_low": 0.8869707584800853,
+            "ci_90_high": 1.1110290107360643,
+            "n_concepts": 59,
+            "n_families": 58,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "B": {
+            "point": 0.9058228294175077,
+            "ci_low": 0.804575695380101,
+            "ci_high": 1.011481182277823,
+            "ci_90_low": 0.8189543943161781,
+            "ci_90_high": 0.9951273503070307,
+            "n_concepts": 45,
+            "n_families": 39,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "C": {
+            "point": 1.1234083279030307,
+            "ci_low": 0.9461266666683532,
+            "ci_high": 1.316828476741685,
+            "ci_90_low": 0.9736439150557409,
+            "ci_90_high": 1.2849894011901468,
+            "n_concepts": 27,
+            "n_families": 22,
+            "reps_used": 5000,
+            "seed": 20260918
+          }
+        },
+        "R_adjusted_length_structure": {
+          "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en)",
+          "n_pairs": 131,
+          "n_clusters": 110,
+          "R_adjusted": 0.9919535251570396,
+          "ci_low": 0.9157002298607618,
+          "ci_high": 1.0779470932726785,
+          "ci_90_low": 0.9262557338503649,
+          "ci_90_high": 1.063609636984902,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_adjusted_frequency": {
+          "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en) + (zF_ru - zF_en)",
+          "n_pairs": 112,
+          "n_clusters": 94,
+          "R_adjusted": 0.9676701317180919,
+          "ci_low": 0.8933127396507026,
+          "ci_high": 1.0480623757711738,
+          "ci_90_low": 0.9056537967580222,
+          "ci_90_high": 1.0320281346553386,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "equivalence_test": {
+          "margin_ln_r": 0.095,
+          "interval_limits": [
+            0.9093729344682314,
+            1.0996588551261028
+          ],
+          "ci_95_limits": [
+            0.9129370374735702,
+            1.0730124698564283
+          ],
+          "ci_95_inside_equivalence_zone": true,
+          "ci_90_limits": [
+            0.9248019041446676,
+            1.0592084722934818
+          ],
+          "ci_90_tost_inside_equivalence_zone": true,
+          "ci_inside_equivalence_zone": true
+        }
+      }
+    },
+    "cl100k_base": {
+      "H1_G_tech_all": {
+        "point": 2.7946764188881374,
+        "ci_low": 2.614679844688068,
+        "ci_high": 2.9802543344866996,
+        "ci_90_low": 2.643891062376203,
+        "ci_90_high": 2.951406916468498,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "H1_G_by_stratum": {
+        "A": {
+          "point": 2.369316416325881,
+          "ci_low": 2.1401019405909665,
+          "ci_high": 2.6324910813976423,
+          "ci_90_low": 2.1737158996315067,
+          "ci_90_high": 2.587376657709348,
+          "n_concepts": 60,
+          "n_families": 60,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "B": {
+          "point": 3.305987667192621,
+          "ci_low": 3.061686075660742,
+          "ci_high": 3.5642118081180225,
+          "ci_90_low": 3.096865253809705,
+          "ci_90_high": 3.5226419143651735,
+          "n_concepts": 60,
+          "n_families": 59,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "C": {
+          "point": 2.7822181136841464,
+          "ci_low": 2.394669435255936,
+          "ci_high": 3.2289869212508084,
+          "ci_90_low": 2.4532769552066642,
+          "ci_90_high": 3.146015720891676,
+          "n_concepts": 39,
+          "n_families": 31,
+          "reps_used": 5000,
+          "seed": 20260918
+        }
+      },
+      "H2_M_all": {
+        "point": 0.29559748427672955,
+        "ci_low": 0.1789956357631517,
+        "ci_high": 0.40625,
+        "ci_90_low": 0.19871582611648836,
+        "ci_90_high": 0.389937106918239,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "H3_context_shift": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "ci_90_low": 0.0,
+        "ci_90_high": 0.0,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "matched_control": {
+        "n_pairs": 131,
+        "n_tech_families": 121,
+        "n_ctrl_families": 120,
+        "n_joint_clusters": 110,
+        "G_tech_matched": {
+          "point": 2.611290961125949,
+          "ci_low": 2.4359248113456133,
+          "ci_high": 2.7957369870553697,
+          "ci_90_low": 2.4649897254867152,
+          "ci_90_high": 2.7650645760219494,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "G_control_matched": {
+          "point": 2.6904682251347714,
+          "ci_low": 2.4594232665860645,
+          "ci_high": 2.9308120241600313,
+          "ci_90_low": 2.498868822220912,
+          "ci_90_high": 2.8904778675456226,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_raw": {
+          "point": 0.9705711952777826,
+          "ci_low": 0.8867531881448764,
+          "ci_high": 1.067541075949035,
+          "ci_90_low": 0.9012394418061058,
+          "ci_90_high": 1.049349672847388,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_isolated_sp": {
+          "point": 0.9131485700977938,
+          "ci_low": 0.8394870789308169,
+          "ci_high": 0.9921182303464173,
+          "ci_90_low": 0.8513143071777542,
+          "ci_90_high": 0.9783053215109183,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_by_stratum": {
+          "A": {
+            "point": 1.019288750292931,
+            "ci_low": 0.8793249344661224,
+            "ci_high": 1.1756329387276105,
+            "ci_90_low": 0.9020085458324499,
+            "ci_90_high": 1.1491771035902536,
+            "n_concepts": 59,
+            "n_families": 58,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "B": {
+            "point": 0.8741898842009679,
+            "ci_low": 0.7816299571280488,
+            "ci_high": 0.9730899395457521,
+            "ci_90_low": 0.7970263680318607,
+            "ci_90_high": 0.9552709828947182,
+            "n_concepts": 45,
+            "n_families": 39,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "C": {
+            "point": 1.0381296063441277,
+            "ci_low": 0.8498800469411004,
+            "ci_high": 1.259481178274537,
+            "ci_90_low": 0.8766388651016053,
+            "ci_90_high": 1.2234085793884941,
+            "n_concepts": 27,
+            "n_families": 22,
+            "reps_used": 5000,
+            "seed": 20260918
+          }
+        },
+        "R_adjusted_length_structure": {
+          "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en)",
+          "n_pairs": 131,
+          "n_clusters": 110,
+          "R_adjusted": 0.9745612197655124,
+          "ci_low": 0.8911264245580511,
+          "ci_high": 1.0692899617581213,
+          "ci_90_low": 0.9046479761512385,
+          "ci_90_high": 1.0533153453030206,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_adjusted_frequency": {
+          "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en) + (zF_ru - zF_en)",
+          "n_pairs": 112,
+          "n_clusters": 94,
+          "R_adjusted": 0.9523583825226677,
+          "ci_low": 0.8677620949436781,
+          "ci_high": 1.045731815521892,
+          "ci_90_low": 0.8779857539158352,
+          "ci_90_high": 1.029432170064263,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "equivalence_test": {
+          "margin_ln_r": 0.095,
+          "interval_limits": [
+            0.9093729344682314,
+            1.0996588551261028
+          ],
+          "ci_95_limits": [
+            0.8867531881448764,
+            1.067541075949035
+          ],
+          "ci_95_inside_equivalence_zone": false,
+          "ci_90_limits": [
+            0.9012394418061058,
+            1.049349672847388
+          ],
+          "ci_90_tost_inside_equivalence_zone": false,
+          "ci_inside_equivalence_zone": false
+        }
+      }
+    },
+    "qwen2.5-7b-instruct": {
+      "H1_G_tech_all": {
+        "point": 2.1427806608938984,
+        "ci_low": 2.0101668780853292,
+        "ci_high": 2.2813385752255253,
+        "ci_90_low": 2.0300315530183255,
+        "ci_90_high": 2.2580189854602875,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "H1_G_by_stratum": {
+        "A": {
+          "point": 1.8458748074973836,
+          "ci_low": 1.6621174566625567,
+          "ci_high": 2.0564215160504715,
+          "ci_90_low": 1.6912164678959,
+          "ci_90_high": 2.01862056757518,
+          "n_concepts": 60,
+          "n_families": 60,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "B": {
+          "point": 2.502565310895921,
+          "ci_low": 2.3040060001140117,
+          "ci_high": 2.71853448493455,
+          "ci_90_low": 2.3331441637209527,
+          "ci_90_high": 2.679307812673622,
+          "n_concepts": 60,
+          "n_families": 59,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "C": {
+          "point": 2.1228931639298114,
+          "ci_low": 1.854419573616958,
+          "ci_high": 2.43086230012743,
+          "ci_90_low": 1.897823511266714,
+          "ci_90_high": 2.3783113902339097,
+          "n_concepts": 39,
+          "n_families": 31,
+          "reps_used": 5000,
+          "seed": 20260918
+        }
+      },
+      "H2_M_all": {
+        "point": 0.1509433962264151,
+        "ci_low": 0.02564102564102564,
+        "ci_high": 0.2709677419354839,
+        "ci_90_low": 0.04543988269794722,
+        "ci_90_high": 0.25316866677626176,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "H3_context_shift": {
+        "point": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "ci_90_low": 0.0,
+        "ci_90_high": 0.0,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "matched_control": {
+        "n_pairs": 131,
+        "n_tech_families": 121,
+        "n_ctrl_families": 120,
+        "n_joint_clusters": 110,
+        "G_tech_matched": {
+          "point": 2.010611274789361,
+          "ci_low": 1.879385682339073,
+          "ci_high": 2.153236121406469,
+          "ci_90_low": 1.9005142341490406,
+          "ci_90_high": 2.129448658583837,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "G_control_matched": {
+          "point": 2.0763924230419692,
+          "ci_low": 1.9125346496265694,
+          "ci_high": 2.25469202210292,
+          "ci_90_low": 1.9340846665967169,
+          "ci_90_high": 2.2205018666464933,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_raw": {
+          "point": 0.9683195009177327,
+          "ci_low": 0.8916231522142173,
+          "ci_high": 1.0550902614050617,
+          "ci_90_low": 0.9043784057754599,
+          "ci_90_high": 1.039818282737281,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_isolated_sp": {
+          "point": 0.9361632645593936,
+          "ci_low": 0.8540016260240564,
+          "ci_high": 1.0228528467839677,
+          "ci_90_low": 0.8677094108700069,
+          "ci_90_high": 1.0085293995810285,
+          "n_concepts": 131,
+          "n_families": 110,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_by_stratum": {
+          "A": {
+            "point": 0.9875882047282754,
+            "ci_low": 0.8593073544542871,
+            "ci_high": 1.1322355901120902,
+            "ci_90_low": 0.8804230040140398,
+            "ci_90_high": 1.1074492107772438,
+            "n_concepts": 59,
+            "n_families": 58,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "B": {
+            "point": 0.9119956046960085,
+            "ci_low": 0.8126610618803639,
+            "ci_high": 1.021927375846154,
+            "ci_90_low": 0.8270917502180439,
+            "ci_90_high": 1.001856038498876,
+            "n_concepts": 45,
+            "n_families": 39,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "C": {
+            "point": 1.024934544969449,
+            "ci_low": 0.8760736623114473,
+            "ci_high": 1.202223550357108,
+            "ci_90_low": 0.9008824271077807,
+            "ci_90_high": 1.1700085264342912,
+            "n_concepts": 27,
+            "n_families": 22,
+            "reps_used": 5000,
+            "seed": 20260918
+          }
+        },
+        "R_adjusted_length_structure": {
+          "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en)",
+          "n_pairs": 131,
+          "n_clusters": 110,
+          "R_adjusted": 0.9725277361737125,
+          "ci_low": 0.8966294424840575,
+          "ci_high": 1.058762151535349,
+          "ci_90_low": 0.9081779251667066,
+          "ci_90_high": 1.0429275154676654,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "R_adjusted_frequency": {
+          "model": "log(T_ru/T_en) ~ is_tech + log(C_ru/C_en) + (W_ru-W_en) + (zF_ru - zF_en)",
+          "n_pairs": 112,
+          "n_clusters": 94,
+          "R_adjusted": 0.9580980352946884,
+          "ci_low": 0.8774278008321006,
+          "ci_high": 1.043305813419108,
+          "ci_90_low": 0.8890124304034062,
+          "ci_90_high": 1.0284430456424742,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "equivalence_test": {
+          "margin_ln_r": 0.095,
+          "interval_limits": [
+            0.9093729344682314,
+            1.0996588551261028
+          ],
+          "ci_95_limits": [
+            0.8916231522142173,
+            1.0550902614050617
+          ],
+          "ci_95_inside_equivalence_zone": false,
+          "ci_90_limits": [
+            0.9043784057754599,
+            1.039818282737281
+          ],
+          "ci_90_tost_inside_equivalence_zone": false,
+          "ci_inside_equivalence_zone": false
+        }
+      }
+    }
+  }
+}

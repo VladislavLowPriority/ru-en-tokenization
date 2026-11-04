@@ -1,0 +1,848 @@
+[
+  {
+    "family_id": "FAM_c_WP12",
+    "root_key": "c:WP12",
+    "size": 2,
+    "concepts": "P01, WP12"
+  },
+  {
+    "family_id": "FAM_c_P02",
+    "root_key": "c:P02",
+    "size": 1,
+    "concepts": "P02"
+  },
+  {
+    "family_id": "FAM_c_P03",
+    "root_key": "c:P03",
+    "size": 1,
+    "concepts": "P03"
+  },
+  {
+    "family_id": "FAM_c_P04",
+    "root_key": "c:P04",
+    "size": 1,
+    "concepts": "P04"
+  },
+  {
+    "family_id": "FAM_c_P05",
+    "root_key": "c:P05",
+    "size": 1,
+    "concepts": "P05"
+  },
+  {
+    "family_id": "FAM_c_P06",
+    "root_key": "c:P06",
+    "size": 1,
+    "concepts": "P06"
+  },
+  {
+    "family_id": "FAM_c_P07",
+    "root_key": "c:P07",
+    "size": 1,
+    "concepts": "P07"
+  },
+  {
+    "family_id": "FAM_c_P13",
+    "root_key": "c:P13",
+    "size": 2,
+    "concepts": "P08, P13"
+  },
+  {
+    "family_id": "FAM_c_P09",
+    "root_key": "c:P09",
+    "size": 1,
+    "concepts": "P09"
+  },
+  {
+    "family_id": "FAM_c_P10",
+    "root_key": "c:P10",
+    "size": 1,
+    "concepts": "P10"
+  },
+  {
+    "family_id": "FAM_c_P11",
+    "root_key": "c:P11",
+    "size": 1,
+    "concepts": "P11"
+  },
+  {
+    "family_id": "FAM_c_WP27",
+    "root_key": "c:WP27",
+    "size": 3,
+    "concepts": "P12, P23, WP27"
+  },
+  {
+    "family_id": "FAM_c_P14",
+    "root_key": "c:P14",
+    "size": 1,
+    "concepts": "P14"
+  },
+  {
+    "family_id": "FAM_c_P15",
+    "root_key": "c:P15",
+    "size": 1,
+    "concepts": "P15"
+  },
+  {
+    "family_id": "FAM_c_P16",
+    "root_key": "c:P16",
+    "size": 1,
+    "concepts": "P16"
+  },
+  {
+    "family_id": "FAM_c_P17",
+    "root_key": "c:P17",
+    "size": 1,
+    "concepts": "P17"
+  },
+  {
+    "family_id": "FAM_c_P18",
+    "root_key": "c:P18",
+    "size": 1,
+    "concepts": "P18"
+  },
+  {
+    "family_id": "FAM_c_P19",
+    "root_key": "c:P19",
+    "size": 1,
+    "concepts": "P19"
+  },
+  {
+    "family_id": "FAM_c_P20",
+    "root_key": "c:P20",
+    "size": 1,
+    "concepts": "P20"
+  },
+  {
+    "family_id": "FAM_c_P21",
+    "root_key": "c:P21",
+    "size": 1,
+    "concepts": "P21"
+  },
+  {
+    "family_id": "FAM_c_P22",
+    "root_key": "c:P22",
+    "size": 1,
+    "concepts": "P22"
+  },
+  {
+    "family_id": "FAM_c_WP16",
+    "root_key": "c:WP16",
+    "size": 2,
+    "concepts": "P24, WP16"
+  },
+  {
+    "family_id": "FAM_c_P25",
+    "root_key": "c:P25",
+    "size": 1,
+    "concepts": "P25"
+  },
+  {
+    "family_id": "FAM_c_P43",
+    "root_key": "c:P43",
+    "size": 2,
+    "concepts": "P26, P43"
+  },
+  {
+    "family_id": "FAM_c_P27",
+    "root_key": "c:P27",
+    "size": 1,
+    "concepts": "P27"
+  },
+  {
+    "family_id": "FAM_c_P28",
+    "root_key": "c:P28",
+    "size": 1,
+    "concepts": "P28"
+  },
+  {
+    "family_id": "FAM_c_P29",
+    "root_key": "c:P29",
+    "size": 1,
+    "concepts": "P29"
+  },
+  {
+    "family_id": "FAM_c_P42",
+    "root_key": "c:P42",
+    "size": 2,
+    "concepts": "P30, P42"
+  },
+  {
+    "family_id": "FAM_c_P31",
+    "root_key": "c:P31",
+    "size": 1,
+    "concepts": "P31"
+  },
+  {
+    "family_id": "FAM_c_P32",
+    "root_key": "c:P32",
+    "size": 1,
+    "concepts": "P32"
+  },
+  {
+    "family_id": "FAM_c_P33",
+    "root_key": "c:P33",
+    "size": 1,
+    "concepts": "P33"
+  },
+  {
+    "family_id": "FAM_c_P34",
+    "root_key": "c:P34",
+    "size": 1,
+    "concepts": "P34"
+  },
+  {
+    "family_id": "FAM_c_P35",
+    "root_key": "c:P35",
+    "size": 1,
+    "concepts": "P35"
+  },
+  {
+    "family_id": "FAM_c_P36",
+    "root_key": "c:P36",
+    "size": 1,
+    "concepts": "P36"
+  },
+  {
+    "family_id": "FAM_c_P37",
+    "root_key": "c:P37",
+    "size": 1,
+    "concepts": "P37"
+  },
+  {
+    "family_id": "FAM_c_P38",
+    "root_key": "c:P38",
+    "size": 1,
+    "concepts": "P38"
+  },
+  {
+    "family_id": "FAM_c_P46",
+    "root_key": "c:P46",
+    "size": 2,
+    "concepts": "P39, P46"
+  },
+  {
+    "family_id": "FAM_c_P40",
+    "root_key": "c:P40",
+    "size": 1,
+    "concepts": "P40"
+  },
+  {
+    "family_id": "FAM_c_P41",
+    "root_key": "c:P41",
+    "size": 1,
+    "concepts": "P41"
+  },
+  {
+    "family_id": "FAM_c_P44",
+    "root_key": "c:P44",
+    "size": 1,
+    "concepts": "P44"
+  },
+  {
+    "family_id": "FAM_c_P45",
+    "root_key": "c:P45",
+    "size": 1,
+    "concepts": "P45"
+  },
+  {
+    "family_id": "FAM_c_EXP67",
+    "root_key": "c:EXP67",
+    "size": 2,
+    "concepts": "EXP67, P47"
+  },
+  {
+    "family_id": "FAM_c_P48",
+    "root_key": "c:P48",
+    "size": 1,
+    "concepts": "P48"
+  },
+  {
+    "family_id": "FAM_c_P49",
+    "root_key": "c:P49",
+    "size": 1,
+    "concepts": "P49"
+  },
+  {
+    "family_id": "FAM_c_P50",
+    "root_key": "c:P50",
+    "size": 1,
+    "concepts": "P50"
+  },
+  {
+    "family_id": "FAM_c_P51",
+    "root_key": "c:P51",
+    "size": 1,
+    "concepts": "P51"
+  },
+  {
+    "family_id": "FAM_c_P52",
+    "root_key": "c:P52",
+    "size": 1,
+    "concepts": "P52"
+  },
+  {
+    "family_id": "FAM_c_P53",
+    "root_key": "c:P53",
+    "size": 1,
+    "concepts": "P53"
+  },
+  {
+    "family_id": "FAM_c_EXP69",
+    "root_key": "c:EXP69",
+    "size": 3,
+    "concepts": "EXP69, P54, WP28"
+  },
+  {
+    "family_id": "FAM_c_EXP68",
+    "root_key": "c:EXP68",
+    "size": 2,
+    "concepts": "EXP68, P55"
+  },
+  {
+    "family_id": "FAM_c_P56",
+    "root_key": "c:P56",
+    "size": 1,
+    "concepts": "P56"
+  },
+  {
+    "family_id": "FAM_c_P57",
+    "root_key": "c:P57",
+    "size": 1,
+    "concepts": "P57"
+  },
+  {
+    "family_id": "FAM_c_P58",
+    "root_key": "c:P58",
+    "size": 1,
+    "concepts": "P58"
+  },
+  {
+    "family_id": "FAM_c_P59",
+    "root_key": "c:P59",
+    "size": 1,
+    "concepts": "P59"
+  },
+  {
+    "family_id": "FAM_c_WP18",
+    "root_key": "c:WP18",
+    "size": 3,
+    "concepts": "P60, WP02, WP18"
+  },
+  {
+    "family_id": "FAM_c_WP01",
+    "root_key": "c:WP01",
+    "size": 1,
+    "concepts": "WP01"
+  },
+  {
+    "family_id": "FAM_c_WP03",
+    "root_key": "c:WP03",
+    "size": 1,
+    "concepts": "WP03"
+  },
+  {
+    "family_id": "FAM_c_WP15",
+    "root_key": "c:WP15",
+    "size": 2,
+    "concepts": "WP04, WP15"
+  },
+  {
+    "family_id": "FAM_c_WP05",
+    "root_key": "c:WP05",
+    "size": 1,
+    "concepts": "WP05"
+  },
+  {
+    "family_id": "FAM_c_WP06",
+    "root_key": "c:WP06",
+    "size": 1,
+    "concepts": "WP06"
+  },
+  {
+    "family_id": "FAM_c_WP07",
+    "root_key": "c:WP07",
+    "size": 1,
+    "concepts": "WP07"
+  },
+  {
+    "family_id": "FAM_c_WP14",
+    "root_key": "c:WP14",
+    "size": 2,
+    "concepts": "WP08, WP14"
+  },
+  {
+    "family_id": "FAM_c_WP09",
+    "root_key": "c:WP09",
+    "size": 1,
+    "concepts": "WP09"
+  },
+  {
+    "family_id": "FAM_c_WP10",
+    "root_key": "c:WP10",
+    "size": 1,
+    "concepts": "WP10"
+  },
+  {
+    "family_id": "FAM_c_WP11",
+    "root_key": "c:WP11",
+    "size": 1,
+    "concepts": "WP11"
+  },
+  {
+    "family_id": "FAM_c_WP13",
+    "root_key": "c:WP13",
+    "size": 1,
+    "concepts": "WP13"
+  },
+  {
+    "family_id": "FAM_c_WP17",
+    "root_key": "c:WP17",
+    "size": 1,
+    "concepts": "WP17"
+  },
+  {
+    "family_id": "FAM_c_WP19",
+    "root_key": "c:WP19",
+    "size": 1,
+    "concepts": "WP19"
+  },
+  {
+    "family_id": "FAM_c_WP22",
+    "root_key": "c:WP22",
+    "size": 2,
+    "concepts": "WP20, WP22"
+  },
+  {
+    "family_id": "FAM_c_WP21",
+    "root_key": "c:WP21",
+    "size": 1,
+    "concepts": "WP21"
+  },
+  {
+    "family_id": "FAM_c_WP23",
+    "root_key": "c:WP23",
+    "size": 1,
+    "concepts": "WP23"
+  },
+  {
+    "family_id": "FAM_c_WP24",
+    "root_key": "c:WP24",
+    "size": 1,
+    "concepts": "WP24"
+  },
+  {
+    "family_id": "FAM_c_WP26",
+    "root_key": "c:WP26",
+    "size": 2,
+    "concepts": "WP25, WP26"
+  },
+  {
+    "family_id": "FAM_c_WP29",
+    "root_key": "c:WP29",
+    "size": 1,
+    "concepts": "WP29"
+  },
+  {
+    "family_id": "FAM_c_WP30",
+    "root_key": "c:WP30",
+    "size": 1,
+    "concepts": "WP30"
+  },
+  {
+    "family_id": "FAM_c_EXP01",
+    "root_key": "c:EXP01",
+    "size": 1,
+    "concepts": "EXP01"
+  },
+  {
+    "family_id": "FAM_c_EXP02",
+    "root_key": "c:EXP02",
+    "size": 1,
+    "concepts": "EXP02"
+  },
+  {
+    "family_id": "FAM_c_EXP03",
+    "root_key": "c:EXP03",
+    "size": 1,
+    "concepts": "EXP03"
+  },
+  {
+    "family_id": "FAM_c_EXP04",
+    "root_key": "c:EXP04",
+    "size": 1,
+    "concepts": "EXP04"
+  },
+  {
+    "family_id": "FAM_c_EXP05",
+    "root_key": "c:EXP05",
+    "size": 1,
+    "concepts": "EXP05"
+  },
+  {
+    "family_id": "FAM_c_EXP06",
+    "root_key": "c:EXP06",
+    "size": 1,
+    "concepts": "EXP06"
+  },
+  {
+    "family_id": "FAM_c_EXP07",
+    "root_key": "c:EXP07",
+    "size": 1,
+    "concepts": "EXP07"
+  },
+  {
+    "family_id": "FAM_c_EXP08",
+    "root_key": "c:EXP08",
+    "size": 1,
+    "concepts": "EXP08"
+  },
+  {
+    "family_id": "FAM_c_EXP09",
+    "root_key": "c:EXP09",
+    "size": 1,
+    "concepts": "EXP09"
+  },
+  {
+    "family_id": "FAM_c_EXP10",
+    "root_key": "c:EXP10",
+    "size": 1,
+    "concepts": "EXP10"
+  },
+  {
+    "family_id": "FAM_c_EXP11",
+    "root_key": "c:EXP11",
+    "size": 1,
+    "concepts": "EXP11"
+  },
+  {
+    "family_id": "FAM_c_EXP12",
+    "root_key": "c:EXP12",
+    "size": 1,
+    "concepts": "EXP12"
+  },
+  {
+    "family_id": "FAM_c_EXP13",
+    "root_key": "c:EXP13",
+    "size": 1,
+    "concepts": "EXP13"
+  },
+  {
+    "family_id": "FAM_c_EXP14",
+    "root_key": "c:EXP14",
+    "size": 1,
+    "concepts": "EXP14"
+  },
+  {
+    "family_id": "FAM_c_EXP15",
+    "root_key": "c:EXP15",
+    "size": 1,
+    "concepts": "EXP15"
+  },
+  {
+    "family_id": "FAM_c_EXP16",
+    "root_key": "c:EXP16",
+    "size": 1,
+    "concepts": "EXP16"
+  },
+  {
+    "family_id": "FAM_c_EXP17",
+    "root_key": "c:EXP17",
+    "size": 1,
+    "concepts": "EXP17"
+  },
+  {
+    "family_id": "FAM_c_EXP18",
+    "root_key": "c:EXP18",
+    "size": 1,
+    "concepts": "EXP18"
+  },
+  {
+    "family_id": "FAM_c_EXP19",
+    "root_key": "c:EXP19",
+    "size": 1,
+    "concepts": "EXP19"
+  },
+  {
+    "family_id": "FAM_c_EXP20",
+    "root_key": "c:EXP20",
+    "size": 1,
+    "concepts": "EXP20"
+  },
+  {
+    "family_id": "FAM_c_EXP21",
+    "root_key": "c:EXP21",
+    "size": 1,
+    "concepts": "EXP21"
+  },
+  {
+    "family_id": "FAM_c_EXP22",
+    "root_key": "c:EXP22",
+    "size": 1,
+    "concepts": "EXP22"
+  },
+  {
+    "family_id": "FAM_c_EXP23",
+    "root_key": "c:EXP23",
+    "size": 1,
+    "concepts": "EXP23"
+  },
+  {
+    "family_id": "FAM_c_EXP24",
+    "root_key": "c:EXP24",
+    "size": 1,
+    "concepts": "EXP24"
+  },
+  {
+    "family_id": "FAM_c_EXP25",
+    "root_key": "c:EXP25",
+    "size": 1,
+    "concepts": "EXP25"
+  },
+  {
+    "family_id": "FAM_c_EXP26",
+    "root_key": "c:EXP26",
+    "size": 1,
+    "concepts": "EXP26"
+  },
+  {
+    "family_id": "FAM_c_EXP27",
+    "root_key": "c:EXP27",
+    "size": 1,
+    "concepts": "EXP27"
+  },
+  {
+    "family_id": "FAM_c_EXP28",
+    "root_key": "c:EXP28",
+    "size": 1,
+    "concepts": "EXP28"
+  },
+  {
+    "family_id": "FAM_c_EXP29",
+    "root_key": "c:EXP29",
+    "size": 1,
+    "concepts": "EXP29"
+  },
+  {
+    "family_id": "FAM_c_EXP30",
+    "root_key": "c:EXP30",
+    "size": 1,
+    "concepts": "EXP30"
+  },
+  {
+    "family_id": "FAM_c_EXP31",
+    "root_key": "c:EXP31",
+    "size": 1,
+    "concepts": "EXP31"
+  },
+  {
+    "family_id": "FAM_c_EXP32",
+    "root_key": "c:EXP32",
+    "size": 1,
+    "concepts": "EXP32"
+  },
+  {
+    "family_id": "FAM_c_EXP33",
+    "root_key": "c:EXP33",
+    "size": 1,
+    "concepts": "EXP33"
+  },
+  {
+    "family_id": "FAM_c_EXP34",
+    "root_key": "c:EXP34",
+    "size": 1,
+    "concepts": "EXP34"
+  },
+  {
+    "family_id": "FAM_c_EXP35",
+    "root_key": "c:EXP35",
+    "size": 1,
+    "concepts": "EXP35"
+  },
+  {
+    "family_id": "FAM_c_EXP36",
+    "root_key": "c:EXP36",
+    "size": 1,
+    "concepts": "EXP36"
+  },
+  {
+    "family_id": "FAM_c_EXP37",
+    "root_key": "c:EXP37",
+    "size": 1,
+    "concepts": "EXP37"
+  },
+  {
+    "family_id": "FAM_c_EXP38",
+    "root_key": "c:EXP38",
+    "size": 1,
+    "concepts": "EXP38"
+  },
+  {
+    "family_id": "FAM_c_EXP39",
+    "root_key": "c:EXP39",
+    "size": 1,
+    "concepts": "EXP39"
+  },
+  {
+    "family_id": "FAM_c_EXP40",
+    "root_key": "c:EXP40",
+    "size": 1,
+    "concepts": "EXP40"
+  },
+  {
+    "family_id": "FAM_c_EXP41",
+    "root_key": "c:EXP41",
+    "size": 1,
+    "concepts": "EXP41"
+  },
+  {
+    "family_id": "FAM_c_EXP42",
+    "root_key": "c:EXP42",
+    "size": 1,
+    "concepts": "EXP42"
+  },
+  {
+    "family_id": "FAM_c_EXP43",
+    "root_key": "c:EXP43",
+    "size": 1,
+    "concepts": "EXP43"
+  },
+  {
+    "family_id": "FAM_c_EXP44",
+    "root_key": "c:EXP44",
+    "size": 1,
+    "concepts": "EXP44"
+  },
+  {
+    "family_id": "FAM_c_EXP45",
+    "root_key": "c:EXP45",
+    "size": 1,
+    "concepts": "EXP45"
+  },
+  {
+    "family_id": "FAM_c_EXP46",
+    "root_key": "c:EXP46",
+    "size": 1,
+    "concepts": "EXP46"
+  },
+  {
+    "family_id": "FAM_c_EXP47",
+    "root_key": "c:EXP47",
+    "size": 1,
+    "concepts": "EXP47"
+  },
+  {
+    "family_id": "FAM_c_EXP48",
+    "root_key": "c:EXP48",
+    "size": 1,
+    "concepts": "EXP48"
+  },
+  {
+    "family_id": "FAM_c_EXP49",
+    "root_key": "c:EXP49",
+    "size": 1,
+    "concepts": "EXP49"
+  },
+  {
+    "family_id": "FAM_c_EXP50",
+    "root_key": "c:EXP50",
+    "size": 1,
+    "concepts": "EXP50"
+  },
+  {
+    "family_id": "FAM_c_EXP51",
+    "root_key": "c:EXP51",
+    "size": 1,
+    "concepts": "EXP51"
+  },
+  {
+    "family_id": "FAM_c_EXP52",
+    "root_key": "c:EXP52",
+    "size": 1,
+    "concepts": "EXP52"
+  },
+  {
+    "family_id": "FAM_c_EXP53",
+    "root_key": "c:EXP53",
+    "size": 1,
+    "concepts": "EXP53"
+  },
+  {
+    "family_id": "FAM_c_EXP54",
+    "root_key": "c:EXP54",
+    "size": 1,
+    "concepts": "EXP54"
+  },
+  {
+    "family_id": "FAM_c_EXP55",
+    "root_key": "c:EXP55",
+    "size": 1,
+    "concepts": "EXP55"
+  },
+  {
+    "family_id": "FAM_c_EXP56",
+    "root_key": "c:EXP56",
+    "size": 1,
+    "concepts": "EXP56"
+  },
+  {
+    "family_id": "FAM_c_EXP57",
+    "root_key": "c:EXP57",
+    "size": 1,
+    "concepts": "EXP57"
+  },
+  {
+    "family_id": "FAM_c_EXP58",
+    "root_key": "c:EXP58",
+    "size": 1,
+    "concepts": "EXP58"
+  },
+  {
+    "family_id": "FAM_c_EXP59",
+    "root_key": "c:EXP59",
+    "size": 1,
+    "concepts": "EXP59"
+  },
+  {
+    "family_id": "FAM_c_EXP60",
+    "root_key": "c:EXP60",
+    "size": 1,
+    "concepts": "EXP60"
+  },
+  {
+    "family_id": "FAM_c_EXP61",
+    "root_key": "c:EXP61",
+    "size": 1,
+    "concepts": "EXP61"
+  },
+  {
+    "family_id": "FAM_c_EXP62",
+    "root_key": "c:EXP62",
+    "size": 1,
+    "concepts": "EXP62"
+  },
+  {
+    "family_id": "FAM_c_EXP63",
+    "root_key": "c:EXP63",
+    "size": 1,
+    "concepts": "EXP63"
+  },
+  {
+    "family_id": "FAM_c_EXP64",
+    "root_key": "c:EXP64",
+    "size": 1,
+    "concepts": "EXP64"
+  },
+  {
+    "family_id": "FAM_c_EXP65",
+    "root_key": "c:EXP65",
+    "size": 1,
+    "concepts": "EXP65"
+  },
+  {
+    "family_id": "FAM_c_EXP66",
+    "root_key": "c:EXP66",
+    "size": 1,
+    "concepts": "EXP66"
+  }
+]

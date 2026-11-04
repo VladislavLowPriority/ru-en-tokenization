@@ -1,0 +1,148 @@
+{
+  "built_at_utc": "2026-09-21T09:40:19.330711+00:00",
+  "note": "Сборка оформления; измерения не выполнялись, результаты не менялись.",
+  "inputs": {
+    "freeze": {
+      "path": "expansion_wipo_v1\\plan\\FREEZE.json",
+      "sha256": "e55d4473448ca595500d3afb3acc05cf2dce9f315aab02d5facf68de296cba3d"
+    },
+    "combined_summary": {
+      "path": "expansion_wipo_v1\\results\\combined\\summary.json",
+      "sha256": "0626f8f98c70c087ecc5f17153b72be9efa15b89ba40b4b2d430febc05a26496"
+    },
+    "new_summary": {
+      "path": "expansion_wipo_v1\\results\\new\\summary.json",
+      "sha256": "a47b404c182fb481153eee79d943c97b8f42c08c456466ea4c932ae03e2f086e"
+    },
+    "sensitivity": {
+      "path": "expansion_wipo_v1\\results\\sensitivity\\sensitivity_summary.json",
+      "sha256": "affa33cbbb254b0b844d7dd9feecf6d7811b8f57fcada5b30dd368f9fe836655"
+    },
+    "combined_wide": {
+      "path": "expansion_wipo_v1\\results\\combined\\analysis_wide.csv",
+      "sha256": "264610319fb7012f01aa6b7359f8d83f409079c4b78194f529d867de90329c51"
+    },
+    "combined_measurements": {
+      "path": "expansion_wipo_v1\\results\\combined\\measurements.csv",
+      "sha256": "0e4c8a31b367dcf3532d5197ef37de3bbbf10655c14db51e84b2aba553f870f4"
+    },
+    "combined_validation": {
+      "path": "expansion_wipo_v1\\results\\combined\\validation.json",
+      "sha256": "e5c1f9a1eca1fe29d823eb0ca144151bb2521c9ddba87b02d84f9d3033b735cd"
+    },
+    "concepts_combined": {
+      "path": "expansion_wipo_v1\\data\\concepts_combined.csv",
+      "sha256": "975e7d275176dda696eb1c0e8593d32d11bf7b04f165f6a6bfc0bd748e2034f2"
+    },
+    "pairs_combined": {
+      "path": "expansion_wipo_v1\\data\\matching_pairs_combined.csv",
+      "sha256": "0a3c50c0ab50f54ea18d344e28f691d8b4ae346ba813d9428b58d00e93b4e91d"
+    },
+    "unmatched": {
+      "path": "expansion_wipo_v1\\data\\unmatched_technical.csv",
+      "sha256": "6e525a36c35ba9bc55a75010c8f9612c5a4e9b008e4cea4bd539850780ff61a6"
+    },
+    "matching_quality": {
+      "path": "expansion_wipo_v1\\data\\matching_quality.json",
+      "sha256": "717964065713dcb696b73b9a863d5cf1da0b4d24c61a18eef55f3e8189bae48c"
+    },
+    "baseline_R": {
+      "path": "results\\control\\estimates_R.json",
+      "sha256": "b4d45e2940757567094dbf92c5321614814353eb60ba59f883c2f479e00a7016"
+    },
+    "synonyms": {
+      "path": "results\\real\\synonym_sensitivity.json",
+      "sha256": "298a030d60b29ead58e6f6a05c5b4d1aa2e6b909cb5f185b78aa253652c1af99"
+    },
+    "hypotheses_extra": {
+      "path": "results\\real\\hypotheses_extra.json",
+      "sha256": "efc5f02a2c239af96952ea8dd4c5de1fa795b18319d075d82e88c44bc6b0a903"
+    }
+  },
+  "outputs": {
+    "T1_material": [
+      "article\\tables\\T1_material.csv",
+      "article\\tables\\T1_material.md"
+    ],
+    "T2_checks": [
+      "article\\tables\\T2_checks.csv",
+      "article\\tables\\T2_checks.md"
+    ],
+    "S2_robustness": [
+      "article\\tables\\S2_robustness.csv",
+      "article\\tables\\S2_robustness.md"
+    ],
+    "S1_examples": [
+      "article\\tables\\S1_examples.csv",
+      "article\\tables\\S1_examples.md"
+    ],
+    "fig1_R": [
+      "article\\figures\\fig1_R.svg",
+      "article\\figures\\fig1_R.pdf",
+      "article\\figures\\fig1_R.png"
+    ],
+    "fig2_G": [
+      "article\\figures\\fig2_G.svg",
+      "article\\figures\\fig2_G.pdf",
+      "article\\figures\\fig2_G.png"
+    ],
+    "figS1_sgpl": [
+      "article\\figures\\figS1_sgpl.svg",
+      "article\\figures\\figS1_sgpl.pdf",
+      "article\\figures\\figS1_sgpl.png"
+    ],
+    "figS2_context": [
+      "article\\figures\\figS2_context.svg",
+      "article\\figures\\figS2_context.pdf",
+      "article\\figures\\figS2_context.png"
+    ]
+  },
+  "context_identity_check": {
+    "pairs": {
+      "sentence_A_vs_isolated_space": {
+        "n_compared": 1908,
+        "n_mismatch": 0
+      },
+      "sentence_A_vs_isolated_0": {
+        "n_compared": 1908,
+        "n_mismatch": 1908
+      },
+      "sentence_B_vs_isolated_space": {
+        "n_compared": 1908,
+        "n_mismatch": 0
+      },
+      "sentence_B_vs_isolated_0": {
+        "n_compared": 1908,
+        "n_mismatch": 1908
+      },
+      "sentence_C_vs_isolated_space": {
+        "n_compared": 1908,
+        "n_mismatch": 1908
+      },
+      "sentence_C_vs_isolated_0": {
+        "n_compared": 1908,
+        "n_mismatch": 0
+      },
+      "isolated_space_vs_isolated_0": {
+        "n_compared": 1908,
+        "n_mismatch": 1908
+      }
+    },
+    "n_compared_AB": 3816,
+    "mismatch_AB": 0,
+    "n_compared_C": 1908,
+    "mismatch_C": 0,
+    "c_vs_isolated_space_mismatch": 1908
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pandas": "2.2.3",
+    "numpy": "1.26.4"
+  },
+  "equivalence_margin_ln": 0.095,
+  "tokenizer_colors": {
+    "o200k_base": "#1f4e79",
+    "cl100k_base": "#b4531f",
+    "qwen2.5-7b-instruct": "#3f6b34"
+  }
+}

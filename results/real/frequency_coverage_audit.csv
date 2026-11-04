@@ -1,0 +1,91 @@
+concept_id,complete,available_mean,missing_ru_components,missing_en_components,term_ru_sg,term_en_sg
+P01,True,True,0,0,линейный привод,linear drive
+P02,True,True,0,0,торцевая крышка,end cap
+P03,True,True,0,0,направляющая,guide rail
+P04,True,True,0,0,каретка,slide
+P05,True,True,0,0,пневматический разъем,compressed air connection
+P06,True,True,0,0,амортизатор,shock absorber
+P07,True,True,0,0,гильза цилиндра,cylinder barrel
+P08,True,True,0,0,защитная лента,cover strip
+P09,True,True,0,0,установочный винт,setting screw
+P10,True,True,0,0,поршень,piston
+P11,True,True,0,0,магнит,magnet
+P12,True,True,0,0,датчик положения,proximity switch
+P13,True,True,0,0,уплотнительная лента,sealing band
+P14,True,True,0,0,стопор,stop
+P15,True,True,0,0,зажим,clamp
+P16,True,True,0,0,фиксатор штока,clamping unit
+P17,True,True,0,0,смазочный переходник,lubrication adapter
+P18,True,True,0,0,скребок,wiper
+P19,True,True,0,0,микропроцессор,microprocessor
+P20,True,True,0,0,термопара,thermocouple
+P21,True,True,0,0,сигнальный модуль,signal module
+P22,True,True,0,0,карта памяти,memory card
+P23,True,True,0,0,разъединитель,disconnect switch
+P24,True,True,0,0,исполнительное устройство,actuator
+P25,True,True,0,0,контакт,pin
+P26,True,True,0,0,бирка,label
+P27,True,True,0,0,монтажное основание,terminal base
+P28,True,True,0,0,последовательный интерфейс,serial interface
+P29,True,True,0,0,экран кабеля,cable shield
+P30,True,True,0,0,штекер,male connector
+P31,True,True,0,0,отражатель,reflector
+P32,True,True,0,0,реле,relay
+P33,True,True,0,0,корпус,housing
+P34,True,True,0,0,светодиодный индикатор,led indicator
+P35,True,True,0,0,фронтальное стекло,front screen
+P36,True,True,0,0,фланец,flange
+P37,True,True,0,0,резьба,thread
+P38,True,True,0,0,цифровой преобразователь давления,digital pressure transmitter
+P39,True,True,0,0,локальный дисплей,local display
+P40,False,True,1,0,тензорезистивный чувствительный элемент,piezoresistive sensor
+P41,True,True,0,0,паз,slot
+P42,False,True,1,0,штекерное соединение,connector
+P43,True,True,0,0,заводская табличка,part label
+P44,False,True,1,0,крепежная скоба,mounting bracket
+P45,True,True,0,0,крепежный хомут,mounting cuff
+P46,True,True,0,0,сенсорный дисплей,touchscreen
+P47,True,True,0,0,источник питания,power supply
+P48,True,True,0,0,розетка электропитания,power socket
+P49,True,True,0,0,стабилитрон,zener diode
+P50,True,True,0,0,программатор,programming device
+P51,True,True,0,0,автоматический выключатель,circuit breaker
+P52,True,True,0,0,изолирующий трансформатор,isolating transformer
+P53,True,True,0,0,конденсатор,capacitor
+P54,True,True,0,0,батарея,battery
+P55,True,True,0,0,расходомер,flow meter
+P56,True,True,0,0,заглушка,blanking plug
+P57,False,False,1,0,фильтропатрон,filter cartridge
+P58,False,False,1,0,вакуумметр,vacuum gauge
+P59,True,True,0,0,газоанализатор,gas analyzer
+P60,False,False,1,0,сервоусилитель,servo amplifier
+WP01,True,True,0,0,амперметр,ammeter
+WP02,True,True,0,0,усилитель,amplifier
+WP03,True,True,0,0,автотрансформатор,autotransformer
+WP04,True,True,0,0,подшипник,bearing
+WP05,True,True,0,0,кулачок,cam
+WP06,True,True,0,0,катушка,coil
+WP07,True,True,0,0,компрессор,compressor
+WP08,True,True,0,0,конвейер,conveyor
+WP09,True,True,0,0,ответвитель,coupler
+WP10,False,False,1,0,твердомер,durometer
+WP11,True,True,0,0,гироскоп,gyroscope
+WP12,True,True,0,0,сервопривод,servomotor
+WP13,False,True,1,0,абсолютный энкодер,absolute encoder
+WP14,True,True,0,0,накопительный конвейер,accumulating conveyor
+WP15,True,True,0,0,аэродинамический подшипник,aerodynamic bearing
+WP16,False,True,1,0,симметрирующее устройство,balun
+WP17,True,True,0,0,коленчатый вал,crankshaft
+WP18,True,True,0,0,предварительный усилитель,preamplifier
+WP19,True,True,0,0,форсунка,atomizer nozzle
+WP20,False,False,1,0,противоэлектрод,counter electrode
+WP21,False,False,1,0,токоограничитель,current limiter
+WP22,True,True,0,0,электродвигатель,electric motor
+WP23,True,True,0,0,гидронасос,hydraulic pump
+WP24,True,True,0,0,мемристор,memory resistor
+WP25,True,True,0,0,сателлит,planet gear
+WP26,True,True,0,0,редуктор,reduction gear
+WP27,True,True,0,0,геркон,reed switch
+WP28,True,True,0,0,аккумулятор,secondary battery
+WP29,False,False,1,0,сервоклапан,servo valve
+WP30,False,False,1,0,термопредохранитель,thermal fuse

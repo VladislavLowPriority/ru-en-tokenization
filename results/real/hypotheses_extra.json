@@ -1,0 +1,642 @@
+{
+  "source": "results/real/analysis_wide.csv (без повторной токенизации)",
+  "H2_breakdown": {
+    "cl100k_base": {
+      "n_concepts": 90,
+      "tokens_ru": {
+        "выросло": 58,
+        "без изменения": 28,
+        "уменьшилось": 4
+      },
+      "tokens_en": {
+        "без изменения": 64,
+        "выросло": 26
+      },
+      "cross_ru_x_en": {
+        "RU без изменения / EN без изменения": 21,
+        "RU без изменения / EN выросло": 7,
+        "RU выросло / EN без изменения": 40,
+        "RU выросло / EN выросло": 18,
+        "RU уменьшилось / EN без изменения": 3,
+        "RU уменьшилось / EN выросло": 1
+      },
+      "mean_char_growth_ru": 0.53,
+      "mean_char_growth_en": 1.07,
+      "by_pattern_ru": {
+        "Adj+Adj+N": {
+          "n": 1,
+          "mean_dT_ru": 1.0,
+          "mean_dT_en": 0.0,
+          "mean_paired_diff": 1.0,
+          "mean_dC_ru": 1.0,
+          "mean_dC_en": 1.0
+        },
+        "Adj+N": {
+          "n": 27,
+          "mean_dT_ru": 0.444,
+          "mean_dT_en": 0.222,
+          "mean_paired_diff": 0.222,
+          "mean_dC_ru": 0.44,
+          "mean_dC_en": 1.0
+        },
+        "Mod+N(gen)": {
+          "n": 1,
+          "mean_dT_ru": 1.0,
+          "mean_dT_en": 1.0,
+          "mean_paired_diff": 0.0,
+          "mean_dC_ru": 0.0,
+          "mean_dC_en": 1.0
+        },
+        "N": {
+          "n": 54,
+          "mean_dT_ru": 0.667,
+          "mean_dT_en": 0.407,
+          "mean_paired_diff": 0.259,
+          "mean_dC_ru": 0.57,
+          "mean_dC_en": 1.07
+        },
+        "N+N(gen)": {
+          "n": 7,
+          "mean_dT_ru": 0.571,
+          "mean_dT_en": 0.0,
+          "mean_paired_diff": 0.571,
+          "mean_dC_ru": 0.57,
+          "mean_dC_en": 1.29
+        }
+      },
+      "by_changed_components_ru": {
+        "0": {
+          "n": 1,
+          "mean_dT_ru": 0.0,
+          "mean_paired_diff": -1.0
+        },
+        "1": {
+          "n": 60,
+          "mean_dT_ru": 0.667,
+          "mean_paired_diff": 0.317
+        },
+        "2": {
+          "n": 28,
+          "mean_dT_ru": 0.464,
+          "mean_paired_diff": 0.214
+        },
+        "3": {
+          "n": 1,
+          "mean_dT_ru": 1.0,
+          "mean_paired_diff": 1.0
+        }
+      }
+    },
+    "o200k_base": {
+      "n_concepts": 90,
+      "tokens_ru": {
+        "без изменения": 65,
+        "выросло": 24,
+        "уменьшилось": 1
+      },
+      "tokens_en": {
+        "без изменения": 64,
+        "выросло": 26
+      },
+      "cross_ru_x_en": {
+        "RU без изменения / EN без изменения": 44,
+        "RU без изменения / EN выросло": 21,
+        "RU выросло / EN без изменения": 19,
+        "RU выросло / EN выросло": 5,
+        "RU уменьшилось / EN без изменения": 1
+      },
+      "mean_char_growth_ru": 0.53,
+      "mean_char_growth_en": 1.07,
+      "by_pattern_ru": {
+        "Adj+Adj+N": {
+          "n": 1,
+          "mean_dT_ru": 0.0,
+          "mean_dT_en": 0.0,
+          "mean_paired_diff": 0.0,
+          "mean_dC_ru": 1.0,
+          "mean_dC_en": 1.0
+        },
+        "Adj+N": {
+          "n": 27,
+          "mean_dT_ru": 0.259,
+          "mean_dT_en": 0.148,
+          "mean_paired_diff": 0.111,
+          "mean_dC_ru": 0.44,
+          "mean_dC_en": 1.0
+        },
+        "Mod+N(gen)": {
+          "n": 1,
+          "mean_dT_ru": 1.0,
+          "mean_dT_en": 1.0,
+          "mean_paired_diff": 0.0,
+          "mean_dC_ru": 0.0,
+          "mean_dC_en": 1.0
+        },
+        "N": {
+          "n": 54,
+          "mean_dT_ru": 0.222,
+          "mean_dT_en": 0.444,
+          "mean_paired_diff": -0.222,
+          "mean_dC_ru": 0.57,
+          "mean_dC_en": 1.07
+        },
+        "N+N(gen)": {
+          "n": 7,
+          "mean_dT_ru": 0.429,
+          "mean_dT_en": 0.0,
+          "mean_paired_diff": 0.429,
+          "mean_dC_ru": 0.57,
+          "mean_dC_en": 1.29
+        }
+      },
+      "by_changed_components_ru": {
+        "0": {
+          "n": 1,
+          "mean_dT_ru": 0.0,
+          "mean_paired_diff": -1.0
+        },
+        "1": {
+          "n": 60,
+          "mean_dT_ru": 0.25,
+          "mean_paired_diff": -0.133
+        },
+        "2": {
+          "n": 28,
+          "mean_dT_ru": 0.286,
+          "mean_paired_diff": 0.107
+        },
+        "3": {
+          "n": 1,
+          "mean_dT_ru": 0.0,
+          "mean_paired_diff": 0.0
+        }
+      }
+    },
+    "qwen2.5-7b-instruct": {
+      "n_concepts": 90,
+      "tokens_ru": {
+        "выросло": 46,
+        "без изменения": 39,
+        "уменьшилось": 5
+      },
+      "tokens_en": {
+        "без изменения": 64,
+        "выросло": 26
+      },
+      "cross_ru_x_en": {
+        "RU без изменения / EN без изменения": 28,
+        "RU без изменения / EN выросло": 11,
+        "RU выросло / EN без изменения": 33,
+        "RU выросло / EN выросло": 13,
+        "RU уменьшилось / EN без изменения": 3,
+        "RU уменьшилось / EN выросло": 2
+      },
+      "mean_char_growth_ru": 0.53,
+      "mean_char_growth_en": 1.07,
+      "by_pattern_ru": {
+        "Adj+Adj+N": {
+          "n": 1,
+          "mean_dT_ru": 1.0,
+          "mean_dT_en": 0.0,
+          "mean_paired_diff": 1.0,
+          "mean_dC_ru": 1.0,
+          "mean_dC_en": 1.0
+        },
+        "Adj+N": {
+          "n": 27,
+          "mean_dT_ru": 0.259,
+          "mean_dT_en": 0.222,
+          "mean_paired_diff": 0.037,
+          "mean_dC_ru": 0.44,
+          "mean_dC_en": 1.0
+        },
+        "Mod+N(gen)": {
+          "n": 1,
+          "mean_dT_ru": 1.0,
+          "mean_dT_en": 1.0,
+          "mean_paired_diff": 0.0,
+          "mean_dC_ru": 0.0,
+          "mean_dC_en": 1.0
+        },
+        "N": {
+          "n": 54,
+          "mean_dT_ru": 0.537,
+          "mean_dT_en": 0.407,
+          "mean_paired_diff": 0.13,
+          "mean_dC_ru": 0.57,
+          "mean_dC_en": 1.07
+        },
+        "N+N(gen)": {
+          "n": 7,
+          "mean_dT_ru": 0.429,
+          "mean_dT_en": 0.0,
+          "mean_paired_diff": 0.429,
+          "mean_dC_ru": 0.57,
+          "mean_dC_en": 1.29
+        }
+      },
+      "by_changed_components_ru": {
+        "0": {
+          "n": 1,
+          "mean_dT_ru": 0.0,
+          "mean_paired_diff": -1.0
+        },
+        "1": {
+          "n": 60,
+          "mean_dT_ru": 0.533,
+          "mean_paired_diff": 0.183
+        },
+        "2": {
+          "n": 28,
+          "mean_dT_ru": 0.286,
+          "mean_paired_diff": 0.036
+        },
+        "3": {
+          "n": 1,
+          "mean_dT_ru": 1.0,
+          "mean_paired_diff": 1.0
+        }
+      }
+    }
+  },
+  "tokenizer_contrasts": {
+    "o200k_base - cl100k_base": {
+      "H2_M_difference": {
+        "point": -0.34444444444444444,
+        "ci_low": -0.50495299529953,
+        "ci_high": -0.1839080459770115,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "H1_G_ratio": {
+        "point": 0.6757784687607991,
+        "ci_low": 0.6401531426526325,
+        "ci_high": 0.7145340894218406,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      }
+    },
+    "o200k_base - qwen2.5-7b-instruct": {
+      "H2_M_difference": {
+        "point": -0.2,
+        "ci_low": -0.36172207446808513,
+        "ci_high": -0.034090909090909116,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "H1_G_ratio": {
+        "point": 0.8915262775568642,
+        "ci_low": 0.8445124086362031,
+        "ci_high": 0.941850226364661,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      }
+    },
+    "cl100k_base - qwen2.5-7b-instruct": {
+      "H2_M_difference": {
+        "point": 0.14444444444444446,
+        "ci_low": 0.023255813953488372,
+        "ci_high": 0.26595744680851063,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "H1_G_ratio": {
+        "point": 1.3192581870678572,
+        "ci_low": 1.2642896132982249,
+        "ci_high": 1.3765297885487338,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      }
+    }
+  },
+  "H3_by_template": {
+    "cl100k_base": {
+      "A": {
+        "estimate": {
+          "point": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "n_concepts_exact_zero": 90,
+        "n_concepts": 90,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "B": {
+        "estimate": {
+          "point": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "n_concepts_exact_zero": 90,
+        "n_concepts": 90,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "C": {
+        "estimate": {
+          "point": -0.10118560578730332,
+          "ci_low": -0.15437571616523132,
+          "ci_high": -0.04739495110496318,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "n_concepts_exact_zero": 37,
+        "n_concepts": 90,
+        "min": -1.0074515102711326,
+        "max": 0.8047189562170503
+      }
+    },
+    "o200k_base": {
+      "A": {
+        "estimate": {
+          "point": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "n_concepts_exact_zero": 90,
+        "n_concepts": 90,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "B": {
+        "estimate": {
+          "point": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "n_concepts_exact_zero": 90,
+        "n_concepts": 90,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "C": {
+        "estimate": {
+          "point": -0.026399089067254185,
+          "ci_low": -0.08633452900168036,
+          "ci_high": 0.03543261609151937,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "n_concepts_exact_zero": 30,
+        "n_concepts": 90,
+        "min": -0.8958797346140276,
+        "max": 0.8958797346140275
+      }
+    },
+    "qwen2.5-7b-instruct": {
+      "A": {
+        "estimate": {
+          "point": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "n_concepts_exact_zero": 90,
+        "n_concepts": 90,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "B": {
+        "estimate": {
+          "point": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "n_concepts_exact_zero": 90,
+        "n_concepts": 90,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "C": {
+        "estimate": {
+          "point": -0.13265861818090643,
+          "ci_low": -0.20407816849415197,
+          "ci_high": -0.060384933550872974,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "n_concepts_exact_zero": 25,
+        "n_concepts": 90,
+        "min": -1.151292546497023,
+        "max": 1.0397207708399179
+      }
+    }
+  },
+  "G_decomposition": {
+    "cl100k_base": {
+      "G": {
+        "point": 2.907708708823432,
+        "ci_low": 2.659341240004811,
+        "ci_high": 3.1676516552197542,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "char_length_ratio": {
+        "point": 1.1655444325860753,
+        "ci_low": 1.0755153872826335,
+        "ci_high": 1.2726162633287026,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "tokens_per_char_ratio": {
+        "point": 2.494721460229443,
+        "ci_low": 2.2798139643357023,
+        "ci_high": 2.721932974397986,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "identity_check": -0.0,
+      "note": "G = (отношение длин в знаках) x (отношение числа токенов на знак); это тождество, а не объяснение причины"
+    },
+    "o200k_base": {
+      "G": {
+        "point": 1.9649669388511388,
+        "ci_low": 1.8209360136604082,
+        "ci_high": 2.121646159925828,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "char_length_ratio": {
+        "point": 1.1655444325860753,
+        "ci_low": 1.0755153872826335,
+        "ci_high": 1.2726162633287026,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "tokens_per_char_ratio": {
+        "point": 1.6858790483785575,
+        "ci_low": 1.5451923658733242,
+        "ci_high": 1.8400310779303053,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "identity_check": -0.0,
+      "note": "G = (отношение длин в знаках) x (отношение числа токенов на знак); это тождество, а не объяснение причины"
+    },
+    "qwen2.5-7b-instruct": {
+      "G": {
+        "point": 2.2040482578213263,
+        "ci_low": 2.008706912511453,
+        "ci_high": 2.4132160676985177,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "char_length_ratio": {
+        "point": 1.1655444325860753,
+        "ci_low": 1.0755153872826335,
+        "ci_high": 1.2726162633287026,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "tokens_per_char_ratio": {
+        "point": 1.89100320519832,
+        "ci_low": 1.7122770592390077,
+        "ci_high": 2.0817669357361503,
+        "n_concepts": 90,
+        "n_families": 70,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "identity_check": -0.0,
+      "note": "G = (отношение длин в знаках) x (отношение числа токенов на знак); это тождество, а не объяснение причины"
+    }
+  },
+  "family_rule_check": {
+    "n_families_corpus_rule": 70,
+    "n_families_strict_head_rule": 71,
+    "by_tokenizer": {
+      "cl100k_base": {
+        "G_corpus_rule": {
+          "point": 2.907708708823432,
+          "ci_low": 2.659341240004811,
+          "ci_high": 3.1676516552197542,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "G_strict_head_rule": {
+          "point": 2.907708708823432,
+          "ci_low": 2.654047988169252,
+          "ci_high": 3.170853204649649,
+          "n_concepts": 90,
+          "n_families": 71,
+          "reps_used": 5000,
+          "seed": 20260918
+        }
+      },
+      "o200k_base": {
+        "G_corpus_rule": {
+          "point": 1.9649669388511388,
+          "ci_low": 1.8209360136604082,
+          "ci_high": 2.121646159925828,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "G_strict_head_rule": {
+          "point": 1.9649669388511388,
+          "ci_low": 1.818766535392006,
+          "ci_high": 2.120645185499654,
+          "n_concepts": 90,
+          "n_families": 71,
+          "reps_used": 5000,
+          "seed": 20260918
+        }
+      },
+      "qwen2.5-7b-instruct": {
+        "G_corpus_rule": {
+          "point": 2.2040482578213263,
+          "ci_low": 2.008706912511453,
+          "ci_high": 2.4132160676985177,
+          "n_concepts": 90,
+          "n_families": 70,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "G_strict_head_rule": {
+          "point": 2.2040482578213263,
+          "ci_low": 2.0058350507376983,
+          "ci_high": 2.4128171854201703,
+          "n_concepts": 90,
+          "n_families": 71,
+          "reps_used": 5000,
+          "seed": 20260918
+        }
+      }
+    }
+  },
+  "context_comparison_file": {
+    "n_comparisons": 3240,
+    "columns": [
+      "concept_id",
+      "lang",
+      "number",
+      "tokenizer_id",
+      "template_id",
+      "stimulus_id",
+      "reference_stimulus_id",
+      "target_text"
+    ]
+  },
+  "scope_note": "Утверждение о контексте относится только к проверенным шаблонам A, B и диагностическому C, а не к языку вообще."
+}

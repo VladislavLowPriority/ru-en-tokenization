@@ -1,0 +1,381 @@
+{
+  "protocol_version": "1.0",
+  "protocol_sha256": "aefe20a234d0c151b8578e107248d3241214435ce98b480c3bd3a9cd34c21e60",
+  "split": "control_expanded",
+  "generated_utc": "2026-09-20T19:02:22+00:00",
+  "python": "3.12.13 (main, May 10 2026, 19:35:37) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "tiktoken": "0.7.0",
+    "transformers": "4.44.2",
+    "tokenizers": "0.19.1",
+    "wordfreq": "3.1.1",
+    "pandas": "2.2.3",
+    "numpy": "1.26.4",
+    "huggingface-hub": "0.36.2",
+    "regex": "2026.9.10"
+  },
+  "seed": 20260918,
+  "bootstrap_reps": 5000,
+  "primary_tokenizer": "o200k_base",
+  "templates": {
+    "A": {
+      "ru": {
+        "sg": "Проверяется {term}.",
+        "pl": "Проверяются {term}."
+      },
+      "en": {
+        "sg": "The {term} is being tested.",
+        "pl": "The {term} are being tested."
+      }
+    },
+    "B": {
+      "ru": {
+        "sg": "Используется {term}.",
+        "pl": "Используются {term}."
+      },
+      "en": {
+        "sg": "The {term} is in use.",
+        "pl": "The {term} are in use."
+      }
+    }
+  },
+  "diagnostic_templates": {
+    "C": {
+      "ru": {
+        "sg": "Проверяется следующее: ({term}).",
+        "pl": "Проверяется следующее: ({term})."
+      },
+      "en": {
+        "sg": "The following is tested: ({term}).",
+        "pl": "The following is tested: ({term})."
+      }
+    }
+  },
+  "analysis_revision": "audit-step1-complete-frequency-family-bootstrap-context-identity",
+  "code_files": [
+    {
+      "path": "src\\tok_pilot\\__init__.py",
+      "sha256": "c5d6711b92f44ee23728ace708895a7a856a2b4441c9253c4a5bfbf521b6a0cc"
+    },
+    {
+      "path": "src\\tok_pilot\\backends.py",
+      "sha256": "cd388de132564a0c14ab862669a665ffb56a0f9c86e2d380b3792b0c063b6ef6"
+    },
+    {
+      "path": "src\\tok_pilot\\config.py",
+      "sha256": "9cbfae4b20b20a2e8d6e0d7e16c640a1ffc26674e6fc34d9ac30898d2f025aab"
+    },
+    {
+      "path": "src\\tok_pilot\\manifest.py",
+      "sha256": "e9dceba002f3d76bb5c8e90fe578e9fe0231e8a37e0ad630735471b847ef4c19"
+    },
+    {
+      "path": "src\\tok_pilot\\measure.py",
+      "sha256": "9ee138d07155001e12a77a841054202ca740068056981127692c8b16dbac2650"
+    },
+    {
+      "path": "src\\tok_pilot\\metrics.py",
+      "sha256": "7ac6c74872ccfaa655d149578ba2107e4c7faf5df090d3e1b49ebd7411354cac"
+    },
+    {
+      "path": "src\\tok_pilot\\stimuli.py",
+      "sha256": "5738d75f09427b030a4f2d518c21e342d8b7956a2748cb6757a13128f03c30b4"
+    },
+    {
+      "path": "src\\tok_pilot\\textio.py",
+      "sha256": "529babb9d887e4162575c2acf8865c2a2a7f48057b249bd040e71aca8617b754"
+    },
+    {
+      "path": "src\\tok_pilot\\validate.py",
+      "sha256": "413507fc3bc9f1b28c72e974997dde65ab71dfba920ff508ff3f7ab424eeb742"
+    },
+    {
+      "path": "scripts\\append_wipo_to_registry.py",
+      "sha256": "b64d7db1d48d242ee8266a754db7a18fd381159e27336dc9804eb90d807cbfd7"
+    },
+    {
+      "path": "scripts\\audit_step1.py",
+      "sha256": "ec43496f851bdbce911f9c3d5c2d88385651f4925c74321e80e235461e9e7791"
+    },
+    {
+      "path": "scripts\\check_c_candidates.py",
+      "sha256": "736f7eb5f9885d7aff8754010224a86bed9a21e0d8e0486a0a1a4471be0f8b8e"
+    },
+    {
+      "path": "scripts\\check_data.py",
+      "sha256": "d48a737ea30198eb0ecb494b6b8d232bd65e98e176589e5980ba12ed9c9f2899"
+    },
+    {
+      "path": "scripts\\check_reserve_contexts.py",
+      "sha256": "2afa2e66d5e7c389d4630f4c954447059b5177cc601e0c748b1c454e1a0c6616"
+    },
+    {
+      "path": "scripts\\control_collect.py",
+      "sha256": "aa848dbca1065c68b82017b7101e07e876bc81e0eac9f152c059e2ae796fa45d"
+    },
+    {
+      "path": "scripts\\control_select.py",
+      "sha256": "00654b8b2b34da97ef9d2448730ee3d5ebef62361ca71fc4380af2e5fca57f06"
+    },
+    {
+      "path": "scripts\\expansion_build_technical.py",
+      "sha256": "13443a71b73c692b7326c89d92a655140367bb82dcc58b1a28d7d8dbb745434e"
+    },
+    {
+      "path": "scripts\\expansion_check_candidates.py",
+      "sha256": "6298f8ecda21e6dd0cc5823d2d3c87123dc6f8fbf7eab77abff9e18d7b3e14cc"
+    },
+    {
+      "path": "scripts\\expansion_feasibility.py",
+      "sha256": "994f75ec3f9e3f656c248025effb8d87092eb01000beed1897181b2aa12149fb"
+    },
+    {
+      "path": "scripts\\expansion_fetch_c_terms.py",
+      "sha256": "b4d55930cd23ff5cb7e8a49d1035f4f3668e9b3254e133462fe7de7934362ec2"
+    },
+    {
+      "path": "scripts\\expansion_freeze.py",
+      "sha256": "f9d13edc6c69845729cad495ea93674e9bea5933bcacd4c33d405ce80104023a"
+    },
+    {
+      "path": "scripts\\expansion_match_control.py",
+      "sha256": "819dc9f8a76d332123038c0453a10bbf945bf502858d7070315a586d60dcfed4"
+    },
+    {
+      "path": "scripts\\expansion_select_technical.py",
+      "sha256": "4630e1fde938b7f863f537dcfb8430627874a70c1040f8279f0efa618eb3c211"
+    },
+    {
+      "path": "scripts\\expansion_wipo_collect.py",
+      "sha256": "d3f4c48fb3e395c0d56b5cf9ae55940ed4edc39d7a8f68c5f802d1a193f9f295"
+    },
+    {
+      "path": "scripts\\hypotheses_extra.py",
+      "sha256": "686dd7a11c3fe5a63f9ec0514e254d0a8b2cdb06f3ae979edc428e2cdc142a3b"
+    },
+    {
+      "path": "scripts\\import_registry.py",
+      "sha256": "2cfab2beae5596b5f4f7668950aec2132867cb3b2a622a4f18c103caa6071749"
+    },
+    {
+      "path": "scripts\\make_datasets.py",
+      "sha256": "96f1e3693f7a2275d0674959f20c894d4b13bae3f3e38d07c8820c8e7c93ebc6"
+    },
+    {
+      "path": "scripts\\make_notebook.py",
+      "sha256": "2fe3885f066437156ae65c96580e6e4520c682107134776100e85f49877c49c0"
+    },
+    {
+      "path": "scripts\\pl_sensitivity.py",
+      "sha256": "9128d06f514cd822683ab784a3563ac823805f3e23c9a5c42a5ec79aee1b481c"
+    },
+    {
+      "path": "scripts\\robustness.py",
+      "sha256": "b456a919878e7b82a1eff9a96ee849c6b2b01e496b2cf8ae650fd041fdd6d297"
+    },
+    {
+      "path": "scripts\\run_control.py",
+      "sha256": "c284228e61e2c389631e0a88b35a159499a7ab363f02cabee2af33b675dfd1de"
+    },
+    {
+      "path": "scripts\\run_expansion.py",
+      "sha256": "03c9cf7080b5556e40ff1ec065d11f3fa60fa32e1e278b14a7237159b9e76dfc"
+    },
+    {
+      "path": "scripts\\run_pilot.py",
+      "sha256": "4c8b683e9e0fef90670352087966aa2b3f7874371fce9ba1119b5d8cb28c501b"
+    },
+    {
+      "path": "scripts\\synonym_sensitivity.py",
+      "sha256": "47dac714c7eb8f41b53fbd8f0cb1f53ab199aae4f9e8c2844c3f1e530bfb6d48"
+    },
+    {
+      "path": "scripts\\test_audit_step1.py",
+      "sha256": "bcd6acdc7e5bbde4e2aa92979cf1bcd6e43f579594c614d271afa8d614796fe9"
+    },
+    {
+      "path": "scripts\\test_c_without_spool.py",
+      "sha256": "a526511600003c019683c12afd3622f1377baff6e6204e2b55821541e9e68e2a"
+    },
+    {
+      "path": "scripts\\test_control.py",
+      "sha256": "ffafef75bbdfc02c5c41b19506e184741e18d47fa71b0bbd2f291491a7afed98"
+    },
+    {
+      "path": "scripts\\test_counting.py",
+      "sha256": "852198a9c5cbd0533f9c78c1d2d4c1746f96017a38262c94a0a861de48c12afd"
+    },
+    {
+      "path": "scripts\\test_expansion.py",
+      "sha256": "a7fd0f2e1172d37440624358e5f7c7846b60f6c0052bc14c38cc1f9c5738c5f2"
+    },
+    {
+      "path": "scripts\\test_no_exp69.py",
+      "sha256": "5aba751392bd4446ec11efa3d23e08347627a33b759118105baa84283182379e"
+    },
+    {
+      "path": "scripts\\test_selection_exclude.py",
+      "sha256": "425c08b86e56c1e6d7fe60ba0017a008e9d936ada982bf4f3a80a9b28fd8f10f"
+    },
+    {
+      "path": "scripts\\verify_all_69.py",
+      "sha256": "2dbbf3b206cf207d21b110411b6740a4260d948ffe6dd56eba23786cee1b0c2b"
+    },
+    {
+      "path": "scripts\\wipo_collect.py",
+      "sha256": "d4af432e865cd0497728435da4254b5bc591adf99706322474c309aac34ebd4c"
+    },
+    {
+      "path": "scripts\\wipo_plurals.py",
+      "sha256": "8220d2595689cf0c02358e08ed7762e2ced82fde79ae64a7c1e3180b87349bf4"
+    },
+    {
+      "path": "scripts\\wipo_select.py",
+      "sha256": "3c9ba0beb200c4be82fb55587253ddf77cabed1a7f8f791d5e952c7b00f6b0dc"
+    }
+  ],
+  "requirements_sha256": "07b820199dfdeba5e8b8fe435c19443d9dbbbe762f3a0a3f4ef3f47e132b080a",
+  "modes": [
+    "isolated_0",
+    "isolated_space",
+    "sentence_A",
+    "sentence_B",
+    "sentence_C"
+  ],
+  "tokenizers": {
+    "o200k_base": {
+      "tokenizer_id": "o200k_base",
+      "backend": "tiktoken",
+      "encoding": "o200k_base",
+      "package_version": "tiktoken==0.7.0",
+      "n_vocab": 200019,
+      "n_mergeable_ranks": 199998,
+      "vocab_sha256": "dcf8f06c59a061f59909285da2f0fbbc0fa772916ad5f0b4ed52ce6a1c32d04a",
+      "pre_tokenizer_regex": "[^\\r\\n\\p{L}\\p{N}]?[\\p{Lu}\\p{Lt}\\p{Lm}\\p{Lo}\\p{M}]*[\\p{Ll}\\p{Lm}\\p{Lo}\\p{M}]+(?i:'s|'t|'re|'ve|'m|'ll|'d)?|[^\\r\\n\\p{L}\\p{N}]?[\\p{Lu}\\p{Lt}\\p{Lm}\\p{Lo}\\p{M}]+[\\p{Ll}\\p{Lm}\\p{Lo}\\p{M}]*(?i:'s|'t|'re|'ve|'m|'ll|'d)?|\\p{N}{1,3}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n/]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+",
+      "special_tokens": [
+        "<|endofprompt|>",
+        "<|endoftext|>"
+      ],
+      "normalizer": "нет (tiktoken не нормализует вход)",
+      "cache_files": [],
+      "role": "основной, заранее выбранный объект H1"
+    },
+    "cl100k_base": {
+      "tokenizer_id": "cl100k_base",
+      "backend": "tiktoken",
+      "encoding": "cl100k_base",
+      "package_version": "tiktoken==0.7.0",
+      "n_vocab": 100277,
+      "n_mergeable_ranks": 100256,
+      "vocab_sha256": "9291e9f4743a26dc09f63cf6ca43abca3b6ee7f6dc58bd7bd2d2ad8dfdc201d9",
+      "pre_tokenizer_regex": "'(?i:[sdmt]|ll|ve|re)|[^\\r\\n\\p{L}\\p{N}]?+\\p{L}+|\\p{N}{1,3}| ?[^\\s\\p{L}\\p{N}]++[\\r\\n]*|\\s*[\\r\\n]|\\s+(?!\\S)|\\s+",
+      "special_tokens": [
+        "<|endofprompt|>",
+        "<|endoftext|>",
+        "<|fim_middle|>",
+        "<|fim_prefix|>",
+        "<|fim_suffix|>"
+      ],
+      "normalizer": "нет (tiktoken не нормализует вход)",
+      "cache_files": [],
+      "role": "второй словарь той же библиотеки (не независимая репликация)"
+    },
+    "qwen2.5-7b-instruct": {
+      "tokenizer_id": "qwen2.5-7b-instruct",
+      "backend": "hf",
+      "repo": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "acbd96531cda22292a3ceaa67e984955d3965282",
+      "package_version": "transformers==4.44.2; tokenizers==0.19.1",
+      "n_vocab": 151665,
+      "vocab_size_attr": 151643,
+      "normalizer": {
+        "type": "NFC"
+      },
+      "pre_tokenizer": {
+        "type": "Sequence",
+        "pretokenizers": [
+          {
+            "type": "Split",
+            "pattern": {
+              "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+            },
+            "behavior": "Isolated",
+            "invert": false
+          },
+          {
+            "type": "ByteLevel",
+            "add_prefix_space": false,
+            "trim_offsets": false,
+            "use_regex": false
+          }
+        ]
+      },
+      "post_processor": {
+        "type": "ByteLevel",
+        "add_prefix_space": false,
+        "trim_offsets": false,
+        "use_regex": false
+      },
+      "decoder": {
+        "type": "ByteLevel",
+        "add_prefix_space": false,
+        "trim_offsets": false,
+        "use_regex": false
+      },
+      "n_added_tokens": 22,
+      "special_tokens": [
+        "<|im_end|>",
+        "<|endoftext|>",
+        "<|im_start|>",
+        "<|object_ref_start|>",
+        "<|object_ref_end|>",
+        "<|box_start|>",
+        "<|box_end|>",
+        "<|quad_start|>",
+        "<|quad_end|>",
+        "<|vision_start|>",
+        "<|vision_end|>",
+        "<|vision_pad|>",
+        "<|image_pad|>",
+        "<|video_pad|>"
+      ],
+      "files": [
+        {
+          "file": "tokenizer.json",
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "local_path": "<HF_CACHE>/models--Qwen--Qwen2.5-7B-Instruct\\snapshots\\acbd96531cda22292a3ceaa67e984955d3965282\\tokenizer.json"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+          "local_path": "<HF_CACHE>/models--Qwen--Qwen2.5-7B-Instruct\\snapshots\\acbd96531cda22292a3ceaa67e984955d3965282\\tokenizer_config.json"
+        },
+        {
+          "file": "vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "local_path": "<HF_CACHE>/models--Qwen--Qwen2.5-7B-Instruct\\snapshots\\acbd96531cda22292a3ceaa67e984955d3965282\\vocab.json"
+        },
+        {
+          "file": "merges.txt",
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "local_path": "<HF_CACHE>/models--Qwen--Qwen2.5-7B-Instruct\\snapshots\\acbd96531cda22292a3ceaa67e984955d3965282\\merges.txt"
+        },
+        {
+          "file": "special_tokens_map.json",
+          "sha256": null,
+          "note": "EntryNotFoundError"
+        }
+      ],
+      "role": "готовая система другой линии разработки"
+    }
+  },
+  "data_files": [
+    {
+      "path": "expansion_wipo_v1\\data\\concepts_control_expanded.csv",
+      "sha256": "7f043c66d5d6a506b99537d743131aa8196707bb2117e3ca7649601626f5575d"
+    }
+  ],
+  "stimuli_table_sha256": "94408ae6cbf794a5a8ed94573d6e90e0a53a6e3c17a969eb785b82361f67095e",
+  "n_stimuli": 1310
+}

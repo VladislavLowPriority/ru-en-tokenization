@@ -1,0 +1,155 @@
+{
+  "evaluated_at_utc": "2026-09-20T19:05:41.063676+00:00",
+  "checks": {
+    "source_comparison": {
+      "doc_pilot_60": {
+        "n_concepts": 60,
+        "G": {
+          "point": 2.024063924026396,
+          "ci_low": 1.8568781081134993,
+          "ci_high": 2.203142343664273,
+          "ci_90_low": 1.8827689619620764,
+          "ci_90_high": 2.1736026683025678,
+          "n_concepts": 60,
+          "n_families": 55,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "M": {
+          "point": 0.016666666666666666,
+          "ci_low": -0.1864406779661017,
+          "ci_high": 0.20634920634920634,
+          "ci_90_low": -0.15254237288135594,
+          "ci_90_high": 0.1774193548387097,
+          "n_concepts": 60,
+          "n_families": 55,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "stratum_dist": {
+          "B": 27,
+          "A": 18,
+          "C": 15
+        }
+      },
+      "wipo_expansion_v1": {
+        "n_concepts": 69,
+        "G": {
+          "point": 1.809669965699141,
+          "ci_low": 1.656905343417799,
+          "ci_high": 1.9724644413739185,
+          "ci_90_low": 1.6790093943816984,
+          "ci_90_high": 1.9456734206051658,
+          "n_concepts": 69,
+          "n_families": 69,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "M": {
+          "point": 0.18840579710144928,
+          "ci_low": -0.014492753623188406,
+          "ci_high": 0.391304347826087,
+          "ci_90_low": 0.014492753623188406,
+          "ci_90_high": 0.36231884057971014,
+          "n_concepts": 69,
+          "n_families": 69,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "stratum_dist": {
+          "A": 30,
+          "B": 30,
+          "C": 9
+        }
+      },
+      "wipo_pilot_30": {
+        "n_concepts": 30,
+        "G": {
+          "point": 1.8518989879921781,
+          "ci_low": 1.5937349842473916,
+          "ci_high": 2.149216252138164,
+          "ci_90_low": 1.632993756254012,
+          "ci_90_high": 2.1036185681357114,
+          "n_concepts": 30,
+          "n_families": 25,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "M": {
+          "point": -0.23333333333333334,
+          "ci_low": -0.5,
+          "ci_high": 0.03225806451612903,
+          "ci_90_low": -0.4642857142857143,
+          "ci_90_high": -0.030303030303030304,
+          "n_concepts": 30,
+          "n_families": 25,
+          "reps_used": 5000,
+          "seed": 20260918
+        },
+        "stratum_dist": {
+          "C": 15,
+          "A": 12,
+          "B": 3
+        }
+      }
+    },
+    "tokenizer_contrasts": {
+      "cl100_vs_o200_ratio": {
+        "point": 1.473984717263294,
+        "ci_low": 1.4138809284609128,
+        "ci_high": 1.5371136273807613,
+        "ci_90_low": 1.4230285599980024,
+        "ci_90_high": 1.5282662636832718,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "qwen_vs_o200_ratio": {
+        "point": 1.1301580123045256,
+        "ci_low": 1.0869503192843795,
+        "ci_high": 1.1763470548602084,
+        "ci_90_low": 1.0938683691719415,
+        "ci_90_high": 1.1683984137847319,
+        "n_concepts": 159,
+        "n_families": 141,
+        "reps_used": 5000,
+        "seed": 20260918
+      }
+    },
+    "space_mode_contrast": {
+      "R_isolated_0": {
+        "point": 0.9882545001563199,
+        "ci_low": 0.9129370374735702,
+        "ci_high": 1.0730124698564283,
+        "ci_90_low": 0.9248019041446676,
+        "ci_90_high": 1.0592084722934818,
+        "n_concepts": 131,
+        "n_families": 110,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "R_isolated_sp": {
+        "point": 0.9661553200700883,
+        "ci_low": 0.8760127967684328,
+        "ci_high": 1.0612639420997594,
+        "ci_90_low": 0.8902953676591738,
+        "ci_90_high": 1.0454774173282002,
+        "n_concepts": 131,
+        "n_families": 110,
+        "reps_used": 5000,
+        "seed": 20260918
+      },
+      "ratio_sp_to_iso0": 0.9776381690316249
+    },
+    "precision_gain": {
+      "K_old_clusters": 62,
+      "K_new_clusters": 110,
+      "theoretical_ratio_sqrt_K": 0.7507571935295483,
+      "log_ci_width_baseline": 0.19361948474977514,
+      "log_ci_width_combined": 0.16155844807545788,
+      "actual_ratio_ci_width": 0.8344121372094784,
+      "ci_narrowing_percent": 16.558786279052164
+    }
+  }
+}

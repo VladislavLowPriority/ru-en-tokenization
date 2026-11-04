@@ -1,0 +1,823 @@
+{
+  "protocol_phase": "audit_revision_post_results",
+  "frozen_at_utc": "2026-09-21T09:14:37.779782+00:00",
+  "tokenizers_called_so_far": true,
+  "revision_note": "Редакция v1.2 после сплошного построчного аудита, устранения морфологических дефектов и исключения семантически неэквивалентной пары EXP69 (spool valve / золотник). Токенизаторы уже запускались на предшествующих итерациях протокола; текущая фиксация прямо отражает аудированную финальную версию выборки после просмотра результатов.",
+  "seed": 20260918,
+  "sample_sizes": {
+    "technical_new_count": 69,
+    "technical_new_stratum": {
+      "A": 30,
+      "B": 30,
+      "C": 9
+    },
+    "technical_combined_count": 159,
+    "technical_combined_stratum": {
+      "B": 60,
+      "A": 60,
+      "C": 39
+    },
+    "technical_combined_cohort": {
+      "wipo_expansion_v1": 69,
+      "doc_pilot_60": 60,
+      "wipo_pilot_30": 30
+    },
+    "matched_pairs_new_count": 55,
+    "matched_pairs_new_stratum": {
+      "A": 29,
+      "B": 21,
+      "C": 5
+    },
+    "matched_pairs_combined_count": 131,
+    "matched_pairs_combined_stratum": {
+      "A": 59,
+      "B": 45,
+      "C": 27
+    },
+    "unmatched_technical_count": 28,
+    "total_global_families": 141,
+    "max_global_family_size": 3
+  },
+  "verification_assertions": {
+    "zero_duplicate_concept_ids": true,
+    "max_family_size_le_3": true,
+    "caliper_le_4_chars_both_langs": true,
+    "no_reuse_of_control": true,
+    "exact_word_count_matching": true
+  },
+  "dataset_files": {
+    "expansion_wipo_v1/data/concepts_new.csv": {
+      "sha256": "1f5a345d4f204b1922c9536521c3b434cd578b5ddaa81a4782b7213a552f4d01",
+      "size_bytes": 41628,
+      "lines": 70
+    },
+    "expansion_wipo_v1/data/concepts_combined.csv": {
+      "sha256": "975e7d275176dda696eb1c0e8593d32d11bf7b04f165f6a6bfc0bd748e2034f2",
+      "size_bytes": 129371,
+      "lines": 160
+    },
+    "expansion_wipo_v1/data/matching_pairs_new.csv": {
+      "sha256": "2c34367a99aaa00bea7909e256d2619b8e8d3cd8e6dcf7d2840e71149b6903b5",
+      "size_bytes": 12855,
+      "lines": 56
+    },
+    "expansion_wipo_v1/data/matching_pairs_combined.csv": {
+      "sha256": "0a3c50c0ab50f54ea18d344e28f691d8b4ae346ba813d9428b58d00e93b4e91d",
+      "size_bytes": 31519,
+      "lines": 132
+    },
+    "expansion_wipo_v1/data/unmatched_technical.csv": {
+      "sha256": "6e525a36c35ba9bc55a75010c8f9612c5a4e9b008e4cea4bd539850780ff61a6",
+      "size_bytes": 4729,
+      "lines": 29
+    },
+    "expansion_wipo_v1/data/concepts_control_expanded.csv": {
+      "sha256": "7f043c66d5d6a506b99537d743131aa8196707bb2117e3ca7649601626f5575d",
+      "size_bytes": 60176,
+      "lines": 132
+    },
+    "expansion_wipo_v1/candidates/wipo_candidates.csv": {
+      "sha256": "a381b30816af58c5951b3c6e81e91667a494d01d7b3cd5faccc88f4b295b4c5c",
+      "size_bytes": 1581081,
+      "lines": 942
+    },
+    "expansion_wipo_v1/candidates/wipo_variants.csv": {
+      "sha256": "46a965e11d3a4a787442bd27d18f1ba9043cc699ad8f594984111d273cc420ea",
+      "size_bytes": 1777165,
+      "lines": 2501
+    },
+    "expansion_wipo_v1/candidates/wipo_decisions.csv": {
+      "sha256": "f73a4ba41a6b039b572d4d0b3d6e1dbe209499deb3f3859c8ff40c232303501c",
+      "size_bytes": 133936,
+      "lines": 942
+    }
+  },
+  "new_concept_ids": [
+    "EXP01",
+    "EXP02",
+    "EXP03",
+    "EXP04",
+    "EXP05",
+    "EXP06",
+    "EXP07",
+    "EXP08",
+    "EXP09",
+    "EXP10",
+    "EXP11",
+    "EXP12",
+    "EXP13",
+    "EXP14",
+    "EXP15",
+    "EXP16",
+    "EXP17",
+    "EXP18",
+    "EXP19",
+    "EXP20",
+    "EXP21",
+    "EXP22",
+    "EXP23",
+    "EXP24",
+    "EXP25",
+    "EXP26",
+    "EXP27",
+    "EXP28",
+    "EXP29",
+    "EXP30",
+    "EXP31",
+    "EXP32",
+    "EXP33",
+    "EXP34",
+    "EXP35",
+    "EXP36",
+    "EXP37",
+    "EXP38",
+    "EXP39",
+    "EXP40",
+    "EXP41",
+    "EXP42",
+    "EXP43",
+    "EXP44",
+    "EXP45",
+    "EXP46",
+    "EXP47",
+    "EXP48",
+    "EXP49",
+    "EXP50",
+    "EXP51",
+    "EXP52",
+    "EXP53",
+    "EXP54",
+    "EXP55",
+    "EXP56",
+    "EXP57",
+    "EXP58",
+    "EXP59",
+    "EXP60",
+    "EXP61",
+    "EXP62",
+    "EXP63",
+    "EXP64",
+    "EXP65",
+    "EXP66",
+    "EXP67",
+    "EXP68",
+    "EXP69"
+  ],
+  "matched_pair_keys": [
+    {
+      "tech_id": "P01",
+      "ctrl_id": "S2_0131",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P02",
+      "ctrl_id": "S2_0034",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P03",
+      "ctrl_id": "S2_0122",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P04",
+      "ctrl_id": "S1_120",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P06",
+      "ctrl_id": "S1_499",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P07",
+      "ctrl_id": "S2_0004",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P08",
+      "ctrl_id": "S2_0062",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P09",
+      "ctrl_id": "S2_0106",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P10",
+      "ctrl_id": "S1_139",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P11",
+      "ctrl_id": "S1_130",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P12",
+      "ctrl_id": "S2_0148",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P13",
+      "ctrl_id": "S2_0253",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P14",
+      "ctrl_id": "S1_102",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P15",
+      "ctrl_id": "S1_117",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P16",
+      "ctrl_id": "S2_0150",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P17",
+      "ctrl_id": "S2_0026",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P18",
+      "ctrl_id": "S1_161",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P19",
+      "ctrl_id": "S1_334",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P20",
+      "ctrl_id": "S1_310",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P21",
+      "ctrl_id": "S2_0129",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P22",
+      "ctrl_id": "S2_0012",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P23",
+      "ctrl_id": "S1_137",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P25",
+      "ctrl_id": "S1_156",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P26",
+      "ctrl_id": "S1_126",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P27",
+      "ctrl_id": "S2_0065",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P28",
+      "ctrl_id": "S2_0137",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P29",
+      "ctrl_id": "S2_0022",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P30",
+      "ctrl_id": "S1_180",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P31",
+      "ctrl_id": "S1_251",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P32",
+      "ctrl_id": "S1_125",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P33",
+      "ctrl_id": "S1_209",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P34",
+      "ctrl_id": "S2_0049",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P35",
+      "ctrl_id": "S2_0058",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P36",
+      "ctrl_id": "S1_141",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P37",
+      "ctrl_id": "S1_159",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P39",
+      "ctrl_id": "S2_0059",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P41",
+      "ctrl_id": "S1_184",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P43",
+      "ctrl_id": "S2_0017",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P44",
+      "ctrl_id": "S2_0121",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P45",
+      "ctrl_id": "S2_0124",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P46",
+      "ctrl_id": "S2_0482",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P47",
+      "ctrl_id": "S2_0007",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P48",
+      "ctrl_id": "S2_0051",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P49",
+      "ctrl_id": "S2_0061",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P50",
+      "ctrl_id": "S2_0036",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P51",
+      "ctrl_id": "S2_0153",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "P53",
+      "ctrl_id": "S1_385",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P54",
+      "ctrl_id": "S1_1",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "P55",
+      "ctrl_id": "S2_0118",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P56",
+      "ctrl_id": "S2_0054",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P57",
+      "ctrl_id": "S2_0212",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P58",
+      "ctrl_id": "S2_0119",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P59",
+      "ctrl_id": "S2_0057",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "P60",
+      "ctrl_id": "S2_0258",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "WP01",
+      "ctrl_id": "S1_239",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP02",
+      "ctrl_id": "S1_392",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP03",
+      "ctrl_id": "S2_0459",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP04",
+      "ctrl_id": "S1_370",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP05",
+      "ctrl_id": "S1_2",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP06",
+      "ctrl_id": "S1_109",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP07",
+      "ctrl_id": "S1_424",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP08",
+      "ctrl_id": "S1_135",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP09",
+      "ctrl_id": "S1_270",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP10",
+      "ctrl_id": "S1_446",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP11",
+      "ctrl_id": "S1_15",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP12",
+      "ctrl_id": "S1_288",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "WP13",
+      "ctrl_id": "S2_0216",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "WP17",
+      "ctrl_id": "S2_0486",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "WP19",
+      "ctrl_id": "S2_0213",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "WP23",
+      "ctrl_id": "S2_0255",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "WP24",
+      "ctrl_id": "S2_0187",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "WP25",
+      "ctrl_id": "S2_0197",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "WP26",
+      "ctrl_id": "S2_0125",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "WP27",
+      "ctrl_id": "S1_134",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "WP28",
+      "ctrl_id": "S1_281",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "WP29",
+      "ctrl_id": "S2_0240",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "EXP61",
+      "ctrl_id": "S2_0398",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "EXP63",
+      "ctrl_id": "S2_0360",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "EXP58",
+      "ctrl_id": "S2_0141",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP31",
+      "ctrl_id": "S2_0248",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP33",
+      "ctrl_id": "S2_0257",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP34",
+      "ctrl_id": "S2_0011",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP35",
+      "ctrl_id": "S2_0075",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP36",
+      "ctrl_id": "S2_0044",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP38",
+      "ctrl_id": "S2_0252",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP41",
+      "ctrl_id": "S2_0090",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP42",
+      "ctrl_id": "S2_0082",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP44",
+      "ctrl_id": "S2_0223",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP46",
+      "ctrl_id": "S2_0200",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP47",
+      "ctrl_id": "S2_0085",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP48",
+      "ctrl_id": "S2_0277",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP49",
+      "ctrl_id": "S2_0158",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP50",
+      "ctrl_id": "S2_0222",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP53",
+      "ctrl_id": "S2_0171",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP55",
+      "ctrl_id": "S2_0191",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP56",
+      "ctrl_id": "S2_0264",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP57",
+      "ctrl_id": "S2_0002",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP59",
+      "ctrl_id": "S2_0045",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP43",
+      "ctrl_id": "S2_0097",
+      "stratum": "B"
+    },
+    {
+      "tech_id": "EXP65",
+      "ctrl_id": "S2_0145",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "EXP66",
+      "ctrl_id": "S1_419",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "EXP68",
+      "ctrl_id": "S2_0202",
+      "stratum": "C"
+    },
+    {
+      "tech_id": "EXP01",
+      "ctrl_id": "S1_174",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP02",
+      "ctrl_id": "S1_240",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP03",
+      "ctrl_id": "S2_0382",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP04",
+      "ctrl_id": "S1_138",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP05",
+      "ctrl_id": "S1_196",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP06",
+      "ctrl_id": "S1_322",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP07",
+      "ctrl_id": "S1_269",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP08",
+      "ctrl_id": "S1_136",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP09",
+      "ctrl_id": "S2_0365",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP10",
+      "ctrl_id": "S1_68",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP11",
+      "ctrl_id": "S1_211",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP12",
+      "ctrl_id": "S1_317",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP13",
+      "ctrl_id": "S1_245",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP14",
+      "ctrl_id": "S1_106",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP15",
+      "ctrl_id": "S1_116",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP17",
+      "ctrl_id": "S2_0331",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP18",
+      "ctrl_id": "S1_204",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP19",
+      "ctrl_id": "S2_0368",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP20",
+      "ctrl_id": "S2_0450",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP21",
+      "ctrl_id": "S2_0467",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP22",
+      "ctrl_id": "S1_62",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP23",
+      "ctrl_id": "S1_143",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP24",
+      "ctrl_id": "S1_172",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP25",
+      "ctrl_id": "S1_227",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP26",
+      "ctrl_id": "S1_3",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP27",
+      "ctrl_id": "S1_129",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP28",
+      "ctrl_id": "S1_179",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP29",
+      "ctrl_id": "S1_18",
+      "stratum": "A"
+    },
+    {
+      "tech_id": "EXP30",
+      "ctrl_id": "S1_11",
+      "stratum": "A"
+    }
+  ]
+}

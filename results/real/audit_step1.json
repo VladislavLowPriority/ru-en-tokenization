@@ -1,0 +1,623 @@
+{
+  "baseline": "scratchpad\\audit_step1_before_20260918_230318",
+  "snapshot_files_verified": 159,
+  "source_concepts_unchanged": true,
+  "original_protocol_preserved_as_prefix": true,
+  "unchanged_tables": {
+    "stimuli.csv": {
+      "original_columns_identical": true,
+      "added_columns": [],
+      "n_rows": 1800,
+      "bytes_identical": true
+    },
+    "measurements.csv": {
+      "original_columns_identical": true,
+      "added_columns": [],
+      "n_rows": 5400,
+      "bytes_identical": true
+    },
+    "analysis_wide.csv": {
+      "original_columns_identical": true,
+      "added_columns": [
+        "pl_status"
+      ],
+      "n_rows": 270,
+      "bytes_identical": false
+    }
+  },
+  "unchanged_estimate_records": 69,
+  "regression_verification": {
+    "cl100k_base:complete": {
+      "n_used": 77,
+      "n_families": 61,
+      "matches_independent_pseudoinverse": true,
+      "reps_used": 5000
+    },
+    "cl100k_base:available": {
+      "n_used": 82,
+      "n_families": 64,
+      "matches_independent_pseudoinverse": true,
+      "reps_used": 5000
+    },
+    "o200k_base:complete": {
+      "n_used": 77,
+      "n_families": 61,
+      "matches_independent_pseudoinverse": true,
+      "reps_used": 5000
+    },
+    "o200k_base:available": {
+      "n_used": 82,
+      "n_families": 64,
+      "matches_independent_pseudoinverse": true,
+      "reps_used": 5000
+    },
+    "qwen2.5-7b-instruct:complete": {
+      "n_used": 77,
+      "n_families": 61,
+      "matches_independent_pseudoinverse": true,
+      "reps_used": 5000
+    },
+    "qwen2.5-7b-instruct:available": {
+      "n_used": 82,
+      "n_families": 64,
+      "matches_independent_pseudoinverse": true,
+      "reps_used": 5000
+    }
+  },
+  "context_token_identity": {
+    "reference": "isolated_space target tokens, relative byte spans",
+    "n_comparisons": 3240,
+    "n_comparisons_AB": 2160,
+    "AB_exact_match_all": true,
+    "by_tokenizer_template": [
+      {
+        "tokenizer_id": "cl100k_base",
+        "template_id": "A",
+        "n_comparisons": 360,
+        "count_equal_mismatches": 0,
+        "ids_equal_mismatches": 0,
+        "relative_spans_equal_mismatches": 0,
+        "within_term_spans_equal_mismatches": 0,
+        "exact_match_mismatches": 0
+      },
+      {
+        "tokenizer_id": "cl100k_base",
+        "template_id": "B",
+        "n_comparisons": 360,
+        "count_equal_mismatches": 0,
+        "ids_equal_mismatches": 0,
+        "relative_spans_equal_mismatches": 0,
+        "within_term_spans_equal_mismatches": 0,
+        "exact_match_mismatches": 0
+      },
+      {
+        "tokenizer_id": "cl100k_base",
+        "template_id": "C",
+        "n_comparisons": 360,
+        "count_equal_mismatches": 129,
+        "ids_equal_mismatches": 360,
+        "relative_spans_equal_mismatches": 360,
+        "within_term_spans_equal_mismatches": 140,
+        "exact_match_mismatches": 360
+      },
+      {
+        "tokenizer_id": "o200k_base",
+        "template_id": "A",
+        "n_comparisons": 360,
+        "count_equal_mismatches": 0,
+        "ids_equal_mismatches": 0,
+        "relative_spans_equal_mismatches": 0,
+        "within_term_spans_equal_mismatches": 0,
+        "exact_match_mismatches": 0
+      },
+      {
+        "tokenizer_id": "o200k_base",
+        "template_id": "B",
+        "n_comparisons": 360,
+        "count_equal_mismatches": 0,
+        "ids_equal_mismatches": 0,
+        "relative_spans_equal_mismatches": 0,
+        "within_term_spans_equal_mismatches": 0,
+        "exact_match_mismatches": 0
+      },
+      {
+        "tokenizer_id": "o200k_base",
+        "template_id": "C",
+        "n_comparisons": 360,
+        "count_equal_mismatches": 144,
+        "ids_equal_mismatches": 360,
+        "relative_spans_equal_mismatches": 360,
+        "within_term_spans_equal_mismatches": 157,
+        "exact_match_mismatches": 360
+      },
+      {
+        "tokenizer_id": "qwen2.5-7b-instruct",
+        "template_id": "A",
+        "n_comparisons": 360,
+        "count_equal_mismatches": 0,
+        "ids_equal_mismatches": 0,
+        "relative_spans_equal_mismatches": 0,
+        "within_term_spans_equal_mismatches": 0,
+        "exact_match_mismatches": 0
+      },
+      {
+        "tokenizer_id": "qwen2.5-7b-instruct",
+        "template_id": "B",
+        "n_comparisons": 360,
+        "count_equal_mismatches": 0,
+        "ids_equal_mismatches": 0,
+        "relative_spans_equal_mismatches": 0,
+        "within_term_spans_equal_mismatches": 0,
+        "exact_match_mismatches": 0
+      },
+      {
+        "tokenizer_id": "qwen2.5-7b-instruct",
+        "template_id": "C",
+        "n_comparisons": 360,
+        "count_equal_mismatches": 152,
+        "ids_equal_mismatches": 360,
+        "relative_spans_equal_mismatches": 360,
+        "within_term_spans_equal_mismatches": 159,
+        "exact_match_mismatches": 360
+      }
+    ]
+  },
+  "historical_subsets_note": "Reconstructed P01..P24/P40/P60 and all 90 from CURRENT corpus and families; not recovered original run snapshots. Historical rounded values are retained separately in НАХОДКИ.md.",
+  "historical_subsets": {
+    "24": {
+      "concept_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24"
+      ],
+      "estimates": {
+        "cl100k_base": {
+          "G": {
+            "point": 2.7966824977979017,
+            "ci_low": 2.420740159744944,
+            "ci_high": 3.202721034126688,
+            "n_concepts": 24,
+            "n_families": 22,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.3333333333333333,
+          "mode_ratio": 1.159278664324361,
+          "log_halfwidth": 0.13996371355519704,
+          "full_frequency_pairs": 24,
+          "n_excluded_festo": 18,
+          "without_festo_G": 3.099087565301472,
+          "delta_without_festo_G": 0.3024050675035701
+        },
+        "o200k_base": {
+          "G": {
+            "point": 1.8313346368160819,
+            "ci_low": 1.609288633403363,
+            "ci_high": 2.0734775675128776,
+            "n_concepts": 24,
+            "n_families": 22,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.041666666666666664,
+          "mode_ratio": 1.059463094359295,
+          "log_halfwidth": 0.1267174716196675,
+          "full_frequency_pairs": 24,
+          "n_excluded_festo": 18,
+          "without_festo_G": 1.9441612972396656,
+          "delta_without_festo_G": 0.11282666042358369
+        },
+        "qwen2.5-7b-instruct": {
+          "G": {
+            "point": 2.1360349360360296,
+            "ci_low": 1.850986293928734,
+            "ci_high": 2.4587777907671033,
+            "n_concepts": 24,
+            "n_families": 22,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.3333333333333333,
+          "mode_ratio": 1.1627973463851407,
+          "log_halfwidth": 0.14197288229052046,
+          "full_frequency_pairs": 24,
+          "n_excluded_festo": 18,
+          "without_festo_G": 2.365046449947016,
+          "delta_without_festo_G": 0.2290115139109865
+        }
+      }
+    },
+    "40": {
+      "concept_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P38",
+        "P39",
+        "P40"
+      ],
+      "estimates": {
+        "cl100k_base": {
+          "G": {
+            "point": 2.9811138571151723,
+            "ci_low": 2.6446188397524404,
+            "ci_high": 3.3432158471472193,
+            "n_concepts": 40,
+            "n_families": 37,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.3,
+          "mode_ratio": 1.0717340148093832,
+          "log_halfwidth": 0.11720311164073549,
+          "full_frequency_pairs": 39,
+          "n_excluded_festo": 18,
+          "without_festo_G": 3.2302211592673578,
+          "delta_without_festo_G": 0.24910730215218546
+        },
+        "o200k_base": {
+          "G": {
+            "point": 1.9516761936745328,
+            "ci_low": 1.7543822710511154,
+            "ci_high": 2.1578765347470834,
+            "n_concepts": 40,
+            "n_families": 37,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.025,
+          "mode_ratio": 0.9880117844434033,
+          "log_halfwidth": 0.10350391986731294,
+          "full_frequency_pairs": 39,
+          "n_excluded_festo": 18,
+          "without_festo_G": 2.0897946134666014,
+          "delta_without_festo_G": 0.13811841979206863
+        },
+        "qwen2.5-7b-instruct": {
+          "G": {
+            "point": 2.2547219325025885,
+            "ci_low": 1.9944011434009246,
+            "ci_high": 2.548699609034726,
+            "n_concepts": 40,
+            "n_families": 37,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.25,
+          "mode_ratio": 1.069496440683352,
+          "log_halfwidth": 0.1226197226619345,
+          "full_frequency_pairs": 39,
+          "n_excluded_festo": 18,
+          "without_festo_G": 2.4230968959000716,
+          "delta_without_festo_G": 0.16837496339748315
+        }
+      }
+    },
+    "60": {
+      "concept_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P38",
+        "P39",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P48",
+        "P49",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P58",
+        "P59",
+        "P60"
+      ],
+      "estimates": {
+        "cl100k_base": {
+          "G": {
+            "point": 3.011895643051184,
+            "ci_low": 2.718163832221859,
+            "ci_high": 3.318563212659346,
+            "n_concepts": 60,
+            "n_families": 53,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.26666666666666666,
+          "mode_ratio": 1.085387519261333,
+          "log_halfwidth": 0.09978766565915093,
+          "full_frequency_pairs": 54,
+          "n_excluded_festo": 21,
+          "without_festo_G": 3.1974403463784093,
+          "delta_without_festo_G": 0.1855447033272255
+        },
+        "o200k_base": {
+          "G": {
+            "point": 2.024063924026396,
+            "ci_low": 1.8619694756961784,
+            "ci_high": 2.196977911517943,
+            "n_concepts": 60,
+            "n_families": 53,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.016666666666666666,
+          "mode_ratio": 0.9895199280322263,
+          "log_halfwidth": 0.08272397699562445,
+          "full_frequency_pairs": 54,
+          "n_excluded_festo": 21,
+          "without_festo_G": 2.1513222703375035,
+          "delta_without_festo_G": 0.12725834631110766
+        },
+        "qwen2.5-7b-instruct": {
+          "G": {
+            "point": 2.2864646277295777,
+            "ci_low": 2.059618512202777,
+            "ci_high": 2.522134199697917,
+            "n_concepts": 60,
+            "n_families": 53,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.21666666666666667,
+          "mode_ratio": 1.0887114094137906,
+          "log_halfwidth": 0.10129233517151431,
+          "full_frequency_pairs": 54,
+          "n_excluded_festo": 21,
+          "without_festo_G": 2.4328356529487687,
+          "delta_without_festo_G": 0.146371025219191
+        }
+      }
+    },
+    "90": {
+      "concept_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32",
+        "P33",
+        "P34",
+        "P35",
+        "P36",
+        "P37",
+        "P38",
+        "P39",
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44",
+        "P45",
+        "P46",
+        "P47",
+        "P48",
+        "P49",
+        "P50",
+        "P51",
+        "P52",
+        "P53",
+        "P54",
+        "P55",
+        "P56",
+        "P57",
+        "P58",
+        "P59",
+        "P60",
+        "WP01",
+        "WP02",
+        "WP03",
+        "WP04",
+        "WP05",
+        "WP06",
+        "WP07",
+        "WP08",
+        "WP09",
+        "WP10",
+        "WP11",
+        "WP12",
+        "WP13",
+        "WP14",
+        "WP15",
+        "WP16",
+        "WP17",
+        "WP18",
+        "WP19",
+        "WP20",
+        "WP21",
+        "WP22",
+        "WP23",
+        "WP24",
+        "WP25",
+        "WP26",
+        "WP27",
+        "WP28",
+        "WP29",
+        "WP30"
+      ],
+      "estimates": {
+        "cl100k_base": {
+          "G": {
+            "point": 2.907708708823432,
+            "ci_low": 2.659341240004811,
+            "ci_high": 3.1676516552197542,
+            "n_concepts": 90,
+            "n_families": 70,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.2777777777777778,
+          "mode_ratio": 1.1014954252726306,
+          "log_halfwidth": 0.08745603630035226,
+          "full_frequency_pairs": 77,
+          "n_excluded_festo": 21,
+          "without_festo_G": 2.97558383034603,
+          "delta_without_festo_G": 0.06787512152259811
+        },
+        "o200k_base": {
+          "G": {
+            "point": 1.9649669388511388,
+            "ci_low": 1.8209360136604082,
+            "ci_high": 2.121646159925828,
+            "n_concepts": 90,
+            "n_families": 70,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": -0.06666666666666667,
+          "mode_ratio": 1.0111846631716204,
+          "log_halfwidth": 0.07642080789844552,
+          "full_frequency_pairs": 77,
+          "n_excluded_festo": 21,
+          "without_festo_G": 2.015608888767606,
+          "delta_without_festo_G": 0.0506419499164672
+        },
+        "qwen2.5-7b-instruct": {
+          "G": {
+            "point": 2.2040482578213263,
+            "ci_low": 2.008706912511453,
+            "ci_high": 2.4132160676985177,
+            "n_concepts": 90,
+            "n_families": 70,
+            "reps_used": 5000,
+            "seed": 20260918
+          },
+          "M": 0.13333333333333333,
+          "mode_ratio": 1.1298685653576723,
+          "log_halfwidth": 0.09173456893885645,
+          "full_frequency_pairs": 77,
+          "n_excluded_festo": 21,
+          "without_festo_G": 2.2573578050809027,
+          "delta_without_festo_G": 0.05330954725957637
+        }
+      }
+    }
+  },
+  "scope": "Step 1 only. Human review, new control corpus and manuscript are deferred."
+}

@@ -1,0 +1,306 @@
+{
+  "n_concepts": 90,
+  "n_concepts_with_variants": 12,
+  "n_variants_total": 19,
+  "source_of_variants": "WIPO Pearl concept records (источники 1–2 вариантов не давали)",
+  "note": "разброс по выбору обозначения не складывается с доверительным интервалом",
+  "by_tokenizer": {
+    "o200k_base": {
+      "isolated_0": {
+        "n_combinations_all": 147456,
+        "n_combinations_design_conforming": 12288,
+        "G_chosen": 1.9649669388511388,
+        "G_en_alternative": 1.914199530752973,
+        "G_ru_alternative": 1.9933150233494696,
+        "G_both_alternative": 1.9418152066056045,
+        "design_conforming": {
+          "G_min": 1.9103256799088602,
+          "G_max": 2.0102665323559568,
+          "G_median": 1.9623970678021936,
+          "spread_absolute": 0.0999408524470966,
+          "spread_relative_pct": 5.086134044857224
+        },
+        "all_attested": {
+          "G_min": 1.8862926835663056,
+          "G_max": 2.0137126377617354,
+          "G_median": 1.9497951037332975,
+          "spread_absolute": 0.12741995419542973,
+          "spread_relative_pct": 6.48458514370367
+        }
+      },
+      "isolated_space": {
+        "n_combinations_all": 147456,
+        "n_combinations_design_conforming": 12288,
+        "G_chosen": 1.9869444322055592,
+        "G_en_alternative": 1.9319586751759947,
+        "G_ru_alternative": 2.009806026632029,
+        "G_both_alternative": 1.95418760869053,
+        "design_conforming": {
+          "G_min": 1.9517284294070414,
+          "G_max": 2.0227958547860605,
+          "G_median": 1.9869444322055592,
+          "spread_absolute": 0.07106742537901911,
+          "spread_relative_pct": 3.5767193197311737
+        },
+        "all_attested": {
+          "G_min": 1.9123891758454077,
+          "G_max": 2.030372393661061,
+          "G_median": 1.9682288630166405,
+          "spread_absolute": 0.11798321781565324,
+          "spread_relative_pct": 5.937922364778408
+        }
+      }
+    },
+    "cl100k_base": {
+      "isolated_0": {
+        "n_combinations_all": 147456,
+        "n_combinations_design_conforming": 12288,
+        "G_chosen": 2.907708708823433,
+        "G_en_alternative": 2.8198518083901702,
+        "G_ru_alternative": 2.941909833248078,
+        "G_both_alternative": 2.8530195401733307,
+        "design_conforming": {
+          "G_min": 2.819108827505496,
+          "G_max": 2.96719105218749,
+          "G_median": 2.8959516982339903,
+          "spread_absolute": 0.14808222468199395,
+          "spread_relative_pct": 5.092746196778203
+        },
+        "all_attested": {
+          "G_min": 2.7836428162105347,
+          "G_max": 2.9706666948690654,
+          "G_median": 2.8766955722902985,
+          "spread_absolute": 0.18702387865853076,
+          "spread_relative_pct": 6.4320018745690515
+        }
+      },
+      "isolated_space": {
+        "n_combinations_all": 147456,
+        "n_combinations_design_conforming": 12288,
+        "G_chosen": 3.2028278407943973,
+        "G_en_alternative": 3.128255922790668,
+        "G_ru_alternative": 3.2428248017273944,
+        "G_both_alternative": 3.1673216285206514,
+        "design_conforming": {
+          "G_min": 3.135588829586494,
+          "G_max": 3.2721757744080393,
+          "G_median": 3.20657949848998,
+          "spread_absolute": 0.13658694482154532,
+          "spread_relative_pct": 4.264573421082404
+        },
+        "all_attested": {
+          "G_min": 3.086260403162409,
+          "G_max": 3.2721757744080393,
+          "G_median": 3.1782555734892823,
+          "spread_absolute": 0.1859153712456303,
+          "spread_relative_pct": 5.80472571387158
+        }
+      }
+    },
+    "qwen2.5-7b-instruct": {
+      "isolated_0": {
+        "n_combinations_all": 147456,
+        "n_combinations_design_conforming": 12288,
+        "G_chosen": 2.2040482578213263,
+        "G_en_alternative": 2.137452574508926,
+        "G_ru_alternative": 2.25100075550947,
+        "G_both_alternative": 2.182986394699574,
+        "design_conforming": {
+          "G_min": 2.1384222952728753,
+          "G_max": 2.271374678159832,
+          "G_median": 2.206629987161433,
+          "spread_absolute": 0.13295238288695677,
+          "spread_relative_pct": 6.032190194346221
+        },
+        "all_attested": {
+          "G_min": 2.111519712251753,
+          "G_max": 2.271374678159832,
+          "G_median": 2.1908879901632443,
+          "spread_absolute": 0.15985496590807902,
+          "spread_relative_pct": 7.252788832586344
+        }
+      },
+      "isolated_space": {
+        "n_combinations_all": 147456,
+        "n_combinations_design_conforming": 12288,
+        "G_chosen": 2.4902848430436597,
+        "G_en_alternative": 2.4323031698622115,
+        "G_ru_alternative": 2.5267786907973253,
+        "G_both_alternative": 2.4679473259191633,
+        "design_conforming": {
+          "G_min": 2.428907042395639,
+          "G_max": 2.5625500174254254,
+          "G_median": 2.497866764914117,
+          "spread_absolute": 0.13364297502978628,
+          "spread_relative_pct": 5.366573844076649
+        },
+        "all_attested": {
+          "G_min": 2.3875693273589818,
+          "G_max": 2.5625500174254254,
+          "G_median": 2.474073879238405,
+          "spread_absolute": 0.17498069006644368,
+          "spread_relative_pct": 7.026533151628547
+        }
+      }
+    }
+  },
+  "structure_group_depends_on_designation": {
+    "n_concepts": 7,
+    "details": [
+      {
+        "concept_id": "WP14",
+        "en": "accumulating conveyor",
+        "ru": "накопительный конвейер",
+        "stratum_declared": "B",
+        "stratum_base": "B",
+        "strata_possible": [
+          "B",
+          "C"
+        ],
+        "en_options": [
+          "accumulating conveyor",
+          "accumulation conveyor",
+          "accumulator conveyor"
+        ],
+        "ru_options": [
+          "накопительный конвейер",
+          "конвейер-накопитель"
+        ]
+      },
+      {
+        "concept_id": "WP16",
+        "en": "balun",
+        "ru": "симметрирующее устройство",
+        "stratum_declared": "C",
+        "stratum_base": "C",
+        "strata_possible": [
+          "B",
+          "C"
+        ],
+        "en_options": [
+          "balun",
+          "balanced to unbalanced converter",
+          "balun signal transformer"
+        ],
+        "ru_options": [
+          "симметрирующее устройство"
+        ]
+      },
+      {
+        "concept_id": "WP12",
+        "en": "servomotor",
+        "ru": "сервопривод",
+        "stratum_declared": "A",
+        "stratum_base": "A",
+        "strata_possible": [
+          "A",
+          "C"
+        ],
+        "en_options": [
+          "servomotor",
+          "servo motor"
+        ],
+        "ru_options": [
+          "сервопривод",
+          "сервомотор"
+        ]
+      },
+      {
+        "concept_id": "WP20",
+        "en": "counter electrode",
+        "ru": "противоэлектрод",
+        "stratum_declared": "C",
+        "stratum_base": "C",
+        "strata_possible": [
+          "B",
+          "C"
+        ],
+        "en_options": [
+          "counter electrode",
+          "auxiliary electrode"
+        ],
+        "ru_options": [
+          "противоэлектрод",
+          "вспомогательный электрод"
+        ]
+      },
+      {
+        "concept_id": "WP21",
+        "en": "current limiter",
+        "ru": "токоограничитель",
+        "stratum_declared": "C",
+        "stratum_base": "C",
+        "strata_possible": [
+          "B",
+          "C"
+        ],
+        "en_options": [
+          "current limiter"
+        ],
+        "ru_options": [
+          "токоограничитель",
+          "ограничитель тока"
+        ]
+      },
+      {
+        "concept_id": "WP24",
+        "en": "memory resistor",
+        "ru": "мемристор",
+        "stratum_declared": "C",
+        "stratum_base": "C",
+        "strata_possible": [
+          "A",
+          "C"
+        ],
+        "en_options": [
+          "memory resistor",
+          "memristor"
+        ],
+        "ru_options": [
+          "мемристор"
+        ]
+      },
+      {
+        "concept_id": "WP27",
+        "en": "reed switch",
+        "ru": "геркон",
+        "stratum_declared": "C",
+        "stratum_base": "C",
+        "strata_possible": [
+          "B",
+          "C"
+        ],
+        "en_options": [
+          "reed switch"
+        ],
+        "ru_options": [
+          "геркон",
+          "герконовый переключатель"
+        ]
+      }
+    ]
+  },
+  "families": {
+    "chosen_designations": {
+      "n_families": 70,
+      "max_size": 3,
+      "over_cap": 0
+    },
+    "last_variant_designations": {
+      "n_families": 70,
+      "max_size": 4,
+      "over_cap": 1
+    },
+    "cap": 3
+  },
+  "variants_with_hyphen": [
+    {
+      "concept_id": "WP15",
+      "designation": "self-acting gas bearing"
+    },
+    {
+      "concept_id": "WP14",
+      "designation": "конвейер-накопитель"
+    }
+  ]
+}

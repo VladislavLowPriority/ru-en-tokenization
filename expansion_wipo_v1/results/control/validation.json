@@ -1,0 +1,200 @@
+{
+  "determinism": {
+    "identical": true,
+    "n_rows": 3930,
+    "first_differences": []
+  },
+  "integrity": {
+    "decode_match_all": true,
+    "decode_mismatch_rows": [],
+    "special_tokens_total": 0,
+    "errors": [],
+    "zero_target_rows": []
+  },
+  "isolated_consistency": {
+    "isolated_0_S_equals_T": true,
+    "isolated_0_violations": [],
+    "isolated_space_S_le_T": true,
+    "isolated_space_violations": []
+  },
+  "sample_frame": {
+    "n_concepts": 131,
+    "n_families": 120,
+    "max_concepts_per_family": 3,
+    "family_cap_respected": true,
+    "by_stratum": {
+      "A": 59,
+      "B": 45,
+      "C": 27
+    },
+    "final_status": {
+      "accepted": 131
+    }
+  },
+  "normalizer_effect": [
+    {
+      "tokenizer_id": "o200k_base",
+      "n_inputs": 1310,
+      "n_text_changed": 0,
+      "example": ""
+    },
+    {
+      "tokenizer_id": "cl100k_base",
+      "n_inputs": 1310,
+      "n_text_changed": 0,
+      "example": ""
+    },
+    {
+      "tokenizer_id": "qwen2.5-7b-instruct",
+      "n_inputs": 1310,
+      "n_text_changed": 0,
+      "example": ""
+    }
+  ],
+  "freq_coverage": [
+    {
+      "lang": "en",
+      "n_terms": 131,
+      "share_full_coverage": 0.9923664122137404,
+      "meets_threshold": true
+    },
+    {
+      "lang": "ru",
+      "n_terms": 131,
+      "share_full_coverage": 0.9923664122137404,
+      "meets_threshold": true
+    }
+  ],
+  "cross_boundary": [
+    {
+      "tokenizer_id": "cl100k_base",
+      "lang": "en",
+      "n": 393,
+      "n_cross": 0,
+      "share": 0.0,
+      "over_threshold": false
+    },
+    {
+      "tokenizer_id": "cl100k_base",
+      "lang": "ru",
+      "n": 393,
+      "n_cross": 0,
+      "share": 0.0,
+      "over_threshold": false
+    },
+    {
+      "tokenizer_id": "o200k_base",
+      "lang": "en",
+      "n": 393,
+      "n_cross": 0,
+      "share": 0.0,
+      "over_threshold": false
+    },
+    {
+      "tokenizer_id": "o200k_base",
+      "lang": "ru",
+      "n": 393,
+      "n_cross": 0,
+      "share": 0.0,
+      "over_threshold": false
+    },
+    {
+      "tokenizer_id": "qwen2.5-7b-instruct",
+      "lang": "en",
+      "n": 393,
+      "n_cross": 0,
+      "share": 0.0,
+      "over_threshold": false
+    },
+    {
+      "tokenizer_id": "qwen2.5-7b-instruct",
+      "lang": "ru",
+      "n": 393,
+      "n_cross": 0,
+      "share": 0.0,
+      "over_threshold": false
+    }
+  ],
+  "hf_offsets::qwen2.5-7b-instruct": {
+    "n_inputs_checked": 1310,
+    "n_offset_mismatches": 6,
+    "n_repeated_char_intervals": 0,
+    "examples": [
+      {
+        "text": " рабочий день",
+        "char": [
+          0,
+          4
+        ],
+        "byte_from_char": [
+          0,
+          7
+        ],
+        "byte_from_tokens": [
+          0,
+          6
+        ]
+      },
+      {
+        "text": " рабочий день",
+        "char": [
+          3,
+          4
+        ],
+        "byte_from_char": [
+          5,
+          7
+        ],
+        "byte_from_tokens": [
+          6,
+          7
+        ]
+      },
+      {
+        "text": "Проверяется рабочий день.",
+        "char": [
+          11,
+          15
+        ],
+        "byte_from_char": [
+          22,
+          29
+        ],
+        "byte_from_tokens": [
+          22,
+          28
+        ]
+      },
+      {
+        "text": "Проверяется рабочий день.",
+        "char": [
+          14,
+          15
+        ],
+        "byte_from_char": [
+          27,
+          29
+        ],
+        "byte_from_tokens": [
+          28,
+          29
+        ]
+      },
+      {
+        "text": "Используется рабочий день.",
+        "char": [
+          12,
+          16
+        ],
+        "byte_from_char": [
+          24,
+          31
+        ],
+        "byte_from_tokens": [
+          24,
+          30
+        ]
+      }
+    ]
+  }
+}

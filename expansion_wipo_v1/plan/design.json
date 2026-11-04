@@ -1,0 +1,43 @@
+{
+  "protocol_version": "expansion_wipo_v1",
+  "created_at_utc": "2026-09-20T15:32:45Z",
+  "seed": 20260918,
+  "bootstrap_iterations": 5000,
+  "equivalence_margin_ln_r": 0.095,
+  "equivalence_interval_r": [0.9093767, 1.099659],
+  "technical_corpus": {
+    "baseline_accepted": 90,
+    "baseline_stratum": {"A": 30, "B": 30, "C": 30},
+    "target_new": 90,
+    "target_new_stratum": {"A": 30, "B": 30, "C": 30},
+    "target_total": 180,
+    "target_total_stratum": {"A": 60, "B": 60, "C": 60},
+    "max_per_family_global": 3,
+    "min_term_rating": 3,
+    "allowed_usages": ["allowed", "standardized", "preferred"],
+    "allowed_subject_fields": ["ELEC", "MEAS", "MANU", "MECH"]
+  },
+  "search_budget": {
+    "page_size": 25,
+    "max_pages_per_seed": 6,
+    "max_records_per_seed": 150,
+    "request_pause_seconds": 0.4
+  },
+  "control_corpus": {
+    "baseline_matches": 76,
+    "target_matches_range": [150, 180],
+    "length_tolerance_chars": 4,
+    "exact_word_count_matching": true,
+    "max_per_control_family": 3,
+    "reuse_allowed": false,
+    "sources": ["Concepticon / Miklashevsky-2018-506", "English Wiktionary translations"]
+  },
+  "statistical_evaluation": {
+    "primary_tokenizer": "o200k_base",
+    "secondary_tokenizers": ["cl100k_base", "qwen2.5-7b-instruct"],
+    "primary_stimulus_mode": "isolated_0",
+    "primary_grammatical_number": "sg",
+    "slices": ["old_baseline", "new_wipo", "combined_180"],
+    "hypotheses": ["H1_G", "H2_M", "H3_context_shift", "H4_R"]
+  }
+}
